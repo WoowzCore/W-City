@@ -1,0 +1,12 @@
+"Vertexlitgeneric"
+{
+	"$basetexture"  "pwb2/models/weapons/v_mac11/mac11_d"
+	"$bumpmap"     "pwb2/models/weapons/v_mac11/mac11_n"
+
+	"$phong"     "1"
+	"$phongboost"   "60"
+	"$phongfresnelranges"      "[0 0.02 0]"
+	"$phongtint"                   "[.2 .2 .2]" 
+	"$phongexponenttexture" 	"pwb2/models/weapons/v_mac11/mac11_g"
+	"$halflambert" 		"1"
+}

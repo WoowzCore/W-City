@@ -1,0 +1,11 @@
+Vertexlitgeneric
+{
+	$basetexture "pwb2/models/weapons/v_asval/asval_d"
+	$bumpmap "pwb2/models/weapons/v_asval/asval_n"
+	$phongexponenttexture "pwb2/models/weapons/v_asval/asval_s"
+
+	"$phong"     "1"
+	"$phongboost"   "90"
+	"$phongfresnelranges"		"[0 0.02 0]"
+	"$phongtint"                    "[0.2 0.2 0.2]"
+}

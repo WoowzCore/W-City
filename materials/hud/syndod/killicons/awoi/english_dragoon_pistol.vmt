@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"HUD\syndod\killicons\AWoI\english_dragoon_pistol"
+	$translucent 1
+}

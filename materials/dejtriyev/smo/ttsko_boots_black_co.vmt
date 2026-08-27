@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "dejtriyev/smo/ttsko_boots_black_co"
+	"$bumpmap" "dejtriyev/smo/ttsko_boots_nml"
+	"$phong" "1"
+	"$phongexponent" "1"
+//	"$phongalbedotint" "1"
+	"$phongboost" "0"
+	"$phongfresnelranges"	"[.3 .3 .3]"
+}

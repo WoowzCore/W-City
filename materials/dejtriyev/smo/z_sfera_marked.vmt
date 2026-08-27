@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "dejtriyev/smo/z_sfera_marked"
+                "$bumpmap"    "dejtriyev/smo/sphera_helmet_n"
+	"$phong" "1"
+//	"$phongexponent" "5"
+	"$phongalbedotint" "1"
+	"$phongboost" "2"
+	"$phongfresnelranges"	"[.2 1 48]"
+        "$lightwarptexture" 	"dejtriyev/smo/Clothes_wrp"
+	"$phongexponenttexture" "dejtriyev/smo/exp"
+//	$translucent 1
+}

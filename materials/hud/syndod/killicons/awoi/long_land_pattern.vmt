@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"HUD\syndod\killicons\AWoI\long_land_pattern"
+	$translucent 1
+}

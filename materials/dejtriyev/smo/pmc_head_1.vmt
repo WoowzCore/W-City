@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "dejtriyev/smo/pmc_head_1"
+		"$bumpmap" "dejtriyev/smo/pmc_head_1_n"
+
+	"$phong" "1"
+	"$phongboost"	"0.4"
+	"$phongfresnelranges"	"[0.21 0.853 20]"
+	"$phongexponenttexture" "dejtriyev/smo/body_exp"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "2"
+	"$rimlightboost"          ".2"
+
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "1"
+
+    "Proxies"
+    {
+        "EntityRandom"
+        {
+            "scale" "1"
+            "resultvar" "$frame"
+        }
+    }
+
+}

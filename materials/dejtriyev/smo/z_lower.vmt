@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "dejtriyev/smo/z_lower"
+	"$bumpmap" "dejtriyev/smo/Afghanka_Pants_nohq"
+	"$phong" "1"
+//	"$phongexponent" "5"
+	"$phongalbedotint" "1"
+	"$phongboost" "2"
+	"$phongfresnelranges"	"[.2 1 48]"
+//	$translucent 1
+}
