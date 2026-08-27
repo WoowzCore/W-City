@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$basetexture"			"models\weapons\tfa_ins2\hk416\bullet_dm"
+	"$bumpmap"				"models\weapons\tfa_ins2\hk416\bullet_n"
+	"$phongexponenttexture"	"models\weapons\tfa_ins2\hk416\bullet_s"
+
+	$normalmapalphaenvmapmask 		"1"
+
+	$phongtint						"[0.6 0.8 1]"
+
+
+	$envmaptint 					"[.085 .085 .085  ]"
+
+	$phong 							"1"
+	$PhongAlbedoTint 				"1"	
+	
+	$phongboost 					"1"
+	$phongfresnelranges				"[0.5 1 3]"
+
+}

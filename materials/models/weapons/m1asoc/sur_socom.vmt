@@ -1,0 +1,28 @@
+ "VertexLitGeneric"
+{
+
+	"$basetexture" "models\weapons\m1asoc\sur_M1A_d"
+	"$bumpmap" "models\weapons\m1asoc\sur_M1A_n"
+
+	$selfillum 1
+	$nocull 1
+	"$phong" 		1
+	"$phongboost" 		0.35
+	"$phongtint""[0.55 0.7 1]"
+	"$normalmapalphaphongmask" 1
+	"$phongexponenttexture"  "models\weapons\m1asoc\sur_M1A_s"
+	//"$phongfresnelranges" "[2 4 6]"
+	"$phongalbedotint" 1
+
+
+	"$envmap" 					"env_cubemap"
+	"$envmapfresnel" 				1
+	"$envmaptint" 					"[.001 .001 .003]"
+	"$normalmapalphaenvmapmask" 	1
+	
+	
+	$rimlight						1
+	$rimlightexponent				85
+	$rimlightboost 					0.05
+	
+}

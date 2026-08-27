@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\weapons\ins2_sandstorm\ta31\T_1P_A_S_TA31_Cable"
+
+	$phong                          "1"
+	$phongalbedotint                "1"
+	$phongtint                      "[.6 .8 1]"
+
+	$phongboost                     "1.25"
+	$phongfresnelranges             "[.5 4 6]"
+
+	$phongexponenttexture         "models\weapons\ins2_sandstorm\ta31\T_1P_A_S_TA31_M"
+
+	$envmap                         "env_cubemap"
+	$normalmapalphaenvmapmask       "1"
+	$envmaptint                     "[0.1 0.1 0.1]"
+
+	// $selfillum 1 // so I learned it actually does not glow, my childhood is ruined
+}

@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\mp5\weapon_mp5k_dm"
+	"$bumpmap" 			"models\weapons\mp5\weapon_mp5k_nm"
+        "$color"			"[1.4 1.4 1.4]"
+
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongtint"                    "[0.6 0.8 1]"
+
+	"$phongboost"                   "5"
+	"$phongexponent"                "100"
+	"$phongfresnelranges"           "[2.5 3.5 8]"
+
+	"$phongexponenttexture"         "models\weapons\mp5\weapon_mp5k_exp"
+
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"                   "[0.035 0.035 0.035]"
+	"$srgbtint"			"[2.375 2.375 2.375]"	//1.25=>1.5
+
+	"$color"			"[3.4 3.5 3.6]"	// 3.0; 3.5; 3.3 3.4 3.5
+
+	"$roughnessmultiplier"		".6"	// *.55*; .6; -.575-
+	"$metal"			"1"	// 1
+
+//	"$disableenvmap"		"1"
+	"$envmap"			"models\weapons\envmap_unfuck"
+
+	"$srgbtint"			"[1.375 1.375 1.375]"	//1.25=>1.5
+
+}

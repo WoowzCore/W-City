@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/weapons/m1777/m1777_d.vtf"
+	$bumpmap "models/weapons/m1777/m1777_n.vtf"
+	$ambientocculusion "models/weapons/m1777/m1777_s.vtf"
+	
+	$phong 1
+	$phongalbedotint 1
+	$phongboost 20
+	$phongfresnelranges "[.5 1 48]"
+	$phongexponenttexture models/weapons/com/exponent.vtf
+	$lightwarptexture models/weapons/com/lightwarp.vtf
+}

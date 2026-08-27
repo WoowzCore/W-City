@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\weapons\upgrades\Acog"
+	"$bumpmap" 			"models\weapons\upgrades\Acog_Normal"
+	
+	"$nocull" "1"
+	"$color" 			"[.8 .8 .8] "
+	"$halflambert" 			"1"
+	
+	
+	
+	
+
+	"$phong"  				"1"
+	"$phongexponent" 		"65"
+	"$phongboost" 			"1"
+	"$phongfresnelranges" 	"[1 3 6]"
+	"$phongtint" 			"[1 1 1]"
+	"$phongalbedotint" 		"1"	
+	
+
+	
+	$rimlight               1
+	$rimlightexponent       250
+	$rimlightboost          .02	
+	$rimmask 				1
+}

@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\tfa_ins2\sks\partizan\weapon_sks_dm"
+	"$bumpmap" 			"models\weapons\tfa_ins2\sks\partizan\weapon_sks_nm"
+
+	"$selfillum"		"1"
+	"$selfillummask"	"models\weapons\tfa_ins2\sks\partizan\weapon_sks_si"
+
+	$normalmapalphaenvmapmask 	"1"
+	
+	//$phongtint 			"[.7 .85 1]"	
+
+	$envmap 			env_cubemap
+	
+	$envmaptint 			"[.02 .02 .02]"
+
+	$phong 				"1"
+	$PhongAlbedoTint 		"0"	
+	//$BasemapLuminancePhongMask	"1"
+	
+	$phongexponent 			"45"
+	$phongboost 			"1"
+	$phongfresnelranges		"[.5 1 3]"
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\stg44forfal\d_stg44_wood.vtf"
+	"$bumpmap"			"models\weapons\stg44forfal\n_stg44_wood.vtf"
+
+	"$phong"  			"1"
+	"$phongexponent" 		"44"
+	"$phongboost" 			"0.6"
+	"$phongfresnelranges" 		"[2 4 6]"
+	"$phongtint" 			"[0.6 0.8 1]"
+	"$phongalbedotint" 		"1"	
+
+"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint"			"[0.15 0.15 0.15]"
+	
+}

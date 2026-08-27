@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	$basetexture				"models\weapons\mk12\peq15_d"
+	$bumpmap					"models\weapons\mk12\peq15_N"
+	"$phongexponenttexture"		"models\weapons\mk12\peq15_s"
+        "$color2"					"[0.6 0.6 0.6]"
+//	"$color2"					"[0.4 0.4 0.4]"
+        $nocull "1"
+	
+	$envmap						env_cubemap
+	$envmaptint					"[ .01 .01 .01 ]"
+	$normalmapalphaenvmapmask	"1"	
+	
+	$phong						1
+	$phongexponent				55
+	$phongboost					5
+	$phongfresnelranges			"[0.2 0.5 1]"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"	
+	"$rimlightboost"			".2"
+	"$rimmask"					"1"
+}

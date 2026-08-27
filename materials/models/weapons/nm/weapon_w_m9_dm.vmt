@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\weapons\nm\weapon_w_m9_dm"
+
+	$nocull 1
+	$translucent 1
+
+}

@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models/weapons/secc/irons"
+	"$bumpmap" 				"models/weapons/secc/irons_norm"
+
+	$normalmapalphaenvmapmask			1
+	$normalmapalphaphongmask			1
+	$envmap								env_cubemap
+	$envmaptint							"[0.04 0.05 0.057]"
+	$envmapfresnel						1
+	
+	$phong								1
+	$phongboost							6.5
+	$phongexponent 						30
+	$phongfresnelranges					"[0.05 0.5 1]"
+	$phongtint							"[ 1 1 1 ]"
+}

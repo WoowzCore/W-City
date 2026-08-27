@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\tfa_ins2\winchester_1894\Wep_1stP_Centerfire_D"
+	"$bumpmap" "models\weapons\tfa_ins2\winchester_1894\Wep_1stP_Centerfire_N"
+	"$masks" "models\weapons\tfa_ins2\winchester_1894\Wep_1stP_Centerfire_S"
+	
+	"$pbr" "1"
+	"$roughnessmultiplier" ".8"
+	
+	"$fuzz" "1"
+	"$fuzzmultiplier" ".2"
+	
+	"$srgbtint" "[.5 .5 .5]"
+
+	"$nocull" "1"
+}

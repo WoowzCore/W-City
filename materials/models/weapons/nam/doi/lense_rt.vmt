@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\weapons\nam\doi\lense_rt"
+	 $model 1
+
+	"Proxies"
+	{
+		"TFA_INS2_Scope"
+		{
+		}
+	}
+}
+
+

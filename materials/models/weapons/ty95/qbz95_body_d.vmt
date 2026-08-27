@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+$basetexture models\weapons\ty95\qbz95_body_d
+$bumpmap models\weapons\ty95\qbz95_body_n
+        $color			        "[1 1 1]"
+	$phong                          "1"
+	$phongalbedotint                "1"
+	$phongtint                      "[.6 .8 1]"
+	$phongboost                     "1"
+	$phongexponent                  "45"
+	$phongfresnelranges             "[1 2.5 7]"
+	$envmap                         "env_cubemap"
+	$normalmapalphaenvmapmask       "1"
+	$envmaptint                     "[0.09 0.09 0.09]"
+}

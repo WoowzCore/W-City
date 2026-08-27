@@ -1,0 +1,6 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"models\weapons\nam\optics\pu\po4x_reticule"
+	"$translucent" 	"1"
+}

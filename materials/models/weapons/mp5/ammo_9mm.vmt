@@ -1,0 +1,23 @@
+Vertexlitgeneric
+{
+	"$basetexture" 				"models\weapons\mp5\9mm_ammo_d"
+	"$bumpmap"     				"models\weapons\mp5\9mm_ammo_n"
+	"$color" 					"[0.5 0.45 0.4]"
+	
+	"$phong" 					"1"
+	"$phongexponent"			"80"
+	"$phongboost" 				"0.8"	
+	"$phongfresnelranges"		"[1 5 3]"
+	"$phongalbedotint" 			"2"
+	"$phongtint" 				"[.7 .8 1]"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" 					"env_cubemap"
+	"$halflambert"				"1"
+	"$envmapfresnel" 	        "0"
+	"$envmapfresnelminmaxexp"   "[0 0 0]"
+	"$envmaptint" 				"[.15 .15 .15]"
+	"$envmapsaturation" 		"0"
+
+
+}

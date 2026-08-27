@@ -1,0 +1,6 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"models\weapons\optics\svdin_crosshair"
+	"$translucent" 	"1"
+}

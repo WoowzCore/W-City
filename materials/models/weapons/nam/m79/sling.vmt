@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/nam/m79/weapon_at4_dm"
+	"$bumpmap" "models/weapons/nam/m79/weapon_at4_nm"
+
+
+
+	
+	$phong 				"1"
+	$PhongAlbedoTint 		"1"	
+	
+	$phongexponent 			"20"
+	$phongboost 			"7"
+	$phongfresnelranges		"[.2 1 3]"
+}

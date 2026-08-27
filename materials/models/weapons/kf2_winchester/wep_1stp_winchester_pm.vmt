@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/kf2_winchester/wep_1stp_winchester_d"
+	"$bumpmap" "models/weapons/kf2_winchester/wep_1stp_winchester_n"
+
+	$phong 1
+	$phongexponent 42
+	$phongexponenttexture "models/weapons/kf2_winchester/wep_1stp_winchester_e"
+	$phongboost 7
+	$normalmapalphaenvmapmask 1
+
+	$envmap		"env_cubemap"
+	$envmaptint 	"[0.03 0.03 0.03]"
+
+}

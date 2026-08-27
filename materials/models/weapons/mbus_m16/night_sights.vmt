@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+
+
+	"$basetexture"			"models\weapons\mbus_m16\night_sights"
+	"$color" 			"[1 1 1] "
+	"$selfillum" "1"
+	"$selfillummaskscale" "0.1"
+
+
+
+}

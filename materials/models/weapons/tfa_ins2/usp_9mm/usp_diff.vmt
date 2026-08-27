@@ -1,0 +1,31 @@
+"Vertexlitgeneric"
+{
+	"$basetexture"  		           "models\weapons\tfa_ins2\usp_9mm\usp_diffuse"
+	"$bumpmap"     			           "models\weapons\tfa_ins2\usp_9mm\usp_normal"
+	"$phongexponenttexture" 	       "models\weapons\tfa_ins2\usp_9mm\usp_exponent"
+	
+	$basemapalphaenvmapmask				1
+	$normalmapalphaphongmask			1
+	
+	$selfillum				            1
+	$selfillummask	                    "models\weapons\tfa_ins2\usp_9mm\usp_sfm"
+	
+	$envmap								env_cubemap
+	$envmaptint							"[0.001 0.002 0.003]"
+	$envmapfresnel						1
+	$envmapfresnelminmaxexp				"[0 5 .4]"
+	
+	$phong								1
+	$phongfresnelranges					"[0.8 1.4 3]"
+	$phongboost							1.7
+	$phongalbedotint					0
+	$phongalbedoboost					6
+	$halflambert						1
+	
+	$rimlight							1
+	$rimlightboost						0.15
+	$rimlightexponent					87
+	$rimmask							1
+	
+	$nocull                             1
+}

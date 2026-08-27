@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\mp5\ins2_sandstorm\mp5a2\T_1P_MP5A2_D"
+	"$bumpmap" "models\weapons\mp5\ins2_sandstorm\mp5a2\T_1P_MP5A2_N"
+	"$phongexponenttexture" "models\weapons\mp5\ins2_sandstorm\mp5a2\T_1P_MP5A2_M"
+	$color2 "[ 0.75 0.75 0.75]"
+	$phong						1
+	$phongexponent				2
+	$phongboost					1
+	$phongfresnelranges			"[0.1 0.25 0.5]"
+	$phongtint					"[0.6 0.6 0.6]"
+	"$normalmapalphaenvmapmask" 	"1"
+}

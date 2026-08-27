@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$basetexture models\weapons\ty95\lightsight
+$selfillum 1
+}
