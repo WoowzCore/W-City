@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/hts/easternfront/weapons/shells/bullets_2_surp_base_color"
+	$bumpmap "models/hts/easternfront/weapons/shells/bullets_2_surp_normal"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.67 0.59 0.24]"
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongtint "[0.78 0.69 0.35]"
+	$phongexponent 5
+	$phongboost 35
+}

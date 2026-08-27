@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/gruchk_uwrist/css_seb_swat/shared\v_hands"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0.05 0.1 0.5]"
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "8"
+	"$rimlightboost" "2"
+	"$rimmask" "1"
+}

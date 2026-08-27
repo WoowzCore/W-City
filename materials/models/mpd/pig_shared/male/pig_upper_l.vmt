@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\mpd\Pig_Shared\Male\Pig_Upper_l"
+	"$bumpmap" "models\mpd\Pig_Shared\Male\Pig_Upper_nm"
+	"$halflambert" 1
+}

@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/ukrainian_soldier/band"
+	"$bumpmap" "models/ukrainian_soldier/band_n"
+
+	"$phong" "1"
+	"$phongboost"	"0.4"
+	"$phongfresnelranges"	"[0.21 0.853 20]"
+	"$phongexponenttexture" "models/ukrainian_soldier/body_exp"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "2"
+	"$rimlightboost"          ".2"
+
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "1"
+
+    "Proxies"
+    {
+        "EntityRandom"
+        {
+            "scale" "1"
+            "resultvar" "$frame"
+        }
+    }
+}

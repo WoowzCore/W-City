@@ -4,7 +4,7 @@
 "VertexLitGeneric"
 {
 //Basic
-	"$BaseTexture" 			    "griggs/models/ballistic_mask_abraham"
+	"$BaseTexture" 			    "sosoda/models/ballistic_mask_abraham"
 	"$BumpMap" 				    "models/jmod/ballistic_mask_normal"
 	//"$PhongExponentTexture"     "models/jmod/phong_exp"
 

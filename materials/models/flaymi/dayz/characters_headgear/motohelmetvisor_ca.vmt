@@ -1,0 +1,11 @@
+VertexLitGeneric
+{ 
+	"$basetexture" "models/flaymi/dayz/characters_headgear/motohelmetvisor_ca"
+	"$translucent" "1"
+                $halflambert "1"
+	$phong 				"1"
+	$PhongAlbedoTint 		"1	"	
+	$phongexponent 			"40"
+	$phongboost 			"1"
+	$phongfresnelranges		"[0.20  0.20  0.20 ]"
+}

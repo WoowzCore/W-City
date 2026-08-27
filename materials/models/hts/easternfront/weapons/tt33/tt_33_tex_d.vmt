@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+	$basetexture "models/hts/easternfront/weapons/tt33/tt_33_tex_d"
+	$bumpmap "models/hts/easternfront/weapons/tt33/tt_33_tex_n"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.06 0.06 0.06]"
+
+	$phong 1
+	$phongfresnelranges "[0.34 0.67 1]"
+	$phongtint "[0.73 0.86 0.99]"
+	$phongexponent 3
+	$phongboost 0.78
+	$phongalbedoboost 2.03
+
+	$color2 "[0.60 0.60 0.60]"
+}

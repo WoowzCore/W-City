@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/hat1/p_head_diff_000_a"
+	"$translucent" 1
+}
