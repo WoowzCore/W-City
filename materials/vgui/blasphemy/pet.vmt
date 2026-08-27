@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/blasphemy/pet"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

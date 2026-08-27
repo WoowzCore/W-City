@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+"$basetexture" "VGUI/entities/cw_NeN_berettapx4"
+"$translucent" 1
+"$nolod" 1
+"$vertexalpha" 1
+"$vertexcolor" 1
+}

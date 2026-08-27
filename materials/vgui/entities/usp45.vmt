@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/entities/usp45menu"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1 
+}
