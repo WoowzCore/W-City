@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\v_models\Twinke.M4\upper"
+	"$bumpmap"     "models\weapons\v_models\Twinke.M4\upper_normal"
+"$envmaptint" "[ .001 .0010 .0015]"
+"$envmapcontrast" 1
+"$envmapsaturation" .05
+
+"$phong" "1"
+"$phongexponent" "10000"
+"$phongboost" "1.1"
+"$phongfresnelranges" "[1 1 1]"
+"$phongtint" "[.1 .1 .1]"
+"$basemapalphaphongmask" "1"
+
+"$rimlight" "1"
+"$rimlightexponent" "10"
+"$rimlightboost" "50"
+
+}
+

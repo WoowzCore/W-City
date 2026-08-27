@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/v_models/KAC_PDW/lense"
+	"$additive" 1
+	"$translucent" 1
+}

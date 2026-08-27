@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\weapons\v_models\cq300\lower_diff"
+	"$bumpmap"   	"models\weapons\v_models\cq300\lower_n"
+	"$phongexponenttexture" 	"models\weapons\v_models\cq300\lower_s"
+
+	"$nocull" 			"1"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	"$normalmapalphaphongmask"    	"1"
+
+	"$phong"     			"1"
+	"$phongboost"   		"30"
+	"$phongalbedotint"		"1"
+	"$phongfresnelranges"       	"[0.5 0.9 1]"
+
+	"$rimlight" 			"1"
+	"$rimlightexponent" 		"70"	
+	"$rimlightboost"		"0.5"
+	"$rimmask" 			"1"
+ 
+}

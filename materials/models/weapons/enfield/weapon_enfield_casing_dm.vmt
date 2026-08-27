@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+//INPUT
+	$basetexture					"models\weapons\enfield\weapon_enfield_attachments_dm"
+	$bumpmap						"models\weapons\enfield\weapon_enfield_attachments_nm"
+	$color							"[ .3 .3 .3 ]"
+	
+//PHONG
+	$phong                        	"1"
+	$phongtint                    	"[ 0.97 0.8 0.5 ]"
+	$phongboost                   	"6"
+	$phongexponent					"40"
+	$phongfresnelranges           	"[ 0.1 .5 1 ] "
+
+//RIMLIGHT
+	$rimlight					"1"
+	$rimlightexponent       	"80"
+	$rimlightboost          	".25"		
+
+//ENVMAP
+	$envmap                       	"env_cubemap"
+//	$envmapfresnel 					"-0.2"
+	$normalmapalphaenvmapmask		"1"
+	$envmaptint                   	"[ 0.17 0.12 0.04 ]"
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\commando/3e16497e"
+	"$bumpmap" "models\weapons\v_models\commando/3e16497e_Normal"
+                "$phong" "1"
+                "$phongboost" "1"
+                 "$phongexponenttexture" "models/weapons/v_models/commando/3e16497e_spec"
+                "$phongfresnelranges" "[0.35 1 0.75]"
+                "$phongalbedotint" "1"
+                "$halflambert" "1"
+
+}

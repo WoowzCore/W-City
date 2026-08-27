@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\v_models\410jury\jury410_d"
+	"$bumpmap"			"models\weapons\v_models\410jury\jury410_n"
+	"$phongexponenttexture"		"models\weapons\v_models\410jury\jury410_s"
+	"$basetexturealphaenvmapmask"	"1"
+	"$envmaptint"			"[0.15 0.15 0.15]"
+	"$envmapfresnel"			".25"
+	"$nocull"				"1"
+
+	"$phong"				"1"
+	"$phongboost"			".01"
+	"$phongfresnelranges"		"[1 4 6]"
+//	"$phongalbedotint"			"1"
+//	"$phongalbedoboost"		"1"
+	"$halflambert"			"1"
+
+}
+

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\ar57\silencer"
+    "$no_draw" "1"
+	}

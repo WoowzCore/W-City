@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\WAP99\weapon_walther_p99_col"
+                  "$bumpmap"    "models\weapons\WAP99\weapon_walther_p99_n"
+
+                  $color		  "[1 1 1]"
+	$phong                           "1"
+	$phongalbedotint            "1"
+	$phongtint                      "[.6 .8 1]"
+	$phongboost                  "1"
+	$phongexponent             "45"
+	$phongfresnelranges       "[1 2.5 7]"
+}

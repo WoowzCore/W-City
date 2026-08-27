@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+
+	// MAIN SETTINGS
+	"$basetexture" "models\weapons\barret\cleartexture"	
+	$nocull 1
+	$translucent 1
+
+}

@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\police_baton\baton"
+	"$bumpmap" "models\weapons\v_models\police_baton\police_baton_normal"
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost" "0.12"	
+	"$phongfresnelranges"	"[0.5 2 4]"
+	"$phongalbedotint" "1"
+
+
+}

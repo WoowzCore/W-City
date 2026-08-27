@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\weapons\v_models\cq300\upper_diff"
+	"$bumpmap"   	"models\weapons\v_models\cq300\upper_n"
+	"$phongexponenttexture" 	"models\weapons\v_models\cq300\upper_s"
+
+	"$nocull" "1"
+	
+
+	
+	$envmap						env_cubemap
+	$envmaptint					"[ 0.001 0.001 0.001 ]"
+	$basemapalphaenvmapmask		1
+	$envmapfresnel				1
+	
+	$phong						1
+	$phongboost					0.1
+	$phongtint					"[0 0 0 ]"
+	//$phongalbedotint			0
+	//$phongalbedoboost			24
+	$phongfresnelranges			"[1 3 6]"
+	$normalmapalphaphongmask	1
+	
+	$rimlight					1
+	$rimlightexponent			120
+	$rimmask					1
+	$rimlightboost				0.01
+ 
+}

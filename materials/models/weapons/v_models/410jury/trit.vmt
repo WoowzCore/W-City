@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\v_models\410jury\tritium_d"
+	"$selfillum"	"1"
+	"$selfillummask"	"models\weapons\v_models\410jury\tritium_i"
+Proxies
+	{
+		PlayerWeaponColor
+		{
+			resultVar	$color2
+		}
+	}
+}

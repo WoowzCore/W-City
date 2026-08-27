@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\srak/lam"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\v_models\srak\lam_ref"
+	    "$no_draw" "1"
+}

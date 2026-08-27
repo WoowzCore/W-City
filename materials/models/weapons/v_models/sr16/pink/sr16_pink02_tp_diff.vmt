@@ -1,0 +1,35 @@
+"Vertexlitgeneric"
+{
+    "$basetexture"              "models\weapons\v_models\sr16\pink\sr16_pink02_tp_diff"
+    "$bumpmap"                  "models\weapons\v_models\sr16\sr16_tp_ddn"
+    "$phongExponentTexture"     "models\weapons\v_models\sr16\sr16_tp_spec"
+    "$nocull"                   "1"
+	"$color2"                   "[0.60 0.60 0.60]"
+	"$translucent"				"1"
+//	"$basemapalphaenvmapmask"   "1"
+	
+	"$detail"				    "detail\metal_detail_01"
+    "$detailscale"              "2"
+   	"$detailblendfactor" 	    "1"
+   	"$detailblendmode"		    "0"
+	
+	"$phong"					"1"
+	"$phongexponent"			"80" 
+	"$phongboost"				"25"  
+	"$phongfresnelranges"	    "[0.70 0.65 0.8]"
+	"$phongalbedotint" 			"1"
+	"$phongalbedoboost" 		"55"
+	
+	"$envmap"					"env_cubemap"
+	"$envmaptint"				"[ .032 .032 .032 ]"
+	"$envmapfresnel"			"1"
+	"$normalmapalphaenvmapmask" "1"
+//	"$normalmapalphaphongmask"  "1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"150"	
+	"$rimlightboost"			"0.1"
+	"$rimmask"					"1"
+	
+    "$ambientocclusion"         "1"
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_models\Twinke.M4\fore"
+	"$bumpmap"     "models\weapons\v_models\Twinke.M4\fore_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" 		"1"
+	"$phongexponent" 	"100"
+	"$phongboost" "0.15"
+	"$phongfresnelranges" "[1 3 6]"
+}
+

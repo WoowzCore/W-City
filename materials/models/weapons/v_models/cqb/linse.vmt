@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\CQB\lens"
+	"$bumpmap" "models\weapons\v_models\CQB\lens_normal"
+	
+	"$model"       "1"
+	"$additive" "1"
+}

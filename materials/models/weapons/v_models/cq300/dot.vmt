@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\weapons\v_models\cq300\dot"
+	"$additive" "1"
+	$selfillum				    1
+	$selfillummask	            "models\weapons\v_models\cq300\glow"
+ 	$no_draw "1"
+}

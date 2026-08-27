@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\srak\RecieverSites"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\v_models\srak\RecieverSites_ref"
+}

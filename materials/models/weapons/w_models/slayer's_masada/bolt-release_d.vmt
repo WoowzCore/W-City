@@ -1,0 +1,13 @@
+"Vertexlitgeneric"
+{
+	"$baseTexture" "models\weapons\v_models\SlaYeR's_Masada\bolt-release_D"
+	"$nocull"	"1"
+
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "2"
+	"$phongfresnelranges"	"[1 3 6]"
+	"$phongalbedotint" "1"
+}

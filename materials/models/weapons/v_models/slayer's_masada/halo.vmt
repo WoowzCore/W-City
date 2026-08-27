@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\SlaYeR's_Masada\halo"
+        "$nocull" "1"
+}

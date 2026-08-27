@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\srak\m900a"
+	"$envmapmask" "models\weapons\v_models\srak\m900a_ref"
+     	"$envmap" "env_cubemap"
+	"$envmaptint" "[.6 .6 .6]"
+
+}

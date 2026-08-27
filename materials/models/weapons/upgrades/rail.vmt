@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{	
+	"$basetexture"	"models\weapons\upgrades\rail_col"
+	"$bumpmap"	 	"models\weapons\upgrades\rail_nor"
+
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongtint"                    "[1 1 1]"
+
+	"$phongboost"			"1.5"
+	"$phongexponent"                "20"
+	"$phongfresnelranges"		"[1 3 2]"
+
+	
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"			"[0.05 .05 .05]"
+
+}

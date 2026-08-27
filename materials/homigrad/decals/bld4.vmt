@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"homigrad\decals\bld4"
+	"$detail"		"homigrad\decals\blood1_norm"
+	"$detailscale" "0.75"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.8"
+	"$detailtint" "[0.5 0 0]"
+	"$translucent" "1"
+	"$decal" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$decalscale" "0.08"
+}

@@ -1,0 +1,19 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\v_models\RagingBull\a1_rb"
+	"$bumpmap" "models\weapons\v_models\RagingBull\a1_rb_n"
+
+//$phongexponent 7
+$phong 1
+$phongboost "10"
+$phongfresnelranges "[0 0 1.1]"
+//$basemapalphaphongmask 1
+$phongalbedotint 1
+//$phongtint "[0.8 0.92 1.1]"
+$envmap env_cubemap
+//$basemapalphaenvmapmask 1
+$normalmapalphaenvmapmask 1
+$envmapfresnel 1
+//$envmaptint "[.03 .04 .06]"
+$envmaptint "[0.22 0.27 0.3]"
+}

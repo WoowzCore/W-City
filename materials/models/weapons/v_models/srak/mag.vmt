@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\v_models\srak\mag"
+	"$bumpmap" "models\weapons\v_models\srak\mag_Norm"
+//	"$envmapmask" "models\weapons\v_models\srak\mag_ref"
+//	"$envmaptint" "[ .64 .64 .64 ]"
+	"$normalmapalphaenvmapmask" "1"
+}

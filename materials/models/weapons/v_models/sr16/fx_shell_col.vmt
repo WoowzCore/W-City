@@ -1,0 +1,18 @@
+"Vertexlitgeneric"
+{
+    "$baseTexture"              "models\weapons\v_models\fx_shared_shells\fx_shell_col"
+    "$bumpmap"                  "models\weapons\v_models\fx_shared_shells\fx_shell_n"
+    "$PhongExponentTexture"     "models\weapons\v_models\fx_shared_shells\fx_shell_s"
+    "$nocull"                   "1"
+
+    "$envmap"                   "env_cubemap"
+    "$envmaptint"               "[.01 .01 .01]"
+    "$normalmapalphaenvmapmask" "1"
+    "$halflambert"              "1"
+
+    "$phong" 		            "1"
+    "$phongboost"               "30"
+    "$phongalbedotint" 			"1"
+    "$phongalbedoboost"         "25"
+    "$phongfresnelranges"       "[1 3 7]"
+}

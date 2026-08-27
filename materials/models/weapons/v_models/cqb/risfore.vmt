@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$baseTexture" 			"models\weapons\v_models\CQB\ris"
+	"$bumpmap" 			"models\weapons\v_models\CQB\ris_normal"
+
+	"$normalmapalphaenvmapmask"	1
+	"$envmap" 			env_cubemap
+	
+}
+

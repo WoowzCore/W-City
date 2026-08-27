@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"  		"models\weapons\upgrades\ziptie_col"
+	"$bumpmap"     			"models\weapons\upgrades\ziptie_nor"
+	$phong 1
+	$phongexponent 			"64"
+
+}

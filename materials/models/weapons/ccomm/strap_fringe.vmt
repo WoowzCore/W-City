@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\weapons\CCOMM\strap_fringe"
+                  "$bumpmap"    "models\weapons\CCOMM\strap_n"
+
+                  "$translucent"  "1"
+}

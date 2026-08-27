@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/v_models/[cw20-nen] Beretta PX4/tritium"
+	"$bumpmap"	"models/weapons/v_models/[cw20-nen] Beretta PX4/tritium_N"
+	"$selfillum"	"1"
+}

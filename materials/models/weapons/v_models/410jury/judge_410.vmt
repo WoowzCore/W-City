@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\weapons\v_models\410jury\410_ammo_d"
+	"$bumpmap"			"models\weapons\v_models\410jury\410_ammo_n"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	
+	"$envmaptint"		"[0.01 0.01 0.01]"
+	
+	"$phong" 		"1"
+	"$phongboost"		".5"
+	"$phongfresnelranges"	"[1 4 7]"
+	"$phongalbedotint" 	"1"
+	"$halflambert" 		"1"
+}
+	

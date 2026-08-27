@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\weapons\v_models\cq300\t1_diff"
+	"$bumpmap"   	"models\weapons\v_models\cq300\t1_n"
+	"$phongexponenttexture" 	"models\weapons\v_models\cq300\t1_s"
+	$no_draw "1"
+}

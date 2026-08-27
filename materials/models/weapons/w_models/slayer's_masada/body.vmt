@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\SlaYeR's_Masada\body"
+	"$bumpmap"	"models\weapons\v_models\SlaYeR's_masada\body_normal"
+
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "2"
+	"$phongfresnelranges"	"[1 3 6]"
+	"$phongalbedotint" "1"
+}

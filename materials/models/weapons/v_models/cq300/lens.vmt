@@ -1,0 +1,5 @@
+UnLitGeneric
+{
+	"$basetexture"		"models\weapons\v_models\cq300\lens"
+	"$no_draw" "1"
+}
