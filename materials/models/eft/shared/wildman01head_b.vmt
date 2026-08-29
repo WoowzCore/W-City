@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\eft\shared\mats\wildman01head_b"
+	"$bumpmap" "models\eft\shared\mats\wildman01head_n"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models\eft\shared\mats\wildman01head_g"
+//	"$phongalbedotint" "1"
+	"$phongboost" "0.3"
+	"$phongfresnelranges"	"[.3 .3 .3]"
+}

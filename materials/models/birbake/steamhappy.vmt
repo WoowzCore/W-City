@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/birbake/steamhappy"
+	"$surfaceprop"	"metal"
+	
+	"$translucent" 1
+
+	//phong properties
+	
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/scarf_ussr"
+	$basetexturetransform "center 0 1 scale 4 16 rotate 0 translate -0.5 1"
+	$bumpmap "models/grinchfox/body_wear/scarf_normal"
+
+	$detail "models/grinchfox/body_wear/scarf"
+	$detailblendfactor 1
+	$detailscale 1
+//	$detailblendmode 8
+}

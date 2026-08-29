@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\drgordon\weapons\colt\m4\m4_compm4"
+	"$bumpmap"     			"models\drgordon\weapons\colt\m4\m4_compm4_n"
+	"$nocull" "1"
+	"$phong"	"1"
+	"$phongexponent"	"10"
+	"$phongalbedotint"	"1"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 1 1]"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" 			"models\insgwep\the_judge\1"
+	"$selfillum"			"1"
+
+}

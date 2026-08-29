@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/dreamy/prigozhin/hostage_sheet"
+	"$bumpmap" "models/dreamy/prigozhin/hostage_sheet_normal"
+	"$lightwarptexture" "models/dreamy/prigozhin/clothes_wrp"
+                "$nocull" "1"
+
+                "$halfambert" "1"
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" "0.3"
+	"$phongfresnelranges" "[0 0.2 0.5]"
+}

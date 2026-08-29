@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	//"$color"							"[1.15 1.15 1.15]"
+	$basetexture 						"models\insgwep\commando\M4_rec_d"
+	$bumpmap 							"models\insgwep\commando\M4_rec_n"
+	$phongexponenttexture				"models\insgwep\commando\M4_rec_e"
+
+	$normalmapalphaenvmapmask			1
+	$normalmapalphaphongmask			1
+	
+	$envmap								env_cubemap
+	$envmaptint							"[0.015 0.015 0.02]"
+	$envmapfresnel						".25"
+    $envmapcontrast   					"1"
+    $envmapsaturation  					"1"
+	
+	$phong								"1"
+	$phongboost							"9"
+	$phongfresnelranges					"[2 8 6]"
+	$phongtint							"[0.7 0.73 1]"
+	$phongalbedotint	                "1"
+	//$phongexponent 					"36"
+    $basemapluminancephongmask       	"1"
+              
+	$rimlight					"1"
+	$rimlightboost				"0.5"
+	$rimlightexponent			"50"
+	$rimmask					"1"
+}

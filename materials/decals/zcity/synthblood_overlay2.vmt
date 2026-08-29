@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "decals/zcity/synthblood_overlay2"
+"Proxies" 
+     	{ 
+               "EntityRandom" 
+                                { 
+                                "scale" "2.99" 
+                                "resultVar" "$frame" 
+                                 } 
+}

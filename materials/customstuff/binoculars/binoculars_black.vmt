@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+
+$baseTexture "customstuff\binoculars\binoculars_black"
+$bumpmap "customstuff\binoculars\binoculars_n"
+
+$phong 1
+$phongboost 1
+$phongexponent 1
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/eft/headsets/mats/headset_xcel_d"
+	"$bumpmap" "models/eft/headsets/mats/headset_xcel_n"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/eft/headsets/mats/headset_xcel_g"
+//    "$phongalbedotint" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges"    "[.3 .3 .3]"
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "models/rawjesus/wear/jason"
+	$bumpmap "models/rawjesus/wear/jason_normal"
+	$phong 1
+	$phongexponent   "20"
+ 	$phongboost   "3"
+ 	$phongfresnelranges   "[1 1 1]"
+}

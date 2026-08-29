@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/winter_cloak"
+	$bumpmap "models/grinchfox/body_wear/winter_cloak_normal"
+	$blendtintbybasealpha 1
+	$blendtintcoloroverbase 0
+}

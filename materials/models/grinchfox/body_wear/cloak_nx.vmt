@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/cloak_skin_nx"
+//	$basetexturetransform "center .5 .5 scale 1 2 rotate 0 translate 0 0.5"
+	$bumpmap "models/grinchfox/body_wear/cloak_normal"
+
+	$detail "models/grinchfox/body_wear/cloak"
+	$detailblendfactor 1
+	$detailscale 1
+//	$detailblendmode 8
+}

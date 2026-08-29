@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/kuma96/gta5_splintercell/textures/mask1_d"
+	$bumpmap "models/kuma96/gta5_splintercell/textures/mask_n"
+	
+	$selfillum 1
+	$selfillummask "models/kuma96/gta5_splintercell/textures/mask_g"
+	
+	$phong 1
+	$phongexponent 2
+	$phongboost .2
+	$phongfresnelranges "[.05 .5 1]"
+}

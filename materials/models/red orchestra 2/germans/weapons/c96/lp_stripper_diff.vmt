@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Red Orchestra 2/Germans/Weapons/C96/lp_stripper_DIFF"
+	"$bumpmap" "Models/Red Orchestra 2/Germans/Weapons/C96/lp_stripper_NORM"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+}

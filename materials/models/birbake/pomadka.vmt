@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/birbake/pomadka"
+	"$surfaceprop"	"metal"
+
+	//phong properties
+	
+}

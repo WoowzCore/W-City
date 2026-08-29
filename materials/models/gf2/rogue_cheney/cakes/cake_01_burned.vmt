@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+
+	"$model" "1"
+	"$basetexture" "models/gf2/rogue_cheney/cakes/cake_01_burned"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.7 0.7 0.7]"
+	"$bumpmap" "models/gf2/rogue_cheney/cakes/cake_01_burned_NRM"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapsaturation" "0"
+	"$envmapcontrast" "1"
+	
+
+
+}
+

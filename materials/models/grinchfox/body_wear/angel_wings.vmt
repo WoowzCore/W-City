@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/angel_wings"
+	$alphatest 1
+	$halflambert 1
+}

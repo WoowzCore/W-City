@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 					"models\Weegeepie\PartyHat/7PartyHat_alb"
+	"$bumpmap"     					"models\Weegeepie\PartyHat/PartyHat_nrm"
+	"$halflambert"			"1"
+	"$selfillum"					"1"
+	"$selfIllumFresnel"				"0"
+	"$selfIllumFresnelMinMaxExp"	"[0 5 0]"
+	"$color2"						"[1.5 1.5 1.5]"
+
+	"$phong" "1"
+	"$PhongAlbedoTint"	"1"
+	"$phongexponenttexture"	"models/apocmodels/marioodyssey/exponent"
+	"$phongexponent" "4.5"
+	"$phongboost" "20"	
+	"$phongfresnelranges"	"[.8 0.8 1]"
+	"$phongwarptexture"		"models\Weegeepie\PartyHat/PartyHat_alb"
+//	"$lightwarptexture"		"models\Weegeepie\PartyHat/PartyHat_wrp"
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+//	"$rimlightexponent" "8"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2.8"										// Boost for ambient cube component of rim lighting
+}

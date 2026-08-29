@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/mark2580/Weapons/V_IRifle"
+	"$bumpmap" "models/mark2580/Weapons/V_IRifle_normal"
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+
+	"$phong" "1"
+	"$phongexponent" "31"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[.1 0.4 3]"
+}

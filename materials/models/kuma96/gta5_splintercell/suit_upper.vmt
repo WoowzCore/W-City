@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/kuma96/gta5_splintercell/textures/suit_upper_d"
+	$bumpmap "models/kuma96/gta5_splintercell/textures/suit_upper_n"
+	$halflambert 1
+}

@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\epangelmatikes\e3_elite_suit\armor"
+	"$bumpmap" "models\epangelmatikes\e3_elite_suit\armor_n"
+
+	"$selfillum"	"1"
+	"$nocull"	"1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1.4 1.4 1.2]"
+
+	"$phongexponenttexture" "models\epangelmatikes\trooper\e3_elite_suit\armor_p"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"{10 10 10}"
+	"$envmapfresnel"	"1"	
+	"$normalmapalphaenvmapmask"	"1"
+
+
+	
+
+
+}

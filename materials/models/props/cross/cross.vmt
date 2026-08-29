@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/props/cross/cross_d"
+	$bumpmap "models/props/cross/cross_n"
+	$surfaceprop Wood
+}

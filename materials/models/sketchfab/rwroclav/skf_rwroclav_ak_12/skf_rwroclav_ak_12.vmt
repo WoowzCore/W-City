@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\sketchfab\rwroclav\skf_rwroclav_ak_12\skf_rwroclav_ak_12"
+	"$bumpmap" "models\sketchfab\rwroclav\skf_rwroclav_ak_12\skf_rwroclav_ak_12_nrm"
+	"$surfaceprop" "weapon"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[0.10 0.10 0.10]"
+	"$envmapfresnel" "0.34"
+	"$envmaplightscale" "1"
+	"$envmapanisotropy" "1"
+	"$envmapanisotropyscale" "0.05"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models\sketchfab\rwroclav\skf_rwroclav_ak_12\skf_rwroclav_ak_12_spec"
+	"$phongfresnelranges" "[0.06 0.41 3]"
+	"$phongboost" "8"
+
+	"$ambientoccltexture" "models/props_pft/wakepod/pod_body_ambientoccltexture"
+	"$ambientocclusion" "1"
+	
+	"$nocull" "1"
+}

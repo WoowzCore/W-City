@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\insgwep\optics\lense_rt"
+	$model 1
+
+	"Proxies"
+	{
+		"Scope"
+		{
+		}
+	}
+}
+
+

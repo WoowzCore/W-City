@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ej_sniper/camouflage"
+	"$alphatest" 1
+}

@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/dreamy/prigozhin/prigozhin"
+	"$bumpmap" "models/dreamy/prigozhin/eric_facemap_n"
+	"$lightwarptexture" "models/dreamy/prigozhin/base_m_caucasian_wrp"
+	"$ambientocclusiontexture" "models/dreamy/prigozhin/prigozhin_ao"
+	
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "2"
+	"$phongfresnelranges" "[0.1 0.4 1.0]"
+                "$halfambert" "1"
+                "$AmbientOcclusion" "1"
+	
+	"$phongtint" "[0.9 0.8 0.7]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "1"
+	"$rimlightexponent" "4"
+}

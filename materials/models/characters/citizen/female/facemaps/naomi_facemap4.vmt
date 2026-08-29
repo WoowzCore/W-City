@@ -1,0 +1,51 @@
+
+//	Naomi Facemap 4
+//	Texture @ HL2
+//	Shaders @ Reverend V92
+//	Creation: 2017/03/30
+//	Update: 2018/07/30
+
+vertexlitgeneric
+{
+
+	$basetexture models/characters/citizen/female/facemaps/naomi_facemap4_d
+	$bumpmap models/characters/citizen/female/facemaps/naomi_facemap_b
+	$lightwarptexture dev/identitylightwarp
+
+	$surfaceprop flesh
+	$ambientocclusion 1
+	$halflambert 1
+	$nocull 0
+	$nodecal 0
+	$diffuseexp 1.5
+
+	$phong 1
+	$phongboost 1
+	$phongexponent 5
+	$phongtint "[ 0.85 0.85 1 ]"
+	$phongfresnelranges "[ 0.1 0.2 1 ]"
+	
+	$rimlight 1
+	$rimlightexponent 5
+	$rimlightboost 0.1
+	
+	$detail detail/skin1
+	$detailscale 8
+	$detailblendfactor 0.2
+	$detailblendmode 0
+
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
+
+}

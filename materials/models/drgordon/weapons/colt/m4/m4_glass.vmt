@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\drgordon\weapons\colt\m4\m4_acog_lens"
+	"$bumpmap"     			"models\drgordon\weapons\colt\m4\m4_acog_lens_n"
+	"$nocull" "1"
+	"$phong"	"1"
+	"$phongexponent"	"157"
+	"$phongalbedotint"	"1"
+	"$phongboost"	"0.2"
+	"$phongfresnelranges"	"[3 7 8]"
+// @Kali/FloaterTwo
+}

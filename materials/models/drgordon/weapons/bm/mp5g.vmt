@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models\drgordon\weapons\bm/mp5g"
+"$bumpmap" "models\drgordon\weapons\bm/mp5g_n"
+
+"$phong" "1"
+"$phongexponent" "10"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+"$phongalbedotint" "1"
+
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

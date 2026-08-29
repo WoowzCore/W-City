@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\combataegis\body\ukvest_d"
+	"$bumpMap" "models\combataegis\body\ukvest_d_n"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$phong" 			"1"
+	"$phongtint" 			"[1 1 0.8]"
+	"$phongexponent" 		"10"
+	"$phongboost" 			"0.4"
+	"$phongfresnelranges"		"[0.2 0.2 1.0]"//"[0.5 1.5 3.0]"
+	"$halflambert"			"1"
+}

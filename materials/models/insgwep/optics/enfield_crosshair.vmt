@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\insgwep\optics\enfield_crosshair"
+	"$translucent" 	"1"
+}

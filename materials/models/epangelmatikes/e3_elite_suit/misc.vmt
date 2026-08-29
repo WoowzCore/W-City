@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\epangelmatikes\e3_elite_suit\misc"
+	"$bumpmap" "models\epangelmatikes\e3_elite_suit\misc_n"
+
+	"$nocull"	"1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1.4 1.4 1.2]"
+
+	"$phongexponenttexture" "models\epangelmatikes\trooper\e3_elite_suit\misc_p"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"{10 10 10}"
+	"$envmapfresnel"	"1"	
+	"$normalmapalphaenvmapmask"	"1"
+
+	"$blendtintbybasealpha"	"1"
+
+	Proxies
+	{
+		PlayerColor
+		{
+			resultVar	$color2
+
+		}
+	}
+
+
+}

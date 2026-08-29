@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\humans\suits\zoltan__b1"
+	"$bumpmap" "models\humans\suits\zoltan__b1_n"
+	"$nocull" 1
+	
+	"$halflambert" "1"
+	"$alphatest" "1"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "5"
+	"$phongfresnelranges" "[.3 .82 31]"
+	"$model" "1"
+	"$nocull" "1"
+}

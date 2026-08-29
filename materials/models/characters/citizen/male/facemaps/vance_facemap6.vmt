@@ -1,0 +1,47 @@
+
+//	Vance Facemap 6
+//	Texture @ HL2
+//	Shaders @ Reverend V92
+//	Creation: 2017/03/30
+//	Update: 2019/12/21
+
+vertexlitgeneric
+{
+
+	$basetexture models/characters/citizen/male/facemaps/vance_facemap6_d
+	$bumpmap models/characters/citizen/male/facemaps/vance_facemap_b
+	$lightwarptexture dev/identitylightwarp
+
+	$surfaceprop flesh
+	$ambientocclusion 1
+	$halflambert 1
+	$nocull 0
+	$nodecal 0
+	$diffuseexp 1.5
+
+	$phong 1
+	$phongboost 1
+	$phongexponent 5
+	$phongtint "[ 0.85 0.85 1 ]"
+	$phongfresnelranges "[ 0.1 0.2 1 ]"
+
+	$detail detail/skin1
+	$detailscale 8
+	$detailblendfactor 0.8
+	$detailblendmode 0
+
+	$proxytoggle 1
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcVar1 $proxytoggle // Disable Proxies
+			resultVar $color // The shader parameter to be manipulated
+
+		}
+
+	}
+
+}

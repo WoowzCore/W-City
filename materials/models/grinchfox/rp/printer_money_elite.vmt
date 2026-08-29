@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+	"$basetexture"  "white"
+	$basetexturetransform "center 0 0 scale 1 0.5 rotate 90 translate 0.5 -0.25"
+	"$detail"	"models/grinchfox/euro_5"
+	"$detailscale" 1.0
+	$detailblendfactor 1.1
+//	$detail "models/grinchfox/rp/blue_lightmap"
+//	$detailscale 1
+//	$detailtexturetransform "center 0 0 scale 1 0.5 rotate 90 translate 0.5 -0.25"
+	$detailblendmode 8
+	$selfillum 1
+	$selfillummask "models/grinchfox/rp/blue_lightmap"
+	$selfillumtexturetransform "center 0 0 scale 1 0.5 rotate 90 translate 0.5 -0.25"
+	"print_speed" 0
+	"Proxies"
+	{
+		"PrintSpeed"
+		{
+			resultVar "print_speed"
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" "print_speed"
+			"texturescrollangle" 0
+		}
+	}
+}

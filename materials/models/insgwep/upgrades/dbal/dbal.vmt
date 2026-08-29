@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\insgwep\upgrades\dbal\dbal_col"
+	$bumpmap 				"models\insgwep\upgrades\dbal\dbal_nor"
+
+	$phong                          "1"
+	$phongalbedotint                "1"
+	\\$phongtint                      "[.6 .8 1]"
+	
+	$phongboost                     "0.75"
+	//$phongexponent                  "50"
+	$phongfresnelranges             "[.5 4 6]"
+	$phongexponenttexture "models\insgwep\upgrades\dbal\dbal_gloss"
+
+
+	$envmap                         "env_cubemap"
+	$normalmapalphaenvmapmask       "1"
+	$envmaptint "[0.033 0.033 0.033]"
+
+	
+	
+
+
+}
+

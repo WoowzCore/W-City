@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/dreamy/prigozhin/BREEN_HAND_white"
+     "$bumpmap" "models/breen/breen_sheet_normal"
+        "$halflambert" 1
+	"$lightwarptexture" "models/dreamy/prigozhin/base_m_caucasian_wrp"
+
+	"$phong" "1"
+	"$phongexponent" "6"
+	"$phongboost" "0.3"
+	"$phongfresnelranges" "[0 0.2 0.5]"
+}

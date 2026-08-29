@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sa_jetpack/jetpack"
+	"$bumpmap" "models/sa_jetpack/normal"
+	"$nodecal" "1"
+
+	"$phong" 1
+	"$phongexponent" 52
+	"$phongboost" .04
+	"$phongfresnelranges" "[1 1 1]"
+
+	"$rimlight" 1
+	"$rimlightexponent" 100
+	//"$rimlightboost" .4
+
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[0.03 0.03 0.03]"
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar $color
+		}
+
+	}
+}
+
+

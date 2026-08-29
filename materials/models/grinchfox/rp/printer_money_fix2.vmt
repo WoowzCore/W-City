@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/grinchfox/euro_5"
+	"print_speed" 0
+	"Proxies"
+	{
+		"PrintSpeed"
+		{
+			resultvar "print_speed"
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "print_speed"
+			"texturescrollangle" 0
+		}
+	}
+}

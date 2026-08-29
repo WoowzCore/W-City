@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    // Original shader: VertexLitTexture
+    "$basetexture" "models\krutoiskilet\boxcutter\boxcutter"
+    "$bumpmap" "models\krutoiskilet\boxcutter\boxcutter_n"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/rp/fertbag"
+	$bumpmap "models/grinchfox/rp/seedbag_normal"
+	$envmap "env_cubemap"
+	$envmaptint "[ 0.2 0.2 0.2 ]"
+}

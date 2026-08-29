@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\taser_grapl\metal"
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" 1
+	"$envmaptint" "[.9 .9 .9]"
+}

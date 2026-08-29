@@ -1,0 +1,9 @@
+patch
+{
+	include "materials/models/kuma96/gta5_splintercell/mask1.vmt"
+	
+	insert
+	{
+		$basetexture "models/kuma96/gta5_splintercell/textures/mask7_d"
+	}
+}

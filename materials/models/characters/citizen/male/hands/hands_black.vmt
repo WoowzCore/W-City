@@ -1,0 +1,16 @@
+vertexlitgeneric
+{
+
+	$basetexture models/characters/citizen/male/hands/hands_black_d
+	$bumpmap models/characters/citizen/male/hands/hands_b
+
+	$halflambert 1
+	$ambientocclusion 1
+	
+	$phong 1
+	$phongexponent 10
+	$phongboost 0.007
+	$phongfresnelranges "[ 0.3 1 7 ]"
+	$phongalbedotint 1
+	
+}

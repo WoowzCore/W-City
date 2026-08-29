@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+                 $basetexture "decals/scorch_incendiary"
+
+	"$decal" 1
+     "$vertexcolor" "1"
+	"$decalscale" 0.8
+	"$translucent" 1
+     "$decalFadeDuration" "90"
+     //"$decalfadetime" "30"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/easter_kulich/cake"
+	"$surfaceprop"	"metal"
+
+	//phong properties
+	
+}

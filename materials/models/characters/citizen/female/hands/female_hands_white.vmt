@@ -1,0 +1,30 @@
+vertexlitgeneric
+{
+
+	$basetexture models/characters/citizen/female/hands/female_hands_white_d
+	$bumpmap models/characters/citizen/female/hands/female_hands_b
+
+	$halflambert 1
+	$ambientocclusion 1
+	
+	$phong 1
+	$phongexponent 1
+	$phongboost 0.05
+	$phongfresnelranges "[ 0.3 1 7 ]"
+	$phongalbedotint 1
+	
+	$proxytoggle 1
+	proxies
+	{
+
+		equals
+		{
+
+			srcvar1 $proxytoggle // disable proxies
+			resultvar $color // the shader parameter to be manipulated
+
+		}
+
+	}
+
+}

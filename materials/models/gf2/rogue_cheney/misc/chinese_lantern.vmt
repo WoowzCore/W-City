@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+
+	"$model" "1"
+	"$basetexture" "models/gf2/rogue_cheney/misc/chinese_lantern"
+	"$translucent" 1
+	"$nocull" 1
+
+
+	
+
+
+}
+

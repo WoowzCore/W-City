@@ -1,0 +1,5 @@
+Modulate
+{
+	$basetexture "models/grinchfox/head_wear/stereoglasses"
+	$nocull 1
+}

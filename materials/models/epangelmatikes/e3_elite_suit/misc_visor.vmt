@@ -1,0 +1,17 @@
+"Unlitgeneric"
+{
+	"$basetexture" "models\epangelmatikes\e3_elite_suit\misc"
+
+
+	"$blendtintbybasealpha"	"1"
+
+	Proxies
+	{
+		PlayerColor
+		{
+			resultVar	$color2
+		}
+	}
+
+
+}

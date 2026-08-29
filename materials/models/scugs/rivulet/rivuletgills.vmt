@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/scugs/rivulet/rivuletgills"
+	"$nocull" 1
+	"$translucent" 1
+}

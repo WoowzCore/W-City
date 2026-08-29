@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/head_wear/headwrap_purplepat"
+	$translucent 1
+	$alphatest 1
+	$AlphaTestReference "0.3"
+	$AllowAlphaToCoverage 1
+}

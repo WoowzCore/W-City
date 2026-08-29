@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/head_wear/headwrap_bag"
+	$translucent 1
+	$alphatest 1
+}

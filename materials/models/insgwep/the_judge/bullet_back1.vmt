@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" 			"models\insgwep\the_judge\bullet_back1"
+	"$envmap" 			"env_cubemap"
+	"$envmapmask" 			"models\insgwep\the_judge\bullet_back1_ref"
+}

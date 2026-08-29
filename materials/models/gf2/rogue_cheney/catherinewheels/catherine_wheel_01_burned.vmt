@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+
+	"$model" "1"
+	"$basetexture" "models/gf2/rogue_cheney/catherinewheels/catherine_wheel_01_burned"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"$bumpmap" "models/gf2/rogue_cheney/catherinewheels/catherine_wheel_01_NRM"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapsaturation" "0"
+	"$envmapcontrast" "1"
+	
+
+
+}
+

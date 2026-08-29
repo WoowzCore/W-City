@@ -1,0 +1,22 @@
+
+eyerefract
+{
+
+	$iris engine/eye-iris-combine
+	$ambientoccltexture engine/eyeball_r_ambient
+	$envmap engine/eye-reflection-cubemap-
+	$corneatexture engine/eye-cornea
+
+	$eyeballradius 0.5
+	$ambientocclcolor "[ 0.36 0.25 0.2 ]"
+	$dilation 0.5
+	$parallaxstrength 0.25
+	$corneabumpstrength 1.25
+
+	$halflambert 1
+	$nodecal 1
+
+	$raytracesphere 1
+	$spheretexkillcombo 0
+
+}

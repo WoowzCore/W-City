@@ -1,0 +1,25 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/head_wear/baseballhat_detail"
+	$halflambert 1
+	$bumpmap "models/grinchfox/head_wear/caphat_normal"
+	$phong 1
+	$phongexponent   "20"
+ 	$phongboost   "1"
+ 	$phongfresnelranges   "[0.6 0.6 1]"
+	$detail "models/grinchfox/head_wear/logo_bearanim"
+	$detailscale 1
+	$detailtexturetransform "center 0.5 0.5 scale 4 4 rotate 0 translate -0.55 -1.4"
+	$detailblendmode 0
+	$detailblendfactor 1
+	$detailframe 0
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$detail" 
+			"animatedTextureFrameNumVar" "$detailframe" 
+			"animatedTextureFrameRate" "10"
+		}
+	}
+}

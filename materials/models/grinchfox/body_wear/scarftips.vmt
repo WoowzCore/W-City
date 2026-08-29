@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/scarftips"
+	$translucent 1
+	$alphatest 1
+	$AlphaTestReference "0.3"
+	$AllowAlphaToCoverage 1
+}

@@ -1,0 +1,20 @@
+"VertexLitGeneric" 
+{
+	"$basetexture" "models\insgwep\p90\magazine"
+	"$bumpmap" "models\insgwep\p90\magazine_n"
+	"$PhongExponentTexture" "models\insgwep\p90\magazine_exp"
+	"$roughnessmultiplier" "1" 
+		$normalmapalphaenvmapmask 		"1"
+
+	$phongtint						"[0.6 0.6 0.6]"
+
+	$envmap 						env_cubemap
+	$envmaptint 					"[.005 .005 .005  ]"
+
+	$phong 							"1"
+	$PhongAlbedoTint 				"1"	
+	
+	$phongboost 					"0.01"
+	$phongfresnelranges				"[0.01 0.01 0.01]"	"$BasemapLuminancePhongMask" "1" 
+	$nocull 1
+}

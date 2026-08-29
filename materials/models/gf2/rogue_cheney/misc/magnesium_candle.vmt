@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+
+	"$model" "1"
+	"$basetexture" "models/gf2/rogue_cheney/misc/magnesium_candle"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$bumpmap" "models/gf2/rogue_cheney/misc/magnesium_candle_NRM"
+	
+
+
+}
+

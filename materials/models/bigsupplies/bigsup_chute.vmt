@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bigsupplies/bigsup_chute"
+	"$nocull" 1
+
+}

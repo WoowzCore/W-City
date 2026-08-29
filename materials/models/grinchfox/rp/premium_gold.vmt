@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/rp/premium"
+	$bumpmap "models/grinchfox/rp/premium_normal"
+	$PhongExponentTexture "models/grinchfox/rp/premium_phong"
+	$normalmapalphaenvmapmask 1
+	$phongalbedotint 1
+	$envmap "env_cubemap"
+	$envmaptint "[1 0.7 0.1]"
+	$envmapcontrast 2
+	$halflambert 1
+	$phong 1
+	$phongexponent   "90"
+ 	$phongboost   "30"
+ 	$phongfresnelranges   "[0.7 0.7 1.2]"
+}

@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/head_wear/baseball_hall"
+	$selfillum 1
+	$selfillummask "models/grinchfox/head_wear/baseball_hall_illum"
+	$selfillummaskscale 1
+	$halflambert 1
+	$bumpmap "models/grinchfox/head_wear/caphat_normal"
+	$phong 1
+	$phongexponent   "20"
+ 	$phongboost   "1"
+ 	$phongfresnelranges   "[0.6 0.6 1]"
+}

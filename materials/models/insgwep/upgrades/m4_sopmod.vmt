@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[2.6 2.4 2.3]"
+	"$basetexture"			"models\insgwep\upgrades\nc_d"
+	"$bumpmap"				"models\insgwep\upgrades\nc_n"
+	//"$phongexponenttexture"	"models\insgwep\upgrades\nc_s"
+
+
+	$normalmapalphaenvmapmask 		"1"
+
+	$phongtint						"[0.65 0.68 0.7]"
+
+	//$envmap 						env_cubemap
+	$envmaptint 					"[.085 .085 .085  ]"
+$phongexponent				 	"90"
+	$phong 							"1"
+	$PhongAlbedoTint 				"1"	
+	
+	$phongboost 					"0.25"
+	$phongfresnelranges				"[0.1 0.2 0.3]"
+	
+}

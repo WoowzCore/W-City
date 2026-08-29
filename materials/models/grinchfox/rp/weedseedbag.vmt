@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/rp/weedseedbag"
+	$bumpmap "models/grinchfox/rp/seedbag_normal"
+	$halflambert 1
+}

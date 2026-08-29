@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\insgwep\asval\val"
+	"$bumpmap" "models\insgwep\asval\val_n"
+
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.1 .1 .1]"
+	"$envmapcontrast" ".4"
+	
+	"$phong" 	"1"
+	"$phongexponent" 	"30"
+	"$phongboost"	 "1"
+	"$phongfresnelranges" "[1 2 4]"
+	
+	$rimlight							1
+	$rimlightboost						0.15
+	$rimlightexponent					87
+	$rimmask							1
+	
+}

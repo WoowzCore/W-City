@@ -1,0 +1,6 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"models\insgwep\optics\tacog_reticule"
+	"$translucent" 	"1"
+}

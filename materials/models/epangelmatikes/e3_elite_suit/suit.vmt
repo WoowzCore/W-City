@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\epangelmatikes\e3_elite_suit\suit"
+	"$bumpmap" "models\epangelmatikes\e3_elite_suit\suit_n"
+
+	"$nocull"	"1"
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost" "0.3"
+	"$phongfresnelranges" "[1.4 1.4 1.2]"
+
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"{5 5 5}"
+	"$envmapfresnel"	"1"	
+	"$normalmapalphaenvmapmask"	"1"
+
+
+
+
+
+}

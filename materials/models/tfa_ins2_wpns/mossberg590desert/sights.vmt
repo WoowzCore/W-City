@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\tfa_ins2_wpns\mossberg590desert\sight_d"
+	$bumpmap 			"models\tfa_ins2_wpns\mossberg590desert\sight_n"
+	
+	$selfillum "1"
+    
+    $color			        "[0.8 0.85 0.9]"
+	$selfillum 1
+	//$selfillumtint [0.2 0.5 0.6]
+	//$selfillumFresnel 1
+
+	"$phong"  				"1"
+	"$phongexponent" 		"70"
+	"$phongboost" 			".25"
+	"$phongfresnelranges" 	"[2 4 6]"
+	"$phongtint" 			"[0.6 0.8 1]"
+	"$phongalbedotint" 		"1"	
+	"$halflambert" 			"1"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint"				 	"[0.01 0.01 0.01]"
+	$rimlight               1
+	$rimlightexponent       250
+	$rimlightboost          .01	
+	$rimmask 1
+}

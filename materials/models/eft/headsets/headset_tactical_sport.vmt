@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/eft/headsets/mats/headset_tactical_sport_d"
+	"$bumpmap" "models/eft/headsets/mats/headset_tactical_sport_n"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/eft/headsets/mats/headset_tactical_sport_g"
+//    "$phongalbedotint" "1"
+    "$phongboost" "1"
+    "$phongfresnelranges"    "[.3 .3 .3]"
+}

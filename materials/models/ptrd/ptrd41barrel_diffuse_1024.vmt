@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+"$basetexture" "models\ptrd\ptrd41barrel_diffuse_1024"
+"$bumpmap" "models\ptrd\ptrd41barrel_normal_1024"
+"$ambientocculusion" "models\ptrd\ptrd41barrel_specular_1024"
+"$surfaceprop" "Metal"
+"$nocull" 1
+"$halflambert" 1
+"$nocull" 1
+"$phong" "1"
+"$phongexponent" "20"
+"$phongboost" "1"	
+"$phongfresnelranges"	"[.3 1 7]"
+}

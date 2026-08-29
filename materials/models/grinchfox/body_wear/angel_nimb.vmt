@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/angel_nimb"
+	$envmap env_cubemap
+	$basealphaenvmapmapsk 1
+	$envmaptint "[1 0.8 0.25]"
+}

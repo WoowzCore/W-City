@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	$translucent 1
+	$basetexture "decals/zcity/blood3"
+	$decal 1
+	$decalscale 0.06
+	$vertexcolor 1
+}

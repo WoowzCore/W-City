@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/sythe"
+	$envmap env_cubemap
+	$basealphaenvmapmask 1
+	$envmaptint "[1 1 1]"
+
+	$detail "models/grinchfox/body_wear/sythe_used_mask"
+	$detailblendfactor 1
+	$envmapcontrast 1
+	$envmapsaturation 0.25
+	$detailscale 1
+	$detailblendmode 8
+}

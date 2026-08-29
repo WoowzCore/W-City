@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/scarftips"
+	$alphatest 1
+	$AlphaTestReference "0.5"
+	$colorfix "{250 250 250}"
+	Proxies
+	{
+		Equals
+		{
+			srcvar1 $colorfix
+			resultvar $color
+		}
+	}
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/dreamy/prigozhin/body"
+	"$bumpmap" "models/dreamy/prigozhin/body_n"
+	"$lightwarptexture" "models/dreamy/prigozhin/clothes_wrp"
+	"$ambientocclusiontexture" "models/dreamy/prigozhin/body_ao"
+
+
+                "$halfambert" "1"
+                "$AmbientOcclusion" "1"
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" "0.3"
+	"$phongfresnelranges" "[0 0.2 0.5]"
+}

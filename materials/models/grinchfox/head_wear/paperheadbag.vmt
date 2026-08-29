@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/grinchfox/head_wear/paperheadbag"
+	"$envmap" "env_cubemap"
+	"$nocull" 1
+	"$envmaptint" "[0.1 0.1 0.1]"
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	$basetexture "models/kuma96/gta5_splintercell/textures/armor_d"
+	$bumpmap "models/kuma96/gta5_splintercell/textures/armor_n"
+	
+	$phong 1
+	$phongexponent 5
+	$phongboost .5
+	$phongfresnelranges "[.05 .5 1]"
+}

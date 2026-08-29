@@ -1,0 +1,16 @@
+
+VertexLitGeneric
+{
+
+	$basetexture			models/jessev92/synergy/van/synvan_d
+	$bumpmap				models/jessev92/synergy/van/synvan_b
+	
+	$halflambert			1
+	$ambientocclusion		1
+	
+	$detail						detail/metal_detail_01
+	$detailscale				24
+	$detailblendfactor			0.95
+	$detailblendmode			0
+		
+}

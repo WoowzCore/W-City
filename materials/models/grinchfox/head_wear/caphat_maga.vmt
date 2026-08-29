@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/head_wear/baseballhat_detail"
+	$halflambert 1
+	$bumpmap "models/grinchfox/head_wear/caphat_normal"
+	$phong 1
+	$phongexponent   "20"
+ 	$phongboost   "1"
+ 	$phongfresnelranges   "[0.6 0.6 1]"
+	$detail "models/grinchfox/head_wear/logo_maga"
+	$detailscale 1
+	$detailtexturetransform "center 0.5 0.5 scale 3 6 rotate 0 translate -0.4 -2.2"
+	$detailblendmode 0
+	$detailblendfactor 1
+}

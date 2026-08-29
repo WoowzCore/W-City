@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+
+	"$model" "1"
+	"$basetexture" "models/gf2/rogue_cheney/misc/chinese_candle"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	
+
+
+}
+

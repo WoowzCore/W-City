@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gf2/rogue_cheney/rockets/special/rocket_01"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.25 0.25 0.25]"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "Wood"
+	"$model" 1
+	"$alphatest" 1
+	"$bumpmap" "models/gf2/rogue_cheney/rockets/special/rocket_01_NRM"
+
+
+
+}

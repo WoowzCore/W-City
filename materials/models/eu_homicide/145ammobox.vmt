@@ -1,0 +1,5 @@
+VertexlitGeneric
+{
+	$basetexture models\eu_homicide\145ammobox
+	$surfaceprop paper
+}

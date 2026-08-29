@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$basetexture"			"models\insgwep\mkbk\weapon_mk18_dm"
+	"$bumpmap"				"models\insgwep\mkbk\weapon_mk18_nm"
+	"$phongexponenttexture"	"models\insgwep\mk18\weapon_mk18_exp"
+
+	$normalmapalphaenvmapmask 		"1"
+
+	$phongtint						"[0.6 0.8 1]"
+
+	$envmap 						env_cubemap
+	$envmaptint 					"[.085 .085 .085  ]"
+
+	$phong 							"1"
+	$PhongAlbedoTint 				"1"	
+	
+	$phongboost 					"0.1"
+	$phongfresnelranges				"[0.5 1 3]"
+
+}

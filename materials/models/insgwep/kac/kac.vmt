@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 						"Models/insgwep/KAC/kac_d"
+	"$bumpmap" 							"Models/insgwep/KAC/kac_n"
+	"$phongexponenttexture"				"Models/insgwep/KAC/kac_e"
+
+	$normalmapalphaenvmapmask			1
+	$normalmapalphaphongmask			1
+	
+	$envmap								env_cubemap
+	$envmaptint							"[0.04 0.05 0.057]"
+	$envmapfresnel						1
+	
+	$phong								1
+	$phongboost							5.2
+	$phongfresnelranges					"[0.05 0.5 1]"
+	$phongtint							"[ 1 1 1 ]"
+	
+	$rimlight							1
+	$rimlightboost						0.4
+	$rimlightexponent					100
+	$rimmask							1
+}

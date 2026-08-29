@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 						"models/insgwep/lxbl/silencer"
+	"$bumpmap" 							"models/insgwep/lxbl/silencer_norm"
+	"$phongexponenttexture" 			"models/insgwep/lxbl/silencer_exp"
+
+	$normalmapalphaenvmapmask			1
+	$normalmapalphaphongmask			1
+	$envmap								env_cubemap
+	$envmaptint							"[0.01 0.01 0.01]"
+	$envmapfresnel						1
+	
+	$phong								1
+	$phongboost							3
+	$phongfresnelranges					"[0.55 0.68 0.8]"
+	$phongtint							"[ 1 1 1 ]"
+}

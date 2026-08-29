@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\tfa_ins2_wpns\mossberg590wood\weapon_m590a1_dm"
+	"$bumpmap" 			"models\tfa_ins2_wpns\mossberg590wood\weapon_m590a1_nm"
+	"$selfillum" "1"
+
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongtint"                    "[.6 .8 1]"
+
+	"$phongboost"                   ".75"
+	"$phongexponent"                "35"
+	"$phongfresnelranges"           "[1.7 2.7 9]"
+
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"                   "[0.06 0.06 0.06]"
+
+}

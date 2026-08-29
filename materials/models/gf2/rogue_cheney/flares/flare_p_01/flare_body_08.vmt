@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+
+	"$model" 1
+	"$basetexture" "models/gf2/rogue_cheney/flares/flare_p_01/flare_body_08"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+
+
+	
+	$selfillum 1
+    $selfillummask "models/gf2/rogue_cheney/flares/flare_p_01/flare_body_mask"
+
+}
+

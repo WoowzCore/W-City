@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models\insgwep\upgrades\ops_inc_supp\suppressor_diff"
+	"$bumpmap"	 		"models\insgwep\upgrades\ops_inc_supp\suppressor_bump"
+	"$phongexponenttexture" 	"models\insgwep\upgrades\ops_inc_supp\suppressor_exp"
+
+	"$envmap" 			"env_cubemap"
+
+	"$nocull" 			"0"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	"$normalmapalphaphongmask"    	"1"
+
+	"$envmaptint" 			"[0.05 0.05 0.05]"
+	"$envmapfresnel"		"1"
+	"$envmapFresnelMinMaxExp"	"[0 5 .4]"
+
+	"$phong"     			"1"
+	"$phongboost"   		"255"
+	"$phongalbedotint"		"1"
+	"$phongfresnelranges"       	"[0.5 0.9 1]"
+}

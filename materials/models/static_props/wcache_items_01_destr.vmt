@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\static_props\wcache_items_01_destr"
+	
+		"$nocull" 1
+}
+

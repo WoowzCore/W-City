@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+"$basetexture" "models\ptrd\ptrd_ammo"
+	"$surfaceprop" "wood"
+	"$envmap" "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmapsaturation 0.1
+
+}

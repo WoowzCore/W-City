@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "decals/huy-glass"
+	"$translucent" 1
+}

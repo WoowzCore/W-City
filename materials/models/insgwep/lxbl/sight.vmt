@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 						"models/insgwep/lxbl/sight"
+	"$bumpmap" 							"models/insgwep/lxbl/sight_norm"
+	"$phongexponenttexture" 			"models/insgwep/lxbl/sight_exp"
+	$selfillum 							1
+    $selfillummask 						"models/insgwep/lxbl/sight_mask"
+
+	$normalmapalphaenvmapmask			1
+	$normalmapalphaphongmask			1
+	$envmap								env_cubemap
+	$envmaptint							"[0.01 0.01 0.01]"
+	$envmapfresnel						1
+	
+	$phong								1
+	$phongboost							1
+	$phongfresnelranges					"[0.55 0.68 0.8]"
+	$phongtint							"[ 1 1 1 ]"
+}

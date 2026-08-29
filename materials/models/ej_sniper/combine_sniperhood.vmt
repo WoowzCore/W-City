@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/ej_sniper/combine_sniperhood"
+	"$bumpmap" "models/ej_sniper/combine_sniperhood_n"
+}

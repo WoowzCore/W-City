@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/grinchfox/head_wear/glass_yellow"
+	"$translucent" 1
+	"$envmap" "grinchfox/cubemaps/stripes_cubemap"
+	"$envmaptint" "[0.9 0.7 0.4]"
+}

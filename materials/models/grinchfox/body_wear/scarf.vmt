@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/grinchfox/body_wear/scarf"
+	$bumpmap "models/grinchfox/body_wear/scarf_normal"
+}
