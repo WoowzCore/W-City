@@ -1,7 +1,7 @@
 hg = hg or {}
-hg.Version = "Release 1.4.1"
+hg.Version = "0.0.0"
 hg.GitHub_ReposOwner = "WoowzCore"
-hg.GitHub_ReposName = "W-City" -- please add your real git fork!
+hg.GitHub_ReposName = "W-City"
 
 local sides = {
 	["sv_"] = "sv_",

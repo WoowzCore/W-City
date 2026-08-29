@@ -20,9 +20,9 @@ timer.Create("ZB_AntiAfkThink",10,0,function()
     if GetConVar("zb_dev"):GetBool() then return end
 
     for k,ply in player.Iterator() do
-        if not IsValid(ply) or ply:IsBot() then continue end -- The silly, little, furry boy salat couldn't think to let the bots pass (BECAUSE MAYBE THEY GO INTO SPECTATORS AND BECAUSE OF THIS, WHEN I PLAY, I HAVE TO SPAWN ANOTHER ONE) -- Fuck you
+        if not IsValid(ply) or ply:IsBot() then continue end
         
-        if ply:Alive() and not ply.organism.otrub then --дека по русски пиши ZZZZZZZZZZ
+        if ply:Alive() and not ply.organism.otrub then
           ply.afkTime = ply.afkTime + 10
         end
 

@@ -45,8 +45,6 @@ hook.Add("Org Clear", "Main", function(org)
 	org.larmamputated = false
 	org.headamputated = false
 
-	org.furryinfected = false
-
 	org.health = 100
 	org.canmove = true
 	org.recoilmul = 1
@@ -369,28 +367,9 @@ hook.Add("Org Think", "Main", function(owner, org, timeValue)
 	end
 	module.pulse[2](owner, org, timeValue)
 
-	if org.owner.PlayerClassName == "furry" then
-		org.assimilated = 0
-	end
-
-	if org.owner.PlayerClassName != "furry" and org.furryinfected then
-		org.assimilated = math.Approach(org.assimilated, 1, timeValue / 30 * org.pulse / 70)
-
-		if org.assimilated == 1 then
-			hg.Furrify(org.owner)
-
-			org.furryinfected = false
-		end
-	else
-		if (org.lightstun - CurTime()) <= 0 then
-			org.assimilated = math.Approach(org.assimilated, 0, (timeValue / 60 * org.pulse / 70) * 6)
-		end
-	end
-
-	if org.assimilated == 1 then
-		org.assimilated = 0
-		org.owner:SetPlayerClass("furry")
-	end
+    if (org.lightstun - CurTime()) <= 0 then
+        org.assimilated = math.Approach(org.assimilated, 0, (timeValue / 60 * org.pulse / 70) * 6)
+    end
 
 	org.berserk = math.Approach(org.berserk, 0, timeValue / 60)
 	org.noradrenaline = math.Approach(org.noradrenaline, 0, timeValue / 45)

@@ -157,7 +157,7 @@ function hg.DropArmorForce(ent, equipment)
         
         if hg.armor[placement][equipment].voice_change then
             if eightbit and eightbit.EnableEffect and ent.UserID then
-                eightbit.EnableEffect(ent:UserID(), ent.PlayerClassName == "furry" and eightbit.EFF_PROOT or 0)
+                eightbit.EnableEffect(ent:UserID(), 0)
             end
         end
 
@@ -207,7 +207,7 @@ function hg.DropArmor(ply, equipment)
         
         if hg.armor[placement][equipment].voice_change then
             if eightbit and eightbit.EnableEffect and ply.UserID then
-                eightbit.EnableEffect(ply:UserID(), ply.PlayerClassName == "furry" and eightbit.EFF_PROOT or 0)
+                eightbit.EnableEffect(ply:UserID(), 0)
             end
         end
 

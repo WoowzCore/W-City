@@ -537,13 +537,6 @@ function SWEP:CanPrimaryAttack()
 	local owner = self:GetOwner()
 	if !IsValid(owner) then return end
 
-	if owner.PlayerClassName and owner.PlayerClassName == "furry" and owner.suiciding then
-		if SERVER then
-			owner:Notify(table.Random(CantDoIt), 20, "cantdoit", 0)
-		end
-		return false
-	end
-
 	//local owner = self:GetOwner()
 	--[[if owner.suiciding then
 		if (owner:GetNetVar("suicide_time",CurTime()) + 8) < CurTime() then if SERVER then owner:SetNetVar("suicide_time",nil) end return true end

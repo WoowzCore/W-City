@@ -1,7 +1,7 @@
 if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_bandage_sh"
 SWEP.PrintName = "Fury-13"
-SWEP.Instructions = "Fury-13 (Not to be confused with \"Furry-13\", an unrelated pathowogen virus strain) is an incredibly potent stimulator drug. Instead of \"modifying\" how your organism works, this drug aims to provide additional resources instead, making you stronger than ever before. Side effects may include permanent brain damage. Do not use on infected person."
+SWEP.Instructions = "Fury-13 is an incredibly potent stimulator drug. Instead of \"modifying\" how your organism works, this drug aims to provide additional resources instead, making you stronger than ever before. Side effects may include permanent brain damage. Do not use on infected person."
 SWEP.Category = "ZCity Medicine"
 SWEP.Spawnable = true
 SWEP.Primary.Wait = 1
@@ -182,7 +182,7 @@ if SERVER then
 			hg.ExplodeHead(ent)
 		end
 
-		if !ent.PlayerClassName or ent.PlayerClassName != "furry" then
+		if !ent.PlayerClassName then
 			org.berserk = org.berserk + 2
 		else
 			org.o2["curregen"] = 0

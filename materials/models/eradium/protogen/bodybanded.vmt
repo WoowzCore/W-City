@@ -1,8 +1,0 @@
-patch
-{
-include "materials/models/eradium/protogen/body_shared.vmt"
-insert
-{
-"$basetexture" "models/eradium/protogen/BodyBanded"
-}
-}

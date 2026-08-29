@@ -1095,7 +1095,7 @@ if util.IsBinaryModuleInstalled("eightbit") then
 		eightbit.SetProotGain(0.7)
 	end
 else
-	MsgC(Color(255, 0, 0), "Eightbit module is not found! You are furry!\n")
+	MsgC(Color(255, 0, 0), "Eightbit module is not found!\n")
 end
 
 hook.Add("InitPostEntity", "ffuckk", function()
@@ -1830,7 +1830,7 @@ end
 
 local hook_Run = hook.Run
 
-hook.Add("PlayerTick", "ilovefurries", function(ply)
+hook.Add("PlayerTick", "dieplease__", function(ply)
 	ply.lastcall_tick = ply.lastcall_tick or SysTime() - 0.01
 	local dtime = SysTime() - ply.lastcall_tick
 
@@ -1839,7 +1839,7 @@ hook.Add("PlayerTick", "ilovefurries", function(ply)
 	ply.lastcall_tick = SysTime()
 end)
 
-hook.Add("VehicleMove", "ilovefurries", function(ply, veh, mv)
+hook.Add("VehicleMove", "dieplease__", function(ply, veh, mv)
 	ply.lastcall_tick = ply.lastcall_tick or SysTime() - 0.01
 	local dtime = SysTime() - ply.lastcall_tick
 
@@ -1859,7 +1859,7 @@ if !istable(gmnetwork) and util.IsBinaryModuleInstalled("network") then
 	local success, err = pcall(require, "network")
 
 	if !success then
-		print("\n STUPID FURRY gmnetwork ERROR: "..err.."\n")
+		print("\ngmnetwork ERROR: "..err.."\n")
 	end
 end
 

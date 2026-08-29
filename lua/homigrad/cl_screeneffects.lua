@@ -219,11 +219,6 @@ end )]]
 	halo.Add( pickuphalo, color_red, 1, 1, 1 )
 end )]]
 
--- funny :)
-
---that one furry game
-
-
 local painMat = Material("effects/shaders/zb_grain")
 local noiseMat = Material("effects/shaders/zb_grainwhite")
 local vignetteMat = Material("effects/shaders/zb_vignette")
@@ -430,14 +425,7 @@ hook.Add("Post Post Processing", "ItHurts", function()
 		assimilationMat:SetFloat("$c1_x", val2 - 0.5)
 
 		if !IsValid(AssimilationStation) or AssimilationStation:GetState() != GMOD_CHANNEL_PLAYING then
-			sound.PlayFile("sound/zbattle/furry/conversion/assimilation_noise3.ogg", "noblock noplay", function(station, err)
-				if IsValid(station) then
-					station:SetVolume(0)
-					station:Play()
-					AssimilationStation = station
-					station:EnableLooping(true)
-				end
-			end)
+
 		else
 			AssimilationStation:SetVolume(assimilatedLerp * 2)
 			//AssimilationStation:SetPlaybackRate(assimilatedLerp * 1)

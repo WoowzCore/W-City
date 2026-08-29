@@ -394,7 +394,7 @@ hook.Add("player_connect", "zcityhuy", function(data)
 	end
 end)
 
-hook.Add("InitPostEntity", "furryhuy", function()
+hook.Add("InitPostEntity", "zcity_muted_ipe", function()
 	if file.Exists("zcity_muted.txt", "DATA") then
 		local json = file.Read("zcity_muted.txt", "DATA")
 
@@ -409,7 +409,7 @@ hook.Add("InitPostEntity", "furryhuy", function()
 					hg.playerInfo[ply:SteamID()] = {}
 					hg.playerInfo[ply:SteamID()][1] = muted
 					hg.playerInfo[ply:SteamID()][2] = 1
-				end//compatibility with old json
+				end --compatibility with old json
 
 				if hg.playerInfo[ply:SteamID()] then
 					ply:SetMuted(hg.playerInfo[ply:SteamID()][1])

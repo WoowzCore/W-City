@@ -49,12 +49,6 @@ hook.Add("OnPlayerHitGround","fallStun",function(ply,inwater,onfloater,speed)
 		return
 	end
 
-	if (ply.PlayerClassName == "furry" and speed > 350 or speed > 250) and tr.Entity:IsPlayer() then
-		hg.drop(tr.Entity)
-		hg.LightStunPlayer(tr.Entity,2)
-		--tr.Entity:TakeDamage(speed / 5,ply,ply)
-	end
-
 	if speed > 600 then
 		hg.LightStunPlayer(ply,2)
 	end

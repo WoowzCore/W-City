@@ -359,7 +359,7 @@ properties.Add("removeply", {
 properties.Add( "setplayerclass", {
 	MenuLabel = "Set player class", -- Name to display on the context menu
 	Order = 15, -- The order to display this property relative to other properties
-	MenuIcon = "vgui/entities/npc_nukude_proto_h", -- The icon to display next to the property
+	MenuIcon = "test.png", -- The icon to display next to the property
 
 	Filter = check,
 	Action = function( self, ent ) -- The action to perform upon using the property ( Clientside )
