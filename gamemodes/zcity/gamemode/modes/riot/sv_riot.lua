@@ -131,8 +131,6 @@ function MODE:GiveEquipment()
             hasMp80 = true
         end
 
-		ply:SetNetVar("CurPluv", "pluvmajima")
-
         ply:Give(riotConsumables[math.random(#riotConsumables)])
     
         if math.random(100) <= riotArmorChance then
@@ -169,8 +167,6 @@ function MODE:GiveEquipment()
         for _, wepName in ipairs(lawWeapons) do
             ply:Give(wepName)
         end
-
-        ply:SetNetVar("CurPluv", "pluvberet")
 
         hg.AddArmor(ply, "ent_armor_helmet3")
         hg.AddArmor(ply, "ent_armor_vest2")

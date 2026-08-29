@@ -497,8 +497,6 @@ function MODE:SpawnDeltaSquad(count)
 		ply:SetNetVar("Inventory",inv)
 		ply.organism.recoilmul = 0.8
 
-		ply:SetNetVar("CurPluv", "pluvberet")
-
 		zb.GiveRole(ply, "Delta Squad", Color(79, 10, 10))
 
 		spawned = spawned + 1

@@ -324,8 +324,6 @@ MODE.Types.standard = {
 		ply:SetNetVar("Inventory",inv)
 		ply.organism.recoilmul = 0.8
 
-		ply:SetNetVar("CurPluv", "pluvberet")
-
 		zb.GiveRole(ply, "Police Officer", Color(15,15,255))
 	end
 }
@@ -351,8 +349,6 @@ MODE.Types.wildwest = {
 
 		ply.organism.recoilmul = 1.0
 		ply.organism.stamina.range = 220
-
-		ply:SetNetVar("CurPluv", "pluvfancy")
 
 		local inv = ply:GetNetVar("Inventory")
 		inv["Weapons"]["hg_sling"] = true
@@ -416,8 +412,6 @@ MODE.Types.wildwest = {
 				weapon:SetClip1(weapon:GetMaxClip1())
 			end
 
-			v:SetNetVar("CurPluv", "pluvfancy")
-
 			local inv = v:GetNetVar("Inventory")
 			inv["Weapons"] = inv["Weapons"] or {}
 			inv["Weapons"]["hg_sling"] = true
@@ -458,8 +452,6 @@ MODE.Types.wildwest = {
 		local inv = ply:GetNetVar("Inventory")
 		inv["Weapons"]["hg_flashlight"] = true
 		ply:SetNetVar("Inventory",inv)
-
-		ply:SetNetVar("CurPluv", "pluvberet")
 
 		zb.GiveRole(ply, "Police Officer", Color(15,15,255))
 	end
@@ -536,8 +528,6 @@ MODE.Types.gunfreezone = {
 		ply.organism.recoilmul = 0.8
 
 		zb.GiveRole(ply, "Police Officer", Color(15,15,255))
-
-		ply:SetNetVar("CurPluv", "pluvberet")
 	end
 }
 
@@ -579,8 +569,6 @@ MODE.Types.soe = {
 		local inv = ply:GetNetVar("Inventory")
 		inv["Weapons"]["hg_sling"] = true
 		ply:SetNetVar("Inventory",inv)
-
-		ply:SetNetVar("CurPluv", "pluvboss")
 	end,
 	PoliceTime = 250,
 	PoliceAllowed = true,
@@ -623,7 +611,6 @@ MODE.Types.soe = {
 		ply:SetActiveWeapon(hands)
 	
 		zb.GiveRole(ply, "National Guard", Color(55, 85, 0))
-		ply:SetNetVar("CurPluv", "pluvberet")
 	end,
 	PoliceText = "National guards have arrived.",
 	PoliceSound = "snd_jack_hmcd_heli2.mp3"
@@ -1069,7 +1056,6 @@ function MODE:EquipSWAT(ply, index)
 
     ply.organism.recoilmul = 0.6
 
-    ply:SetNetVar("CurPluv", "pluvberet")
     local hands = ply:Give("weapon_hands_sh")
     ply:SetActiveWeapon(hands)
 
@@ -1107,7 +1093,6 @@ function MODE:EquipNationalGuard(ply, index)
 	inv["Weapons"]["hg_sling"] = true
 	ply:SetNetVar("Inventory", inv)
 
-	ply:SetNetVar("CurPluv", "pluvberet")
     local hands = ply:Give("weapon_hands_sh")
     ply:SetActiveWeapon(hands)
     zb.GiveRole(ply, "National Guard", Color(60, 90, 0))

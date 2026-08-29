@@ -1,6 +1,6 @@
 local PANEL = {}
 local curent_panel 
-local red_select = Color(192,0,0)
+local SelectColor = Color(0,192,0)
 
 local Selects = {
     {Title = "Отключиться", Func = function(luaMenu) RunConsoleCommand("disconnect") end},
@@ -32,7 +32,7 @@ local Selects = {
             self.HoverLerp = selfa.HoverLerp
             self.HoverLerp2 = LerpFT(0.2, self.HoverLerp2 or 0, self:IsHovered() and 1 or 0)
                 
-            self:SetTextColor(self.RColor:Lerp(self.WColor:Lerp(red_select, self.HoverLerp2), self.HoverLerp))
+            self:SetTextColor(self.RColor:Lerp(self.WColor:Lerp(SelectColor, self.HoverLerp2), self.HoverLerp))
             self:SetX(self.x + ScreenScaleH(40) + self.HoverLerp * ScreenScaleH(50))
         end
 
@@ -59,7 +59,7 @@ local Selects = {
             self.HoverLerp = selfa.HoverLerp
             self.HoverLerp2 = LerpFT(0.2, self.HoverLerp2 or 0, self:IsHovered() and 1 or 0)
     
-            self:SetTextColor(self.RColor:Lerp(self.WColor:Lerp(red_select, self.HoverLerp2), self.HoverLerp))
+            self:SetTextColor(self.RColor:Lerp(self.WColor:Lerp(SelectColor, self.HoverLerp2), self.HoverLerp))
             self:SetX(self.x + ScreenScaleH(35))
         end
     end,
@@ -84,24 +84,10 @@ surface.CreateFont("ZC_MM_Title", {
     antialias = true
 })
 
-local Pluv = Material("pluv/pluvkid.jpg")
-
 function PANEL:InitializeMarkup()
-	local MapID = game.GetMap()
-
-    if hg.PluvTown.Active then
-        local text = "<font=ZC_MM_Title><colour=199,2,2>    </colour>City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. MapID .. "</colour></font>"
-
-    self.SelectedPluv = table.Random(hg.PluvTown.PluvMats)
-
-        return markup.Parse(text)
-    end
-
-    local text = "<font=ZC_MM_Title><colour=2,199,2,255>W</colour>-City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. MapID .. "</colour></font>"
-    return markup.Parse(text)
+    return markup.Parse("<font=ZC_MM_Title><colour=2,199,2,255>W</colour>-City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. game.GetMap() .. "</colour></font>")
 end
 
-local color_red = Color(255,25,25,45)
 local clr_gray = Color(255,255,255,25)
 local clr_verygray = Color(10,10,19,235)
 
@@ -130,12 +116,6 @@ function PANEL:Init()
     lDock:SetSize(ScrW() / 4, ScrH())
     lDock:DockMargin(ScreenScale(0), ScreenScaleH(90), ScreenScale(10), ScreenScaleH(90))
     lDock.Paint = function(this, w, h)
-        if hg.PluvTown.Active then
-            surface.SetDrawColor(color_white)
-            surface.SetMaterial(self.SelectedPluv or Pluv)
-            surface.DrawTexturedRect(0, ScreenScale(27), ScreenScale(35), ScreenScale(27))
-        end
-
         self.Title:Draw(ScreenScale(15), ScreenScale(50), TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER, 255, TEXT_ALIGN_LEFT)
     end
 
@@ -265,8 +245,8 @@ function PANEL:AddSelect(pParent, Title, tbl)
         self.HoverLerp = LerpFT(0.2, self.HoverLerp or 0, IsHovered and 1 or 0)
 
         local v = self.HoverLerp
-        if red_select then
-            self:SetTextColor(self.RColor:Lerp(red_select, v))
+        if SelectColor then
+            self:SetTextColor(self.RColor:Lerp(SelectColor, v))
         end
 
         local IsCurrent = (curent_panel == TitleLower)
