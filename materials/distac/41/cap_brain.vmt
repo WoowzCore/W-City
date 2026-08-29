@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "DisTac/41/cap_brain"
+
+	
+
+	
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" ".1"
+	"$phongfresnelranges" "[0.1 0.2 0.5]"
+}

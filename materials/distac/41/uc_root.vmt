@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/41/uc_root"
+	$bumpmap "DisTac/41/uc_root_n"
+	$normalmapalphaenvmapmask 1
+
+	$envmap "env_cubemap"
+
+	$envmaptint "[0.3 0.3 0.3]"
+}

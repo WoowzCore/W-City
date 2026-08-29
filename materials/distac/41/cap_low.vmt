@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/41/cap_lowvtf"
+	$bumpmap "DisTac/41/cap_low-n"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.05 0.05 0.05]"
+	
+	$detail         "detail/leather_detail"
+	$detailscale    "3"
+	$detailblendfactor   "3.8"
+	$detailblendmode   "0"
+}

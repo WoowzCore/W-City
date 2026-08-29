@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/41/warmcap_warm"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$basealphaenvmapmask 1
+	$envmaptint "[0.55 0.55 0.55]"
+}

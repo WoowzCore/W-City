@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "DisTac/41/viktor"
+	
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.10 0.10 0.10]"
+	
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" ".1"
+	"$phongfresnelranges" "[0.1 0.2 0.5]"
+}

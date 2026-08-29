@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/41/C2ue"
+
+	$envmap "env_cubemap"
+	$envmaptint "[.15 .15 .15]"
+	$normalmapalphaenvmapmask 1
+	$basealphaenvmapmask 1
+	$envmaptint "[0.55 0.55 0.55]"
+}

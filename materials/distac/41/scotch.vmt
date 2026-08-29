@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/41/scotch"
+
+	$phong 1
+}

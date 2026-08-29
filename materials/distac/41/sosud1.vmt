@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/41/sosud_system"
+
+
+    $selfillum 1
+    $selfillummask "DisTac/41/sosud_system"
+}

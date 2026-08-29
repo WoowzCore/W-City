@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/teddy_0_o/body"
+	$bumpmap "DisTac/teddy_0_o/body_n"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[.05 .05 .05]"
+	
+}

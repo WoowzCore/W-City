@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "DisTac/41/kapisom"
+	"$bumpmap" "DisTac/41/kapisom_n"
+	
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" ".1"
+	"$phongfresnelranges" "[0.1 0.2 0.5]"
+	
+	"$blendtintbybasealpha" "1" // alpha channel of $basetexture: color mask.
+ 	"$blendtintcoloroverbase" "0" // blend mode. anything =/= 0 is ugly!
+	
+
+}

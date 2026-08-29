@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	$basetexture "DisTac/41/vest"
+	$bumpmap "DisTac/41/vest_n"
+
+	$nocull 1
+
+	"$phong" "1"
+    "$phongexponent" "2"          
+    "$phongboost" "2"              
+    "$phongfresnelranges" "[0.2 0.5 1]" 
+	
+	"$normalmapalphaenvmapmask" "1"   
+	
+	"$envmap" "env_cubemap"        
+    "$envmaptint" "[0 0 0]"
+
+}

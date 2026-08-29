@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "DisTac/41/BANDAGE"
+	"$bumpmap" "DisTac/41/BANDAGE_N"
+	
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" ".1"
+	"$phongfresnelranges" "[0.1 0.2 0.5]"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "DisTac/41/hair"
+	$translucent 1
+}
