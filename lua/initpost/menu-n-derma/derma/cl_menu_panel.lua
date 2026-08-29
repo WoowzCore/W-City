@@ -80,32 +80,12 @@ local Selects = {
     {Title = "Return", Func = function(luaMenu) luaMenu:Close() end},
 }
 
-local splasheh = {
-    'LIKE HOMICIDED',
-    'PLUV PLUV PLUVISKI',
-    'LULU IS NOT DEAD | !PLUV',
-    'THE TRAITOR WAS KILLED',
-    'NAB HOMICIDE SERVER',
-    'ALSO TRY MODDED HOMICIDE 2',
-    'HOP ON Z-CITY',
-    'JOHN Z-CITY',
-    ':pluvrare:',
-    'SAW51 IS REAL',
-    'MORE SMALLTOWN',
-    'MORE CLUE2022',
-    'BACKROOMS == CLUE',
-    'HELL IS NEAR',
-    'I WISH YOU GOOD HEALTH, JASON STATHAM'
-}
-
---print(string.upper('I wish you good health, Jason Statham'))
 surface.CreateFont("ZC_MM_Title", {
     font = "Bahnschrift",
     size = ScreenScale(40),
     weight = 800,
     antialias = true
 })
--- local Title = markup.Parse("error")
 
 local Pluv = Material("pluv/pluvkid.jpg")
 
@@ -115,7 +95,7 @@ function PANEL:InitializeMarkup()
 	if prefix then
 		mapname = string.sub(mapname, prefix + 1)
 	end
-	local gm = splasheh[math.random(#splasheh)] .. " | " .. string.NiceName(mapname) 
+	local gm = string.NiceName(mapname) 
 
     if hg.PluvTown.Active then
         local text = "<font=ZC_MM_Title><colour=199,2,2>    </colour>City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
@@ -125,7 +105,7 @@ function PANEL:InitializeMarkup()
         return markup.Parse(text)
     end
 
-    local text = "<font=ZC_MM_Title><colour=199,2,2,255>Z</colour>-City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
+    local text = "<font=ZC_MM_Title><colour=199,2,2,255>W</colour>-City</font>\n<font=ZCity_Tiny><colour=105,105,105>" .. gm .. "</colour></font>"
     return markup.Parse(text)
 end
 
@@ -205,15 +185,6 @@ function PANEL:Init()
     version:SetText(hg.Version)
     version:SetContentAlignment(4)
     version:SizeToContents()
-
-    local zteam = vgui.Create("DLabel", bottomDock)
-    zteam:Dock(BOTTOM)
-    zteam:DockMargin(ScreenScale(10), 0, 0, 0)
-    zteam:SetFont("ZCity_Tiny")
-    zteam:SetTextColor(clr_gray)
-    zteam:SetText("Authors: uzelezz, Sadsalat, \nMr.Point, Zac90, Deka, Mannytko")
-    zteam:SetContentAlignment(4)
-    zteam:SizeToContents()
 end
 
 function PANEL:First( ply )

@@ -105,7 +105,7 @@ function zb:GetTeamSpawn(ply)
 
 		return pos
 	end
-
+    
 	ErrorNoHalt("TEAM SPAWN COULDN'T BE FOUND. INVALID TEAM")
 
 	return team0spawns[1]

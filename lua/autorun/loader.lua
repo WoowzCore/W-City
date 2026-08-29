@@ -1,22 +1,8 @@
 hg = hg or {}
 hg.Version = "Release 1.4.1"
-hg.GitHub_ReposOwner = "uzelezz123"
-hg.GitHub_ReposName = "Z-City" -- please add your real git fork!
+hg.GitHub_ReposOwner = "WoowzCore"
+hg.GitHub_ReposName = "W-City" -- please add your real git fork!
 
--- if hg.GitHub_ReposOwner and hg.GitHub_ReposOwner != "" then
--- 	http.Fetch( "https://api.github.com/repos/" .. hg.GitHub_ReposOwner .. "/" .. hg.GitHub_ReposName .. "/commits?sha=" .. hg.GitHub_Branch .. "&per_page=1",
--- 		function( body, length, headers, code )
--- 			--PrintTable(headers)
--- 			local tbl = util.JSONToTable(body)
--- 			hg.Git_LastCommitTime = tbl[1]["committer"]["date"]
-
--- 		end
--- 	)
--- else
--- 	hg.GitHub_ReposOwner = "Unknown"
--- 	hg.GitHub_ReposName = "Please add your github fork"
--- 	hg.Git_CommitNumber = "Unknown"
--- end
 local sides = {
 	["sv_"] = "sv_",
 	["sh_"] = "sh_",
@@ -65,7 +51,7 @@ end
 
 local function Run()
 	local time = SysTime()
-	print("Loading zcity...") -- Loading homigrad :]
+	print("Loading zcity...")
 	hg.loaded = false
 	if engine.ActiveGamemode() == "ixhl2rp" then return end
 	IncludeDir("homigrad")
