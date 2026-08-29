@@ -567,7 +567,7 @@ else
 		surface.DrawRect(x - 25 * lerpthing * 0.1, y - 2.5, 50 * lerpthing * 0.1, 5)
 		surface.DrawRect(x - 2.5, y - 25 * lerpthing * 0.1, 5, 50 * lerpthing * 0.1)
 
-		do return end // mannytko stupid UwU
+		do return end
 
 		local ent = IsValid(Tr.Entity) and Tr.Entity.organism and Tr.Entity or owner
 		if ent.organism then

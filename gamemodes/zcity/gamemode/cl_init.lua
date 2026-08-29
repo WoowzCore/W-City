@@ -120,7 +120,7 @@ hook.Add("HUDPaint","FUCKINGSAMENAMEUSEDINHOOKFUCKME",function()
 	surface.DrawText(txt)
 end)
 
-hook.Add("HG_CalcView", "zzzzzzzUwU", function(ply, pos, angles, fov)
+hook.Add("HG_CalcView", "zzzzzzz_var", function(ply, pos, angles, fov)
 	if not lply:Alive() then
 		if lply:KeyDown(IN_ATTACK) then
 			if not keydownattack then
@@ -256,7 +256,7 @@ end)
 
 zb.fade = zb.fade or 0
 
-hook.Add("RenderScreenspaceEffects", "huyhuyUwU", function()
+hook.Add("RenderScreenspaceEffects", "huyhuy_var", function()
 	if zb.fade > 0 then
 		zb.fade = math.Approach(zb.fade, 0, FrameTime() * 1)
 

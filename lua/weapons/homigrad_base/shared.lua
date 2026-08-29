@@ -1739,7 +1739,7 @@ function SWEP:GetAdditionalValues()
 		self.worldModel:SetCycle(CurTime()%3 / 3)
 	end--]]
 
-	--[[if (self.huytimeUwU or 0) < CurTime() then
+	--[[if (self.huytime or 0) < CurTime() then
 		local eyeangs = ply:GetAimVector():Angle()
 		local lastView = ply.lastView or eyeangs
 		local curView = eyeangs
@@ -1757,7 +1757,7 @@ function SWEP:GetAdditionalValues()
 		ply.offsetView = self:GetOffsetView()
 		ply.offsetView = ply.offsetView or Angle()
 		ply.offsetView:Zero()
-		self.huytimeUwU = CurTime() + (SERVER and engine.AbsoluteFrameTime() or engine.ServerFrameTime())
+		self.huytime = CurTime() + (SERVER and engine.AbsoluteFrameTime() or engine.ServerFrameTime())
 	end--]]
 
 	self.AdditionalPosPreLerp:Zero()

@@ -1,4 +1,3 @@
--- uzelezz smart UwU
 local TPIKBones = {
     "ValveBiped.Bip01_L_Wrist",
     "ValveBiped.Bip01_L_Ulna",

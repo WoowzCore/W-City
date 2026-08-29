@@ -6,140 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8c18ec4c-58b6-469c-b00b-0b969550f49d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/entities/weapons/gmod_tool/stools/point_editor.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/entities/weapons/gmod_tool/stools/point_editor.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/cl_init.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/libraries/sv_antiafk.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/libraries/sv_antiafk.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/libraries/sv_lootspawn.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/libraries/sv_lootspawn.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/cl_uwu.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_briefing.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_dialogue.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_dialoguefur.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_dialoguetraitor.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_furbriefing.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_roundend.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_statusreport.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/derma/cl_traitorbriefing.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/sh_uwu.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/sv_bring.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/sv_dialogue.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/pathowogen/sv_uwu.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/autorun/loader.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/autorun/loader.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/cl_screeneffects.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/cl_screeneffects.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/cl_utility.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/cl_utility.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/fake/sv_control.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/fake/sv_control.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/fake/sv_input.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/fake/sv_input.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/movement/sh_anims.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/movement/sh_anims.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/movement/sh_footsteps.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/movement/sh_footsteps.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/cl_main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/cl_main.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/modules/sv_random_event.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/modules/sv_random_event.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/sv_organism.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/sv_organism.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/pathowogen/derma/cl_gridsweep.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/pathowogen/derma/cl_loading.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/pathowogen/derma/cl_matrix.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/pathowogen/sh_uwu.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/pathowogen/sv_uwu.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/playerclass/classes/furry/sh_furry.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/playerclass/classes/furry/sv_furry.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_notification.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_notification.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_phrases.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_phrases.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_utility.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_utility.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_comunication.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_comunication.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_equipment.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_equipment.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/cl_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/cl_tpik.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/zchat/sh_chat.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/zchat/sh_chat.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/homigrad_base/cl_camera.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/homigrad_base/cl_camera.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_bloodbag.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_bloodbag.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_fury13.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_fury13.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hands_sh.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hands_sh.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/cl_init.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/init.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_matches.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_matches.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/body.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/body.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/body_shared.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/bodybanded.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/bodybanded.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/bodylong.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/bodylongandshark.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/bodyshark.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/bodytechnub.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/bodytechnub.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/dualears.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/emission_mask.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/eyes.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/lightwarp.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/parts.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/parts_shared.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/partsbanded.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/partsbandedcolor.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/partscolor.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/partstechnub.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/partstechnubcolor.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/phong.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/screens.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/screens_shared.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/screenscolor.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/screensoff.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/models/eradium/protogen/screensoff.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/vgui/entities/npc_nukude_proto_f.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/vgui/entities/npc_nukude_proto_f.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/vgui/entities/npc_nukude_proto_h.vmt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/materials/vgui/entities/npc_nukude_proto_h.vtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_ally.dx90.vtx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_ally.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_ally.phy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_ally.vvd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_enemy.dx90.vtx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_enemy.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_enemy.phy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_enemy.vvd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_player.dx90.vtx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_player.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_player.phy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/eradium/protogen_player.vvd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/weapons/salat/anims/furry_fists.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/beep1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/beep2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/cat_mrrp1.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/cat_mrrp2.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/cat_purr1.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/cat_purr2.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/cat_purr3.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/cat_purr4.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/conversion/assimilation_noise2.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/conversion/assimilation_noise3.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/death1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/death3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/death4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/death5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/dog_pant.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/dog_pant1.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/dog_pant2.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/dog_pant3.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/dog_pant4.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp10.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp11.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp12.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp13.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp14.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp15.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp16.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp17.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp6.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp7.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp8.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/exp9.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/kiss1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/kiss2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/kiss3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/lick1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/lick2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/lick3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/lick4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/mewo.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/mrrp.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound/zbattle/furry/prbt.ogg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1787997750029</updated>
       <workItem from="1787997752142" duration="1484000" />
-      <workItem from="1787999308564" duration="9631000" />
+      <workItem from="1787999308564" duration="10386000" />
     </task>
     <servers />
   </component>

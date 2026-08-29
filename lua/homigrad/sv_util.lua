@@ -864,7 +864,7 @@ hook.Add( "OnEntityCreated", "VechicleChairs", function( ent )
 	
 	timer.Simple(0, function()
 		if IsValid(ent) and ent:IsVehicle() and ent:GetModel() == "models/nova/airboat_seat.mdl" and not ent.shitass then
-			local UwU = IsValid(ent:GetParent()) and (
+			local Var = IsValid(ent:GetParent()) and (
 				(ent:GetParent():GetModel() == "models/vehicles/7seatvan.mdl") or 
 				(ent:GetParent():GetModel() == "models/buggy.mdl") or 
 				(ent:GetParent():GetModel() == "models/vehicles/buggy_elite.mdl") or 
@@ -872,7 +872,7 @@ hook.Add( "OnEntityCreated", "VechicleChairs", function( ent )
 			) and ent:GetParent().DriverSeat == ent
 			
 			ent:SetModel("models/props_junk/PopCan01a.mdl")
-			ent:SetAngles(ent:LocalToWorldAngles(UwU and Angle(0, -1, 0) or Angle(0,90,0)))
+			ent:SetAngles(ent:LocalToWorldAngles(Var and Angle(0, -1, 0) or Angle(0,90,0)))
 			ent:SetPos(ent:GetPos() + vector_up * 1)
 		end
 	end)
