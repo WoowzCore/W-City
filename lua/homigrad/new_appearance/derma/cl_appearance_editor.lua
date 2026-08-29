@@ -287,8 +287,6 @@ local gradient_r = Material("vgui/gradient-r")
 local sw, sh = ScrW(), ScrH()
 
 function PANEL:Paint(w,h)
-
-
     surface.SetDrawColor(28,28,28,255)
     surface.DrawRect(0, 0, w, h)
 
@@ -371,7 +369,7 @@ function PANEL:PostInit()
         Entity:SetSequence(Entity:LookupSequence("idle_suitcase"))
         Entity:SetSubMaterial()
         self:SetCamPos( Vector( 100, 0, 55 * (self.OffsetY or 1) ) )
-        if Entity:GetModel() != tMdl.mdl then
+        if Entity:GetModel() ~= tMdl.mdl then
             Entity:SetModel(tMdl.mdl)
             self:SetModel(tMdl.mdl)
             tbl.AFacemap = "Default"
@@ -395,7 +393,7 @@ function PANEL:PostInit()
         local bodygroups = Entity:GetBodyGroups()
         tbl.ABodygroups = tbl.ABodygroups or {}
         for k, v in SortedPairs(bodygroups) do
-            if !tbl.ABodygroups[v.name] then continue end
+            if not tbl.ABodygroups[v.name] then continue end
             for i = 0, #v.submodels do
                 local b = v.submodels[i]
                 if not hg.Appearance.Bodygroups[v.name][tMdl.sex and 2 or 1][tbl.ABodygroups[v.name]] then continue end
@@ -431,7 +429,7 @@ function PANEL:PostInit()
     upPanel:DockMargin(ScreenScale(100),0,ScreenScale(100),0)
     upPanel:SetSize(1,ScreenScale(15))
     function upPanel:Paint(w,h)
-        draw.RoundedBox(0,0,0,w,h,colors.secondary)
+        draw.RoundedBox(0, 0, 0, w, h, colors.secondary)
     end
 
     local modelSelector = vgui.Create( "DComboBox", upPanel )
@@ -1093,6 +1091,7 @@ function hg.CreateApperanceMenu(ParentPanel)
             zpan:Close()
         end
         zpan = vgui.Create("HG_AppearanceMenu",ParentPanel)
+        zpan:ShowCloseButton(false)
         zpan:SetSize(ParentPanel:GetWide(),ParentPanel:GetTall())
         zpan:SetPos(0,0)
     end)
