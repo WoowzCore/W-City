@@ -40,7 +40,7 @@ function hg.organism.CanBreath(org)
 end
 
 local function insta_send_holdingbreath(org)
-	net.Start("organism_send") // отправляем только дизориентацию (чтобы не нагружать нет), и сразу
+	net.Start("organism_send")
 	
 	local tbl = {}
 	tbl.holdingbreath = org.holdingbreath

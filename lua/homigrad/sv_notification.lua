@@ -5,7 +5,7 @@ util.AddNetworkString("HGNotificateBerserk")
 local hev_color = Color(255,125,0)
 local function CreateNotification(ply, msg, delay, msgKey, showTime, func, clr)
     if ply.organism and ply.organism.otrub then return end
-    if ply.PlayerClassName and ply.PlayerClassName == "Gordon" and clr != hev_color then return end
+    if ply.PlayerClassName and ply.PlayerClassName == "Gordon" and clr ~= hev_color then return end
     if msg == "" then return end
     if not IsValid(ply) or not ply:IsPlayer() then error("player is not valid!") return false end
     if not msg or not isstring(msg) then error("no message or message is invalid!") return false end
@@ -24,13 +24,11 @@ local function CreateNotification(ply, msg, delay, msgKey, showTime, func, clr)
     delay = delay or 0
 
     if msgKey then ply.msgs[msgKey] = delay and (not isnumber(delay) or CurTime() + delay) or nil end
-    --показывать один раз за промежуток времени
-    --(если delay не номерок то оно пинганет в следующей жизни)
 
     if ply.organism and ply.organism.brain > 0.1 then
         for i = 1, utf8.len(msg) do
-            if math.random(3) == 1 and msg[i] != "?" and msg[i] != "." then
-                msg = hg.replace_by_index(msg, i, (math.random(1,2) > 1 and "m" or "b") )
+            if math.random(3) == 1 and msg[i] ~= "?" and msg[i] ~= "." then
+                msg = hg.replace_by_index(msg, i, WC.BrainDamageSymbols[math.random(1, #WC.BrainDamageSymbols)])
             end
         end
     end
@@ -41,10 +39,10 @@ local function CreateNotification(ply, msg, delay, msgKey, showTime, func, clr)
     local clr2 = Color(clr.r, clr.g, clr.b, 255)
 
     timer.Simple(showTime, function()
-        if !IsValid(ply) then return end
-        if !ply.msgs[msgKey] then return end
+        if not IsValid(ply) then return end
+        if not ply.msgs[msgKey] then return end
 
-        if (ply.organism and ply.organism.otrub) or !ply:Alive() then
+        if (ply.organism and ply.organism.otrub) or not ply:Alive() then
             return
         end
 
@@ -66,7 +64,6 @@ local function CreateNotification(ply, msg, delay, msgKey, showTime, func, clr)
     return true
 end
 
-//erm it's ass but i don't care enough
 local function CreateNotificationBerserk(ply, msg, delay, msgKey, showTime, func, clr)
     if ply.organism and ply.organism.otrub then return end
     if ply.PlayerClassName and ply.PlayerClassName == "Gordon" and clr != hev_color then return end
@@ -97,7 +94,7 @@ local function CreateNotificationBerserk(ply, msg, delay, msgKey, showTime, func
     if ply.organism and ply.organism.brain > 0.1 then
         for i = 1, utf8.len(msg) do
             if math.random(3) == 1 and msg[i] != "?" and msg[i] != "." then
-                msg = hg.replace_by_index(msg, i, (math.random(1,2) > 1 and "m" or "b") )
+                msg = hg.replace_by_index(msg, i, WC.BrainDamageSymbols[math.random(1, #WC.BrainDamageSymbols)] )
             end
         end
     end

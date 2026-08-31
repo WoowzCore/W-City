@@ -6,14 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8c18ec4c-58b6-469c-b00b-0b969550f49d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/cl_init.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/cl_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/cl_tpik.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/homigrad_base/cl_camera.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/homigrad_base/cl_camera.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hands_sh.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hands_sh.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/cl_init.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/autorun/!loader_wcity.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/autorun/!loader_wcity.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/modules/sv_lungs.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/organism/tier_1/modules/sv_lungs.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_status_messages.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_status_messages.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_comunication.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_comunication.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_notification.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_notification.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1787997750029</updated>
       <workItem from="1787997752142" duration="1484000" />
-      <workItem from="1787999308564" duration="10386000" />
+      <workItem from="1787999308564" duration="15352000" />
     </task>
     <servers />
   </component>

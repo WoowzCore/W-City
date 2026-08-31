@@ -59,7 +59,7 @@ hook.Add("PlayerCanSeePlayersChat", "RealiticChar", function(text, teamOnly, lis
 end)
 
 local function funca(ply, txt)
-	if !ply:Alive() or !ply.organism then return end
+	if not ply:Alive() or not ply.organism then return end
 	local starttxt = txt
 
 	if ply.organism.pain > 80 then
@@ -107,7 +107,7 @@ local function funca(ply, txt)
 
 			if bHasMassiveBrainDamage then
 				if math.random(3) == 1 then
-					chars[i] = math.random(1, 2) == 1 and "m" or "b"
+					chars[i] = BrainDamageSymbols[math.random(1, #BrainDamageSymbols)]
 				end
 			end
 		end
