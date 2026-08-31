@@ -84,7 +84,7 @@ local function WRITE_TO_LOCAL( start, finish, type )
 
 	local null_insert = IntToByte( 0 )
 
-    // You can manipulate the list here to remove anything you don't want for this type
+    -- You can manipulate the list here to remove anything you don't want for this type
 	hook.Call( "PreCreateLocalAnimation", nil, type, added )
 
 	local first_num = 60 + ( #added - 1 )*8
@@ -133,7 +133,7 @@ local function WRITE_TO_LOCAL( start, finish, type )
     hook.Call( "PostCreateLocalAnimation", nil, type, added )
 end
 
-// If you don't know what this does do not mess with it or you're gonna mess up your player model
+-- If you don't know what this does do not mess with it or you're gonna mess up your player model
 local function WRITE_TO_POINTER( start, finish, type )
 	if not type then return end
 	local base_path = model_table[ type ]
@@ -171,7 +171,7 @@ local function WRITE_TO_POINTER( start, finish, type )
 
 	local null_insert = IntToByte( 0 )
 
-    // You can manipulate the list here to remove anything you don't want for this type
+    -- You can manipulate the list here to remove anything you don't want for this type
 	hook.Call( "PreMountAnimation", nil, type, added )
 
 	local first_num = 60 + ( #added - 1 )*8
