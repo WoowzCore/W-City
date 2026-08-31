@@ -79,7 +79,7 @@ local hg_font = ConVarExists("hg_font") and GetConVar("hg_font") or CreateClient
 local font = function() -- hg_coolvetica:GetBool() and "Coolvetica" or "Bahnschrift"
     local usefont = "Bahnschrift"
 
-    if hg_font:GetString() != "" then
+    if hg_font:GetString() ~= "" then
         usefont = hg_font:GetString()
     end
 
@@ -206,20 +206,18 @@ local taitorCol = Color(155,0,0)
 local menuPanel
 
 local colBack = Color(0,0,0)
-local surface, draw, hook, IsColor, IsValid, math, input = surface, draw, hook, IsColor, IsValid, math, input
 local function CreateRadialMenu(options_arg, bAutoClose)
 	local sizeX, sizeY = ScrW(), ScrH()
 	hg.radialOptions = {}
 	local paining = lply.organism and lply.organism.pain and (lply.organism.pain > 100 or lply.organism.brain > 0.2) or false
 	
-	if !options_arg then
+	if not options_arg then
 		local functions = hook.GetTable()["radialOptions"]
 		for i, func in SortedPairs(functions) do
 			func()
 		end
 	end
 
-	//hook_Run("radialOptions")
 	local options1 = options_arg or hg.radialOptions
 
 	hg.radialOptions = options1
@@ -240,7 +238,7 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 	menuPanel:SetAlpha(0)
 	menuPanel:AlphaTo(255,0.2)
 	menuPanel.bAutoClose = bAutoClose
-	if !options_arg then input.SetCursorPos(sizeX / 2, sizeY / 2) end
+	if not options_arg then input.SetCursorPos(sizeX / 2, sizeY / 2) end
 
 	function menuPanel:Close()
 		if not IsValid(menuPanel) then return end
@@ -253,7 +251,7 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 	end
 
 	local thinkwait = 0
-	if !options_arg then
+	if not options_arg then
 		menuPanel.Think = function()
 			if menuPanel:GetAlpha() < 255 then return end
 			if thinkwait > CurTime() then return end
@@ -262,7 +260,6 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 			local functions = hook.GetTable()["radialOptions"]
 			
 			for i, func in SortedPairs(functions) do
-				//if i == "zmeyka_test" then continue end
 				func()
 			end
 		end
@@ -277,7 +274,6 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 		vecXY.x = x
 		vecXY.y = y
 		local deg = (vecXY:GetNormalized() - vecDown):Angle()
-		//deg[2] = deg[2] - 180
 		deg = math.NormalizeAngle((deg[2] - 180) * 2) + 180
 		
 		local options = {}
@@ -298,12 +294,12 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 			isMouseOnRadial = sqrt <= r and sqrt > 4
 			isMouseIntersecting = isMouseOnRadial and deg > num * partDeg and deg < (num + 1) * partDeg
 			if isMouseIntersecting then current_option = num + 1 end
-			if sqrt > 0 and current_option > 0 and num and !intersect_xyPartDeg then return end
+			if sqrt > 0 and current_option > 0 and num and not intersect_xyPartDeg then return end
 
 			optionSelected[num] = optionSelected[num] or 0
 			optionSelected[num] = LerpFT(0.1, optionSelected[num], isMouseIntersecting and 1 or 0)
 
-			if option[3] then --// Multibutton
+			if option[3] then
 				surface.SetMaterial(matHuy)
 				surface.SetDrawColor(isMouseIntersecting and colBlack or colBlack)
 				draw.CirclePart(w / 2, h / 2, r, 40, #options, num)
@@ -332,16 +328,15 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 				continue
 			end
 			
-			--print(options_arg ~= nil and true or false)
 			surface.SetMaterial(matHuy)
-			if option[6] and IsColor(option[6]) then --// Custom color
-				if option[7] and IsColor(option[7]) then --// Custom select color
+			if option[6] and IsColor(option[6]) then
+				if option[7] and IsColor(option[7]) then
 					surface.SetDrawColor(option[7]:Lerp(option[6], 1 - optionSelected[num]))
 				else
 					surface.SetDrawColor(colWhiteTransparent:Lerp(option[6], 1 - optionSelected[num]))
 				end
 			else
-				if option[7] and IsColor(option[7]) then --// Custom select color
+				if option[7] and IsColor(option[7]) then
 					surface.SetDrawColor(option[7]:Lerp(options_arg ~= nil and colOption or colBlack, 1 - optionSelected[num]))
 				else
 					surface.SetDrawColor(colWhiteTransparent:Lerp(options_arg ~= nil and colOption or colBlack, 1 - optionSelected[num]))
@@ -352,8 +347,7 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 			local a = -partDeg * num - partDeg / 2
 			a = math.rad(a) + math.pi
 
-			--PrintTable(option)
-			if option[5] then --// Icon
+			if option[5] then
 				local a = -partDeg * num - partDeg / 2
 				a = math.rad(a) + math.pi
 
@@ -364,8 +358,8 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 		
 				surface.DrawTexturedRect(sizeW, sizeH, scrW * 0.1, scrH * 0.1)
 			else
-				local txt = option[2] --// Text
-				if txt and !options_old then return end
+				local txt = option[2]
+				if txt and not options_old then return end
 				if paining then
 					math.randomseed(math.Round(CurTime() / 5 + num, 0))
 					txt = hg.get_status_message(ply)
@@ -374,33 +368,19 @@ local function CreateRadialMenu(options_arg, bAutoClose)
 				draw.DrawText(txt, "HomigradFont", scrW / 2 + math.sin(a) * r * 0.75, scrH / 2 + math.cos(a) * r * 0.75, colWhite, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 			end
 		end
-		if !paining then
+		if not paining then
 			draw.SimpleText(lply:GetPlayerName(),"HomigradFontGigantoNormous",scrW * 0.0215* viewLerp,scrH * 0.042, colBack, TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER)
 			draw.SimpleText( ( (lply.role and lply.role.name) or ""),"HomigradFontGigantoNormous" ,scrW * 0.0215 * viewLerp,scrH * 0.098, colBack, TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER)
 
 			local col = lply:GetPlayerColor():ToColor()
 			draw.SimpleText(lply:GetPlayerName(),"HomigradFontGigantoNormous",scrW * 0.02 * viewLerp,scrH * 0.04, col, TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER)
 			draw.SimpleText( ( (lply.role and lply.role.name) or ""),"HomigradFontGigantoNormous" ,scrW * 0.02 * viewLerp,scrH * 0.095, lply.role and lply.role.color or incoentCol, TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER)
-			-- какой же тут говнокод все же...
-			-- local walkBtn = input.LookupBinding("+walk") or "BIND YOUR +WALK KEY PLEASE. WRITE \"bind alt +walk\" IN CONSOLE FOR THE LOVE OF GOD"
-			-- draw.SimpleText(walkBtn .. " | Misc", "HomigradFont", scrW * (0.981 + (0.04 * (1-viewLerp))),scrH * 0.9615, colBack, TEXT_ALIGN_RIGHT, TEXT_ALIGN_CENTER)
-			-- draw.SimpleText(walkBtn .. " | Misc", "HomigradFont", scrW * (0.98 + (0.04 * (1-viewLerp))),scrH * 0.96, colWhite, TEXT_ALIGN_RIGHT, TEXT_ALIGN_CENTER)
 		end
 	end
 end
 
 local function PressRadialMenu(mouseClick)
 	local options = hg.radialOptions
-	--print(options[current_option][1])
-	--[[if lply.organism and lply.organism.pain and lply.organism.pain > 100 then
-		hook_Run("RadialMenuPressed")
-
-		if IsValid(menuPanel) then
-			menuPanel:Close()
-		end
-
-		return
-	end--]]
 
 	hook_Run("RadialMenuPressed")
 
@@ -410,7 +390,7 @@ local function PressRadialMenu(mouseClick)
 		if isfunction(func) then needed_mouseclick = func(mouseClick, current_option_select) end
 	end
 
-	if needed_mouseclick != -1 and IsValid(menuPanel) and mouseClick != (needed_mouseclick or 2) and not menuPanel.bAutoClose then
+	if needed_mouseclick ~= -1 and IsValid(menuPanel) and mouseClick ~= (needed_mouseclick or 2) and not menuPanel.bAutoClose then
 		menuPanel:Close()
 	end
 end
@@ -418,14 +398,12 @@ end
 hg.CreateRadialMenu = CreateRadialMenu
 hg.PressRadialMenu = PressRadialMenu
 
-local firstTime = true
+local firstTime  = true
 local firstTime2 = true
 local firstTime3 = true
 local firstTime4 = true
 local firstTime5 = true
 local firstTime6 = true
-
--- first time?..
 
 hook.Add("HG_OnOtrub", "resetshit", function(ply)
 	if ply == lply then
@@ -437,7 +415,7 @@ hook.Add("HG_OnOtrub", "resetshit", function(ply)
 	end
 end)
 
-hook.Add( "PlayerBindPress", "PlayerBindPressExample2huy", function( ply, bind, pressed )
+hook.Add("PlayerBindPress", "PlayerBindPressExample2huy", function( ply, bind, pressed )
 	if string.find(bind, "+menu") then
 
 		if (lply.organism and lply.organism.otrub) then
@@ -445,7 +423,7 @@ hook.Add( "PlayerBindPress", "PlayerBindPressExample2huy", function( ply, bind, 
 		end
 
 		if (bind == "+menu") then
-			if pressed and !IsValid(MENUPANELHUYHUY) then
+			if pressed and not IsValid(MENUPANELHUYHUY) then
 				CreateRadialMenu()
 			else
 				PressRadialMenu(1)
@@ -472,14 +450,12 @@ hook.Add("Think", "hg-radial-menu", function()
 	if (engine.ActiveGamemode() ~= "sandbox" and input.IsKeyDown(KEY_Q)) or (engine.ActiveGamemode() == "sandbox" and input.IsKeyDown(KEY_C)) then
 		if firstTime then
 			firstTime = false
-			--CreateRadialMenu()
 		end
 
 		firstTime4 = true
 	else
 		if firstTime4 then
 			firstTime4 = false
-			--PressRadialMenu()
 		end
 
 		firstTime = true
@@ -488,14 +464,12 @@ hook.Add("Think", "hg-radial-menu", function()
 	if input.IsMouseDown(MOUSE_LEFT) then
 		if firstTime2 then
 			firstTime2 = false
-			--print("pressed")
 		end
 
 		firstTime3 = true
 	else
 		if firstTime3 then
 			firstTime3 = false
-			--print("released")
 			PressRadialMenu(1)
 		end
 
@@ -505,14 +479,12 @@ hook.Add("Think", "hg-radial-menu", function()
 	if input.IsMouseDown(MOUSE_RIGHT) then
 		if firstTime5 then
 			firstTime5 = false
-			--print("pressed")
 		end
 
 		firstTime6 = true
 	else
 		if firstTime6 then
 			firstTime6 = false
-			--print("released")
 			PressRadialMenu(2)
 		end
 
@@ -527,23 +499,30 @@ end
 hook.Add("radialOptions", "77", function()
 	local organism = lply.organism or {}
 	if not organism.otrub and IsValid(lply:GetActiveWeapon()) and lply:GetActiveWeapon():GetClass() ~= "weapon_hands_sh" then
-		local tbl = {dropWeapon, "Drop Weapon"}
+		local tbl = {dropWeapon, "Выбросить"}
 		hg.radialOptions[#hg.radialOptions + 1] = tbl
 	end
 end)
 
-local randomGestures = {
-	"wave",
-	"salute",
-	"halt",
-	"group",
-	"forward",
-	"disagree",
-	--"agree",
-	"becon",
-	{"point", function() RunConsoleCommand("hg_hand_gesture", "point") end},
-	{"fuck you", function() RunConsoleCommand("hg_hand_gesture", "fuckyou") end},
-	{"thumb_up", function() RunConsoleCommand("hg_hand_gesture" , "thumb_up") end},
+local RandomGestures = {
+    {"wave", nil, "Помахать"},
+    {"salute", nil, "Отдать честь"},
+    {"halt", nil, "Кулак вверх"},
+    {"group", nil, "Группируемся"},
+    {"forward", nil, "Вперёд!"},
+    {"disagree", nil, "Отказ"},
+    {"agree", nil, "Согласие"},
+    {"dance", nil, "Танцевать"},
+    {"becon", nil, "Ко мне"},
+    {"muscle", nil, "Стриптиз"},
+    {"robot", nil, "Робот"},
+    {"laugh", nil, "Смех"},
+    {"bow", nil, "Поклон"},
+    {"cheer", nil, "Радость"},
+    {"zombie", nil, "Напугать"},
+	{"point", function() RunConsoleCommand("hg_hand_gesture", "point") end, "Указать"},
+    {"thumb_up", function() RunConsoleCommand("hg_hand_gesture" , "thumb_up") end, "Палец вверх"},
+	{"fuck you", function() RunConsoleCommand("hg_hand_gesture", "fuckyou") end, "Фак"},
 }
 
 hook.Add("radialOptions", "7", function()
@@ -554,32 +533,38 @@ hook.Add("radialOptions", "7", function()
         if ply.GetPlayerClass and ply:GetPlayerClass() and ply:GetPlayerClass().CanUseGestures ~= nil and not ply:GetPlayerClass().CanUseGestures then return end
 		local tbl = {function(mouseClick)
 			if mouseClick == 1 then
-				RunConsoleCommand("act", randomGestures[math.random(#randomGestures)])
+                local Selected = RandomGestures[math.random(#RandomGestures)]
+                if Selected[2] then
+                    Selected[2]()
+                else
+                    RunConsoleCommand("act", Selected[1])
+                end
+                    
 				if (ply.NextFoley or 0) < CurTime() then
 					ply:EmitSound("player/clothes_generic_foley_0" .. math.random(5) .. ".wav", 55)
 					ply.NextFoley = CurTime() + 1
 				end
 			else
 				local commands = {}
-				for i, str in ipairs(randomGestures) do
+				for i, Gesture in ipairs(RandomGestures) do
 					commands[i] = {
 						[1] = function()
-							if istable(str) then
-								str[2]()
+							if Gesture[2] then
+								Gesture[2]()
 							else
-								RunConsoleCommand("act", str)
+								RunConsoleCommand("act", Gesture[1])
 								if (ply.NextFoley or 0) < CurTime() then
 									ply:EmitSound("player/clothes_generic_foley_0" .. math.random(5) .. ".wav", 55)
 									ply.NextFoley = CurTime() + 1
 								end
 							end
 						end,
-						[2] = string.NiceName(istable(str) and str[1] or str)
+						[2] = Gesture[3]
 					}
 				end
 				CreateRadialMenu(commands)
 			end
-		end, "Do Gesture\nRMB - Menu"}
+		end, "Эмоции\nПКМ - Список"}
         hg.radialOptions[#hg.radialOptions + 1] = tbl
     end
 end)
@@ -593,42 +578,9 @@ surface.CreateFont("HG_font", {
 	outline = true
 })
 
-local CurTime = CurTime
-
-local vector_one = Vector( 1, 1, 1 )
-
-local function CopyRight( text, font, x, y, color, ang, scale )
-	--render.PushFilterMag( TEXFILTER.ANISOTROPIC )
-	--render.PushFilterMin( TEXFILTER.ANISOTROPIC )
-
-	local m = Matrix()
-	m:Translate( Vector( x, y, 0 ) )
-	m:Rotate( Angle( 0, ang, 0 ) )
-	m:Scale( vector_one * ( scale or 1 ) )
-
-	surface.SetFont( font )
-	local w, h = surface.GetTextSize( text )
-
-	m:Translate( Vector( -(w / 2)-25, -h / 2, 0 ) )
-
-	cam.PushModelMatrix( m, true )
-		draw.RoundedBox(5,0,2,w+52,h+2,Color(0,0,0))
-		draw.RoundedBox(5,0,2,w+50,h,Color(255,0,0))
-		draw.DrawText( text, font, 25, 0, color )	
-	cam.PopModelMatrix()
-
-	--render.PopFilterMag()
-	--render.PopFilterMin()
-end
-
---hook.Add("HUDPaint","homigrad-copyright",function()
-	--local i = 1
-	--CopyRight("ЖДИ ДОКС ЖДИ СВАТ","HomigradFontBig",ScrW()/2 +(math.cos(CurTime()*1)*15*i),ScrH()/2+(math.sin(CurTime()*1)*55*i)+15,Color(255,255,255),math.cos(CurTime()*1)*1,2+math.sin(CurTime()*1)*0.5)
---end)
-
 hook.Add("HUDPaint","Identifier",function()
 	if lply.organism and lply.organism.otrub then return end
-	if !lply:Alive() then return end
+	if not lply:Alive() then return end
 	if lply:GetNetVar("disappearance", nil) then return end 
 	
 	local trace = hg.eyeTrace(lply)
@@ -656,19 +608,6 @@ hook.Add("HUDPaint","Identifier",function()
 	end
 end)
 
---sound.PlayURL("https://cdn.discordapp.com/attachments/1254022273661145108/1257385761414582382/pon_pon_016eb317d_1.mp4?ex=66882bbe&is=6686da3e&hm=429f0e4427bdc9d80673d3bfa2eccf48221ae5572ec508fb7699274c2c7041ef&","",function() end)
-
-function scare()
-	-- hook.Add("RenderScreenspaceEffects","Scare",function()
-		-- for i = 1, 5 do
-		-- CopyRight("Плывиски","HomigradFontBig",ScrW()/2 +(math.cos(CurTime()*1)*15*i),ScrH()/2+(math.sin(CurTime()*1)*55*i)+15,Color(255,255,255),math.cos(CurTime()*1)*1,2+math.sin(CurTime()*1)*0.5)
-		-- end
-	-- end)
-	-- for i = 1, 15 do
-		-- sound.PlayURL("https://cdn.discordapp.com/attachments/1254022273661145108/1257385761414582382/pon_pon_016eb317d_1.mp4?ex=66882bbe&is=6686da3e&hm=429f0e4427bdc9d80673d3bfa2eccf48221ae5572ec508fb7699274c2c7041ef&","",function() end)
-	-- end
-end
-
 local hint
 local hg_hints = ConVarExists("hg_hints") and GetConVar("hg_hints") or CreateClientConVar("hg_hints", "1", true, false, "Toggle UI hints")
 
@@ -677,7 +616,7 @@ local HintBackgroundColor = Color( 0, 0, 0, 200 )
 hook.Add("HUDPaint","EntHints",function()
 	if not hg_hints:GetBool() then return end 
 	if lply.organism and lply.organism.otrub then return end
-	if !lply:Alive() then return end
+	if not lply:Alive() then return end
 	
 	local trace = hg.eyeTrace(lply)
 
@@ -711,41 +650,9 @@ function hg.BasicHudHint(ent, trace)
 	end
 end
 
-local leg = Material("zbattle/medical/broken_bone.png", "")
-
-local white = Color(255, 255, 255, 255)
-local bkg = Color(43, 30, 30)
-hook.Add("HUDPaint","afflictionlist",function()
-	--[[if lply.organism and lply.organism.otrub then return end
-	if !lply:Alive() then return end
-	
-	local org = lply.organism
-
-	if org.lleg >= 0.99 then
-		local w, h = 200, 200
-
-		local ent = hg.GetCurrentCharacter(lply)
-		local lkp = ent:LookupBone("ValveBiped.Bip01_R_Thigh")
-		local matrix = ent:GetBoneMatrix(lkp)
-
-		if matrix then
-			local pos = matrix:GetTranslation() + matrix:GetForward() * ent:BoneLength(lkp + 1) * 0.5
-			local scrpos = pos:ToScreen()
-
-			surface.SetMaterial(leg)
-			surface.SetDrawColor(white)
-			--surface.DrawRect(sw / 2 - w / 2, sh / 2 - h / 2, w, h)
-			surface.SetDrawColor(white)
-			surface.DrawTexturedRect(scrpos.x - w / 2, scrpos.y - h / 2, w, h)
-		end
-	end--]]
-end)
-
--- Now playable :steamhappy:
--- No. fuc kyouy
 if game.SinglePlayer() then
 	hook.Add("HUDPaint","Exit the singleplayer",function()
-		draw.SimpleText("Z-City is not meant to be played in singleplayer, in map selection menu change SINGLEPLAYER (green button top right corner) to 2 players or any.", "HomigradFontMedium", ScrW() / 2,ScrH() / 2, nil, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
-		draw.SimpleText("A lot of stuff won't work and we won't provide any fixes to singleplayer EVER", "HomigradFontMedium", ScrW() / 2,ScrH() * 7 / 12, nil,TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleTextOutlined("Эта срань работает нормально только в мультиплеере!!!", "HomigradFontSmall", ScrW() / 2, ScrH() - 45, Color(255, 0, 0, 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 5, Color(0, 0, 0, 255))
+		draw.SimpleTextOutlined("Прошу... УМОЛЯЮ ВАС!!! запустите мультиплеер..."      , "HomigradFontSmall", ScrW() / 2, ScrH() - 20, Color(255, 0, 0, 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 5, Color(0, 0, 0, 255))
 	end)
 end

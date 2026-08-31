@@ -1,29 +1,22 @@
---\\
 hg.VGUI = hg.VGUI or {}
-hg.VGUI.MainColor = Color(150, 0 ,0)
-hg.VGUI.SecondaryColor = Color(155,0,0,240)
-hg.VGUI.BackgroundColor = Color(25,25,35,220)
+hg.VGUI.MainColor = Color(0, 150 ,0)
+hg.VGUI.SecondaryColor = Color(0,155,0,240)
+hg.VGUI.BackgroundColor = Color(25,35,25,220)
 hg.VGUI.MainSkin = "ZCity"
 
 function hg.GetMainSkin()
 	return hg.VGUI.MainSkin
 end
---//
 
 hook.Add("ForceDermaSkin", "ZCity", function()
-	return "ZCity" --; This will paint all Derma objects to new skin
+	return "ZCity"
 end)
 
---; Adapted from Helix
-
--- HG.DrawBlur находится в cl_pointshop.lua... простите за такое ГОВНО но это нужно чтобы оно везде грузилось нормально.
-
---local hg_coolvetica = ConVarExists("hg_coolvetica") and GetConVar("hg_coolvetica") or CreateClientConVar("hg_coolvetica", "0", true, false, "changes every text to coolvetica because its good", 0, 1)
 local hg_font = ConVarExists("hg_font") and GetConVar("hg_font") or CreateClientConVar("hg_font", "Bahnschrift", true, false, "change every text font to selected because ui customization is cool")
-local font = function() -- hg_coolvetica:GetBool() and "Coolvetica" or "Bahnschrift"
+local font = function()
     local usefont = "Bahnschrift"
 
-    if hg_font:GetString() != "" then
+    if hg_font:GetString() ~= "" then
         usefont = hg_font:GetString()
     end
 

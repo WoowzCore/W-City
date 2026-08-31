@@ -10,13 +10,7 @@ phrases = {
 		{"vo/trainyard/male01/cit_pedestrian", ".wav", 1, 5},
 		{"vo/outland_11a/silo/reb1_idles", ".wav", 1, 7},
 		{"vo/npc/male01/hi", ".wav", 1, 2},
-		//{"vo/npc/male01/startle", ".wav", 1, 2},
 		{"vo/npc/male01/vanswer", ".wav", 1, 14},
-		//{"vo/npc/male01/wetrustedyou", ".wav", 1, 2},
-		//{"vo/npc/male01/whoops", ".wav", 1, 1},
-		//{"vo/npc/male01/yeah", ".wav", 2, 2},
-		//{"vo/npc/male01/gordead_ans", ".wav", 1, 20},
-		//{"vo/npc/male01/heretohelp", ".wav", 1, 2},
 		{"vo/npc/male01/holddownspot", ".wav", 1, 2},
 		{"vo/npc/male01/imstickinghere", ".wav", 1, 1},
 	},
@@ -30,20 +24,14 @@ phrases = {
 		{"vo/trainyard/female01/cit_hit", ".wav", 1, 5},
 		{"vo/trainyard/female01/cit_pedestrian", ".wav", 1, 5},
 		{"vo/npc/female01/hi", ".wav", 1, 2},
-		//{"vo/npc/female01/startle", ".wav", 1, 2},
 		{"vo/npc/female01/vanswer", ".wav", 1, 14},
-		//{"vo/npc/female01/wetrustedyou", ".wav", 1, 2},
-		//{"vo/npc/female01/whoops", ".wav", 1, 1},
-		//{"vo/npc/female01/yeah", ".wav", 2, 2},
-		//{"vo/npc/female01/gordead_ans", ".wav", 1, 20},
-		//{"vo/npc/female01/heretohelp", ".wav", 1, 2},
 		{"vo/npc/female01/holddownspot", ".wav", 1, 2}
 	}
 }
 
 contextPhrases = {
 	[1] = { -- male phrases
-		["Scared"] = {
+		["Испуг"] = {
 			"vo/npc/male01/gordead_ques06.wav",
 			"vo/npc/male01/gordead_ques10.wav",
 			"vo/npc/male01/ohno.wav",
@@ -72,7 +60,7 @@ contextPhrases = {
 			"vo/npc/male01/gordead_ans14.wav",
 
 		},
-		["Yell"] = {
+		["Крик"] = {
 			"vo/episode_1/npc/male01/cit_pain06.wav",
 			"vo/episode_1/npc/male01/cit_pain07.wav",
 			"vo/episode_1/npc/male01/cit_pain04.wav",
@@ -81,11 +69,10 @@ contextPhrases = {
 			"vo/episode_1/npc/male01/cit_shock04.wav",
 			"vo/outland_02/griggs_fightlion_01.wav",
 			"vo/npc/male01/no02.wav",
-			--"vo/npc/male01/cit_dropper04.wav",
 			"vo/npc/male01/headsup02.wav"
 
 		},
-		["Cheer"] = {
+		["Радость"] = {
 			"vo/coast/odessa/male01/nlo_cheer01.wav",
 			"vo/coast/odessa/male01/nlo_cheer02.wav",
 			"vo/coast/odessa/male01/nlo_cheer03.wav",
@@ -96,7 +83,7 @@ contextPhrases = {
 			"vo/outland_12/reb1_striderdown05.wav",
 			"vo/outland_12/reb1_striderdown08.wav",
 		},
-		["Satisfied"] = {
+		["Сделано!"] = {
 			"vo/npc/male01/evenodds.wav",
 			"vo/npc/male01/okimready01.wav",
 			"vo/npc/male01/okimready02.wav",
@@ -122,7 +109,7 @@ contextPhrases = {
 			"vo/outland_12/reb1_striderdown07.wav",
 			"vo/outland_02/griggs_betweenwave_09.wav"
 		},
-		["Yell for help"] = {
+		["Помогите!"] = {
 			"vo/npc/male01/runforyourlife01.wav",
 			"vo/npc/male01/runforyourlife02.wav",
 			"vo/npc/male01/runforyourlife03.wav",
@@ -137,7 +124,7 @@ contextPhrases = {
 			"vo/streetwar/sniper/male01/c17_09_help01.wav", --
 			"vo/streetwar/sniper/male01/c17_09_help02.wav", --
 		},
-		["Someone died"] = {
+		["Убивают!"] = {
 			"vo/episode_1/npc/male01/cit_buddykilled01.wav",
 			"vo/episode_1/npc/male01/cit_buddykilled07.wav",
 			"vo/episode_1/npc/male01/cit_buddykilled04.wav",
@@ -160,7 +147,7 @@ contextPhrases = {
 			"vo/outland_12/reb1_prepare_battle_08.wav", --
 			"vo/npc/male01/gordead_ques06.wav",
 		},
-		["Die!"] = {
+		["Умри!"] = {
 			"vo/episode_1/npc/male01/cit_kill01.wav",
 			"vo/episode_1/npc/male01/cit_kill02.wav",
 			"vo/episode_1/npc/male01/cit_kill04.wav",
@@ -182,7 +169,7 @@ contextPhrases = {
 		},
 	},
 	[2] = { -- female phrases
-		["Scared"] = {
+		["Испуг"] = {
 			"vo/npc/female01/gordead_ques06.wav",
 			"vo/npc/female01/gordead_ques10.wav",
 			"vo/npc/female01/ohno.wav",
@@ -209,16 +196,16 @@ contextPhrases = {
 			"vo/episode_1/npc/female01/cit_kill06.wav",
 			"vo/trainyard/female01/cit_window_use03.wav",
 		},
-		["Yell"] = {
+		["Крик"] = {
 			"vo/episode_1/npc/female01/cit_shock03.wav",
 			"vo/episode_1/npc/female01/cit_shock04.wav",
 		},
-		["Cheer"] = {
+		["Радость"] = {
 			"vo/coast/odessa/female01/nlo_cheer01.wav",
 			"vo/coast/odessa/female01/nlo_cheer02.wav",
 			"vo/coast/odessa/female01/nlo_cheer03.wav",
 		},
-		["Satisfied"] = {
+		["Сделано!"] = {
 			"vo/npc/female01/evenodds.wav",
 			"vo/npc/female01/okimready01.wav",
 			"vo/npc/female01/okimready02.wav",
@@ -240,7 +227,7 @@ contextPhrases = {
 			"vo/episode_1/npc/female01/cit_youbet.wav",
 			"vo/coast/barn/female01/youmadeit.wav"
 		},
-		["Yell for help"] = {
+		["Помогите!"] = {
 			"vo/npc/female01/runforyourlife01.wav",
 			"vo/npc/female01/runforyourlife02.wav",
 			"vo/npc/female01/runforyourlife03.wav",
@@ -253,7 +240,7 @@ contextPhrases = {
 			"vo/episode_1/npc/female01/cit_evac_casualty11.wav",
 			"vo/episode_1/npc/female01/cit_runforit.wav",
 		},
-		["Someone died"] = {
+		["Убивают!"] = {
 			"vo/episode_1/npc/female01/cit_buddykilled01.wav",
 			"vo/episode_1/npc/female01/cit_buddykilled07.wav",
 			"vo/episode_1/npc/female01/cit_buddykilled04.wav",
@@ -268,7 +255,7 @@ contextPhrases = {
 			"vo/coast/odessa/female01/nlo_cubdeath01.wav",
 			"vo/coast/odessa/female01/nlo_cubdeath02.wav",
 		},
-		["Die!"] = {
+		["Умри!"] = {
 			"vo/episode_1/npc/female01/cit_kill01.wav",
 			"vo/episode_1/npc/female01/cit_kill02.wav",
 			"vo/episode_1/npc/female01/cit_kill04.wav",
@@ -310,18 +297,14 @@ if CLIENT then
 		local organism = lply.organism or {}
 
 		if lply:Alive() and not organism.otrub and lply.PlayerClassName ~= "Gordon" then
-			--hg.radialOptions[#hg.radialOptions + 1] = {randomPhrase, (LocalPlayer().PlayerClassName == "Slugcat" and "Wáaaaǎa\nWāaaàaâ") or (LocalPlayer().PlayerClassName == "Gordon" and "...") or "Say something"}
 			hg.radialOptions[#hg.radialOptions + 1] = {
 				[1] = function(mouseClick)
-					if mouseClick == 1 or organism.pain > 60 then
+					if mouseClick == 1 then
 						randomPhrase()
 					else
-						--print(lply:GetPlayerClass())
-						if lply.PlayerClassName and lply:GetPlayerClass() and !lply:GetPlayerClass().CanUseDefaultPhrase then return end
+						if lply.PlayerClassName and lply:GetPlayerClass() and not lply:GetPlayerClass().CanUseDefaultPhrase then return end
 						local tbl = {}
 						for context, phrases in pairs(contextPhrases[1]) do
-							if lply.organism.pain > 30 and (context == "Satisfied" or context == "Cheer") then continue end
-							
 							tbl[#tbl + 1] = {
 								[1] = function()
 									RunConsoleCommand("hg_phrase_context", context)
@@ -332,10 +315,8 @@ if CLIENT then
 						hg.CreateRadialMenu(tbl)
 					end
 				end,
-				[2] = organism.pain > 60 and (organism.pain <= 100 and "Yell in pain" or "Moan in pain") or "Do Phrase\nRMB - Menu"
+				[2] = organism.pain > 60 and (organism.pain <= 100 and "Кричать" or "Стонать") or "Фразы\nПКМ - Список"
 			}
 		end
 	end)
 end
-
--- no more svside 🥺
