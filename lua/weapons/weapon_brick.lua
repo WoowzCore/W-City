@@ -1,8 +1,8 @@
 ﻿if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_melee"
-SWEP.PrintName = "Brick"
+SWEP.PrintName = "Кирпич"
 SWEP.Instructions = "A heavy construction brick, that can be used as a deadly weapon.\n\nLMB to attack.\nRMB to block.\nRMB + LMB to throw."
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 

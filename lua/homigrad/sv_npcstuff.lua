@@ -409,7 +409,7 @@ local math_random, math_Rand = math.random, math.Rand
 				list.Add("NPCUsableWeapons", { 
 					class = classname,
 					title = wep.PrintName,
-					category = wep.Category or "ZCity Other"
+					category = wep.Category or "W-City: Другое"
 				})
 			end
 		end

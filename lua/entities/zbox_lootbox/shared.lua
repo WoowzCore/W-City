@@ -1,7 +1,7 @@
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 ENT.PrintName = "loot_crate"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.Spawnable = false
 ENT.IconOverride = "entities/ent_jack_gmod_ezarmor_sc_kappa.png"
 

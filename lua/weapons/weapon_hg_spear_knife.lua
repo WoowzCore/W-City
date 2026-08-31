@@ -2,7 +2,7 @@
 SWEP.Base = "weapon_melee"
 SWEP.PrintName = "Modified spear"
 SWEP.Instructions = "A spear is an effective weapon to attack at a distance.\n\nLMB to attack.\nRMB to block.\nRMB + LMB to throw."
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 

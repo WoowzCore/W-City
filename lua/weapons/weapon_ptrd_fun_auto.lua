@@ -2,7 +2,7 @@ SWEP.Base = "weapon_ptrd"
 SWEP.Spawnable = true
 SWEP.AdminOnly = true
 SWEP.PrintName = "PTRD-41 Fun Auto"
-SWEP.Category = "Weapons - Sniper Rifles"
+SWEP.Category = "W-City: Снайперские винтовки"
 
 SWEP.WepSelectIcon2 = Material("vgui/wep_jack_hmcd_ptrd")
 SWEP.IconOverride = "vgui/wep_jack_hmcd_ptrd"

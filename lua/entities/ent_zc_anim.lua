@@ -3,7 +3,7 @@ AddCSLuaFile()
 ENT.Type = "anim"
 ENT.Base = "base_anim"
 ENT.PrintName = "Animated Model"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.Spawnable = false
 ENT.AdminOnly = true
 ENT.AutomaticFrameAdvance = true -- Must be set on client

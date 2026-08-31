@@ -1,7 +1,7 @@
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 ENT.PrintName = "Chlorine Canister"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.Spawnable = true
 ENT.AdminOnly = true
 ENT.totalparticles = 60

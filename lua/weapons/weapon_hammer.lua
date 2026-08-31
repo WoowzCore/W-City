@@ -2,7 +2,7 @@ if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_melee"
 SWEP.PrintName = "Hammer"
 SWEP.Instructions = "A regular household hammer, which has a blunt and a sharp side. Use it to block off paths or restrict someone from moving.\n\nLMB to attack.\nR + LMB to change attack mode.\nRMB to block.\nRMB + LMB to nail."
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Ammo = "Nails"

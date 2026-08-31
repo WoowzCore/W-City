@@ -1,7 +1,7 @@
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 ENT.PrintName = "Bomb"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.Spawnable = true
 ENT.AdminOnly = true
 ENT.Model = "models/jmod/explosives/bombs/c4/w_c4_planted.mdl"

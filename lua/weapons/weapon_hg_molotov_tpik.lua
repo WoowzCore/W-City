@@ -10,7 +10,7 @@ While high ready:
 RMB - Low ready
 While low ready:
 ]]--"тильда двуеточее три"
-SWEP.Category = "Weapons - Explosive"
+SWEP.Category = "W-City: Взрывчатка"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Primary.ClipSize = -1

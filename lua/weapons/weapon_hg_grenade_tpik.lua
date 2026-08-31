@@ -14,7 +14,7 @@ While low ready:
 LMB to remove spoon.
 Reload to insert pin back.
 ]]--"тильда двуеточее три"
-SWEP.Category = "Weapons - Explosive"
+SWEP.Category = "W-City: Взрывчатка"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Primary.ClipSize = -1

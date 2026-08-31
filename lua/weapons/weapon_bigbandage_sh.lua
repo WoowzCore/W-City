@@ -12,7 +12,7 @@ SWEP.modeValuesdef = {
 SWEP.ModelScale = 1.1
 SWEP.offsetVec = Vector(3, -4.5, 0)
 SWEP.offsetAng = Angle(90, 90, 0)
-SWEP.Category = "ZCity Medicine"
+SWEP.Category = "W-City: Медицина"
 
 if CLIENT then
 	SWEP.WepSelectIcon = Material("vgui/wep_jack_hmcd_bandage")

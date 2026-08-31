@@ -3196,18 +3196,18 @@ if CLIENT then
 
     function AmmoMenu(ply)
         local ammodrop = 0
-        if !ply:Alive() then return end
+        if not ply:Alive() then return end
         local Frame = vgui.Create( "ZFrame" )
-        Frame:SetTitle( "" ) -- "Ammunition"
+        Frame:SetTitle("")
         Frame:SetSize( 200,300 )
         Frame:Center()			
         Frame:MakePopup()
 		Frame:SetVisible(false)
 
         local DPanel = vgui.Create( "DScrollPanel", Frame )
-        DPanel:SetPos( 5, 30 ) -- Set the position of the panel
-        DPanel:SetSize( 190, 215 ) -- Set the size of the panel
-        DPanel.Paint = function( self, w, h ) -- 'function Frame:Paint( w, h )' works too
+        DPanel:SetPos( 5, 30 )
+        DPanel:SetSize( 190, 215 )
+        DPanel.Paint = function( self, w, h )
 			PaintInnerFrame(self, w, h)
             draw.RoundedBox( 0, 0, 0, w, h, panclr )
         end
@@ -3219,7 +3219,6 @@ if CLIENT then
         DermaNumSlider:SetMax( 60 )
         DermaNumSlider:SetDecimals( 0 )
 
-        -- If not using convars, you can use this hook + Panel.SetValue()
         DermaNumSlider.OnValueChanged = function( self, value )
             ammodrop = math.Round(value)
         end
@@ -3236,14 +3235,12 @@ if CLIENT then
             DermaButton:DockMargin( 2, 2.5, 2, 0 )	
             DermaButton:SetSize( 120, 25 )
 
-            DermaButton.Paint = function( self, w, h ) -- 'function Frame:Paint( w, h )' works too
+            DermaButton.Paint = function( self, w, h )
 				PaintButton(self, w, h)
                 DermaButton.a = Lerp(0.1,DermaButton.a or 100,DermaButton:IsHovered() and 180 or 100)
 				draw.RoundedBox(0, 0, 0, w, h, Color(red.r,red.g,red.b,DermaButton.a))
-                --BlurBackground(DermaButton)
             end				
-            DermaButton.DoClick = function()
-                --print( math.min(ammodrop,v),game.GetAmmoName( k ))				
+            DermaButton.DoClick = function()			
                 net.Start( "drop_ammo" )
                     net.WriteFloat( k )
                     net.WriteFloat( math.min(ammodrop,v) )
@@ -3287,7 +3284,7 @@ if CLIENT then
 
 					return 0
 				end,
-				"Drop Ammo"
+				"Выбросить патроны"
 			}
 		end
 	end)

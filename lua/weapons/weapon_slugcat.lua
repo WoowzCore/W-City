@@ -22,7 +22,7 @@ The bad news is that no definitive solution has been found. And every moment the
 For you though, there is another way. The old path. Go to the west past the Farm Arrays, and then down into the earth where the land fissures, as deep as you can reach, where the ancients built their temples and danced their silly rituals. The mark I gave you will let you through.
 
 Not that it solves anyone's problem but yours.]]
-SWEP.Category = "Weapons - Pistols"
+SWEP.Category = "W-City: Пистолеты"
 SWEP.Slot = 2
 SWEP.SlotPos = 10
 SWEP.ViewModel = ""

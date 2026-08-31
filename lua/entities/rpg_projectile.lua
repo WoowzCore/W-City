@@ -1,7 +1,7 @@
 if SERVER then AddCSLuaFile() end
 ENT.Base = "projectile_base"
 ENT.Author = "Sadsalat"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.PrintName = "RPG-7 Rocket"
 ENT.Spawnable = true
 ENT.AdminOnly = true

@@ -2,7 +2,7 @@ if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_base"
 SWEP.PrintName = "Suit"
 SWEP.Instructions = "A simple costume, along with a mask, can help hide your identity, your clothes will stay in the suitcase in the future you can put them back on."
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Другое"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Primary.ClipSize = -1

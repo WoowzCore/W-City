@@ -2,7 +2,7 @@ if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_tpik_base"
 SWEP.PrintName = "Handcuffs"
 SWEP.Instructions = "Restraint devices designed to secure an individual's wrists in proximity to each other. For the rulers of order in the form of police helps to avoid unnecessary problems when transporting detainees. Sometimes they may not be enough."
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Другое"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Primary.ClipSize = -1

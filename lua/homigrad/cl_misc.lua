@@ -93,7 +93,7 @@
 		for _, wep in ipairs(weaponlist) do
 			local classname = wep.ClassName
 			if (based(classname, "homigrad_base") or based(classname, "weapon_melee") or classname == "weapon_melee" or based(classname, "weapon_medkit_sh") or classname == "weapon_medkit_sh") and wep.Spawnable then
-				local category = wep.Category or "ZCity Other"
+				local category = wep.Category or "W-City: Другое"
 				if !buttons[category] then
 					buttons[category] = bar:AddSubMenu(category)
 				end
@@ -105,7 +105,7 @@
 				list.Add("NPCUsableWeapons", { 
 					class = classname,
 					title = wep.PrintName,
-					category = wep.Category or "ZCity Other"
+					category = wep.Category or "W-City: Другое"
 				})
 			end
 		end
@@ -114,19 +114,18 @@
 
 --\\ Spawnmenu category icons
 	local categories = {
-		["Weapons - Assault Rifles"] = "pwb/sprites/akm", -- vgui/inventory/weapon_nam_akm
-		["Weapons - Carbines"] = "vgui/wep_jack_hmcd_assaultrifle",
-		["Weapons - Explosive"] = "test.png",
-		["Weapons - Grenade Launchers"] = "vgui/inventory/weapon_rpg7",
-		["Weapons - Machine-Pistols"] = "vgui/hud/tfa_ins2_mp7", -- vgui/inventory/weapon_uzi
-		["Weapons - Machineguns"] = "vgui/hud/tfa_kopter_pkm",
-		["Weapons - Melee"] = "vgui/wep_jack_hmcd_hammer",
-		["Weapons - Other"] = "vgui/wep_jack_hmcd_crossbow",
-		["Weapons - Pistols"] = "entities/arc9_eft_m1911.png",
-		["Weapons - Shotguns"] = "pwb/sprites/m590a1",
-		["Weapons - Sniper Rifles"] = "vgui/hud/tfa_ins2_sr25_eft",
-		["ZCity Medicine"] = "vgui/wep_jack_hmcd_medkit",
-		["ZCity Other"] = "test.png",
+		["W-City: Штурмовые винтовки"] = "pwb/sprites/akm", -- vgui/inventory/weapon_nam_akm
+		["W-City: Карабины"] = "vgui/wep_jack_hmcd_assaultrifle",
+		["W-City: Взрывчатка"] = "test.png",
+		["W-City: Гранатамёты"] = "vgui/inventory/weapon_rpg7",
+		["W-City: Пистолеты-пулемёты"] = "vgui/hud/tfa_ins2_mp7", -- vgui/inventory/weapon_uzi
+		["W-City: Пулемёты"] = "vgui/hud/tfa_kopter_pkm",
+		["W-City: Ближний бой"] = "vgui/wep_jack_hmcd_hammer",
+		["W-City: Другое"] = "vgui/wep_jack_hmcd_crossbow",
+		["W-City: Пистолеты"] = "entities/arc9_eft_m1911.png",
+		["W-City: Дробовики"] = "pwb/sprites/m590a1",
+		["W-City: Снайперские винтовки"] = "vgui/hud/tfa_ins2_sr25_eft",
+		["W-City: Медицина"] = "vgui/wep_jack_hmcd_medkit",
 
 		["ZCity Ammo"] = "vgui/hud/hmcd_round_4630",
 		["ZCity Armor"] = "vgui/icons/armor01",

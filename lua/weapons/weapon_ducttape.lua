@@ -2,7 +2,7 @@ if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_tpik_base"
 SWEP.PrintName = "Duct Tape"
 SWEP.Instructions = "This is a roll of reinforced aluminum-colored waterproof polyethylene-coated vinyl-cloth adhesive tape. Use it to stick things together.\n\nHold LMB to stick something.\nYou can only put tape on a seam or close gap between two objects."
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Другое"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Primary.Ammo = "none"

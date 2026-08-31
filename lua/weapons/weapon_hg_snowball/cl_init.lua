@@ -5,7 +5,7 @@ SWEP.Instructions =
 [[
 A snowball is a spherical object made from snow, usually created by scooping snow with the hands and pressing the snow together to compact it into a ball.
 ]]
-SWEP.Category = "Weapons - Other"
+SWEP.Category = "W-City: Другое"
 SWEP.WorldModelReal = "models/mmod/weapons/c_bugbait.mdl"
 SWEP.WorldModelExchange = "models/zerochain/props_christmas/snowballswep/zck_w_snowballswep.mdl"
 SWEP.basebone = 39

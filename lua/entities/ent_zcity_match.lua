@@ -5,7 +5,7 @@ AddCSLuaFile()
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 ENT.PrintName = "Fire Match"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.Spawnable = true
 ENT.Model = "models/weapons/gleb/matchhead.mdl"
 ENT.IconOverride = "vgui/wep_jack_hmcd_matchbox"

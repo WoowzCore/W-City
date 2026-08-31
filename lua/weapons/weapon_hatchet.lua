@@ -1,8 +1,8 @@
 ﻿if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_melee"
-SWEP.PrintName = "Hatchet"
+SWEP.PrintName = "Короткий топор"
 SWEP.Instructions = "A single-handed striking tool with a sharp blade on one side used to cut and split wood, and a hammerhead on the other side.\n\nLMB to attack.\nRMB to block.\nRMB + LMB to throw."
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Damage = 25

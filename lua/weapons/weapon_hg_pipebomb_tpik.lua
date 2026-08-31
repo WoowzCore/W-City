@@ -8,7 +8,7 @@ LMB - High ready
 
 RMB - Low ready
 ]]--"тильда двуеточее три"
-SWEP.Category = "Weapons - Explosive"
+SWEP.Category = "W-City: Взрывчатка"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.Primary.ClipSize = -1

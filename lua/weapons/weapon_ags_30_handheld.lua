@@ -1,10 +1,9 @@
 SWEP.Base = "homigrad_base"
 SWEP.Spawnable = true
-SWEP.AdminOnly = true
 SWEP.PrintName = "AGS-30"
 SWEP.Author = "Degtyaryov Plant"
 SWEP.Instructions = "Russian automatic grenade launcher"
-SWEP.Category = "Weapons - Grenade Launchers"
+SWEP.Category = "W-City: Гранатамёты"
 SWEP.Slot = 2
 SWEP.SlotPos = 10
 SWEP.ViewModel = ""

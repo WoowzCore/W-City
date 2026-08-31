@@ -6,31 +6,215 @@
   <component name="ChangeListManager">
     <list default="true" id="8c18ec4c-58b6-469c-b00b-0b969550f49d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/coop/sv_coop.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/coop/sv_coop.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/defense/sv_defense_config.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/defense/sv_defense_config.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/tdm/sh_tdm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/tdm/sh_tdm.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/entities/ammo_base/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ammo_base/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/arrow_projectile.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/arrow_projectile.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/bomb/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/bomb/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/crossbow_projectile.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/crossbow_projectile.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_grapplinghook/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_grapplinghook/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_hg_bugbait/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_hg_bugbait/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_hg_cyanide_plotnypih/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_hg_cyanide_plotnypih/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_hg_hmcd_radio/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_hg_hmcd_radio/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_hg_molotov/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_hg_molotov/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_hg_snowball/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_hg_snowball/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_zc_anim.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_zc_anim.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ent_zcity_match.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ent_zcity_match.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/firework_base/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/firework_base/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/func_useableladder2.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/func_useableladder2.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/hg_brassknuckles/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/hg_brassknuckles/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/hg_flashlight/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/hg_flashlight/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/hg_sling/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/hg_sling/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/projectile_base.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/projectile_base.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/projectile_nonexplosive_base.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/projectile_nonexplosive_base.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/rpg_projectile.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/rpg_projectile.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/zbox_lootbox/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/zbox_lootbox/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/abnormalty_detection/weapons/sh_weapon_bleeding_musket.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/abnormalty_detection/weapons/sh_weapon_bleeding_musket.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/abnormalty_detection/weapons/sh_weapon_thaumaturgic_arm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/abnormalty_detection/weapons/sh_weapon_thaumaturgic_arm.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/cl_hud.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/cl_hud.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/cl_misc.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/cl_misc.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_ammostuff.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_ammostuff.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_utility.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_utility.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_weaponatts.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_weaponatts.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/z_box_systems/sv_lootspawn.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_phrases.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_phrases.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_npcstuff.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_npcstuff.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/homigrad_base/sh_options.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/homigrad_base/sh_options.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ab10.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ab10.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ac556.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ac556.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_adrenaline.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_adrenaline.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ags_30_handheld.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ags_30_handheld.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ak200.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ak200.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ak203.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ak203.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ak74.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ak74.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ak74u.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ak74u.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_akm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_akm.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_akmwreked.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_akmwreked.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ar15.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ar15.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ar_pistol.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ar_pistol.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ash12.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ash12.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_asval.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_asval.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ballistic_shield.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ballistic_shield.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_bandage_sh.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_bandage_sh.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_bat.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_bat.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_betablock.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_betablock.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_bigbandage_sh.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_bigbandage_sh.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_bigconsumable.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_bigconsumable.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_bloodbag.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_bloodbag.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_breachcharge.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_breachcharge.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_brick.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_brick.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_browninghp.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_browninghp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_buck200knife.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_buck200knife.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_chair_leg.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_chair_leg.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_claymore.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_claymore.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_colt9mm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_colt9mm.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_combinesniper.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_combinesniper.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_cz75.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_cz75.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_cz75a.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_cz75a.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_deagle.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_deagle.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_doublebarrel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_doublebarrel.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_doublebarrel_short.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_doublebarrel_short.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_draco.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_draco.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_dracovska.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_dracovska.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ducttape.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ducttape.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_fentanyl.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_fentanyl.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_flintlock.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_flintlock.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_fn45.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_fn45.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_fury13.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_fury13.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_fury16.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_fury16.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_glock17.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_glock17.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_glock18c.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_glock18c.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_glock26.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_glock26.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_grapplinghook.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_grapplinghook.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_gymnasticstick.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_gymnasticstick.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hammer.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hammer.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_handcuffs.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_handcuffs.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_handcuffs_key.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_handcuffs_key.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hands_sh.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hands_sh.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hatchet.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hatchet.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_axe.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_axe.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_bottle.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_bottle.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_bottlebroken.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_bottlebroken.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_bow/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_bow/cl_init.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_bugbait/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_bugbait/cl_init.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_coolhands/cl_init.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_crossbow.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_crossbow.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_crowbar.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_crowbar.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_crowbar_gordon.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_crowbar_gordon.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_extinguisher.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_extinguisher.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_f1_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_f1_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_flashbang_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_flashbang_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_glassshard.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_glassshard.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_glassshard_taped.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_glassshard_taped.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_grenade_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_grenade_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_hl2nade_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_hl2nade_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_jam.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_jam.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_machete.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_machete.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_medicine_base.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_medicine_base.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_molotov_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_molotov_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_motiontracker.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_motiontracker.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_mug.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_mug.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_pipebomb_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_pipebomb_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_rebelrpg.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_rebelrpg.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_rgd_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_rgd_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_rpg.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_rpg.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_shovel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_shovel.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_shuriken.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_shuriken.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_slam.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_slam.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_sledgehammer.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_sledgehammer.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_smokenade_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_smokenade_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_snowball/cl_init.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_snowball/cl_init.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_spear.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_spear.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_spear_knife.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_spear_knife.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_spear_pro.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_spear_pro.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_stunstick.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_stunstick.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_tonfa.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_tonfa.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hg_type59_tpik.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hg_type59_tpik.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hidebox.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hidebox.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hk21.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hk21.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hk416.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hk416.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hk_usp.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hk_usp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_kar98.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_kar98.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_kord.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_kord.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ks23.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ks23.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_leadpipe.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_leadpipe.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m16a2.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m16a2.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m1911.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m1911.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m249.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m249.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m45.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m45.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m4a1.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m4a1.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m4super.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m4super.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m590a1.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m590a1.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m60.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m60.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m98b.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m98b.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m9beretta.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m9beretta.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mac11.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mac11.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_makarov.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_makarov.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mannitol.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mannitol.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_matches.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_matches.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_medkit_sh.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_medkit_sh.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_melee.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_melee.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mini14.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mini14.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_morphine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_morphine.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mosin.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mosin.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mp-80.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mp-80.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mp5.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mp5.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mp7.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mp7.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_musket.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_musket.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_naloxone.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_naloxone.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_needle.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_needle.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_osapb.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_osapb.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_osipr.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_osipr.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_p22.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_p22.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_p90.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_p90.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_painkillers.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_painkillers.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_pan.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_pan.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_pkm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_pkm.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_pl15.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_pl15.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_pm9.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_pm9.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_pocketknife.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_pocketknife.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ptrd.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ptrd.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ptrd_fun_auto.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ptrd_fun_auto.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_px4beretta.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_px4beretta.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ram.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ram.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_remington870.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_remington870.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_remington870_roullet.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_remington870_roullet.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_revolver2.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_revolver2.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_revolver357.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_revolver357.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_rpk.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_rpk.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ruger.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ruger.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_saiga12.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_saiga12.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_sg552.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_sg552.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_shield.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_shield.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_skorpion.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_skorpion.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_sks.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_sks.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_slugcat.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_slugcat.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_smallconsumable.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_smallconsumable.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_sogknife.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_sogknife.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_sok94.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_sok94.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_spas12.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_spas12.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_spawnmenu_pda.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_spawnmenu_pda.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_sr25.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_sr25.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_svd.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_svd.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_table_leg.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_table_leg.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_taser.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_taser.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tec9.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tec9.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_thiamine.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_thiamine.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tmp.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tmp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tokarev.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tokarev.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tomahawk.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tomahawk.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tourniquet.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tourniquet.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_toz106.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_toz106.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_traitor_ied.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_traitor_ied.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison1.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison1.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison2.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison2.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison3.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison3.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison4.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison4.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison_consumable.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_traitor_poison_consumable.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_traitor_suit.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_traitor_suit.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tranquilizer.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tranquilizer.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_uzi.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_uzi.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_vector.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_vector.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_vpo136.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_vpo136.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_vpo209.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_vpo209.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_walkie_talkie.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_walkie_talkie.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_winchester.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_winchester.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_xm1014.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_xm1014.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_zoraki.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_zoraki.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +262,7 @@
       <workItem from="1787997752142" duration="1484000" />
       <workItem from="1787999308564" duration="15352000" />
       <workItem from="1788202570299" duration="5221000" />
-      <workItem from="1788212446963" duration="1808000" />
+      <workItem from="1788212446963" duration="4002000" />
     </task>
     <servers />
   </component>

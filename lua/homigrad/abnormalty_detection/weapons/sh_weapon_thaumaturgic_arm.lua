@@ -28,7 +28,7 @@ Bleeding from this weapon is severe.
 SWEP.ThaumaturgicArm = true
 --Each secondary strike will collapse the victim.
 
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 

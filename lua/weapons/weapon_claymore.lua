@@ -1,6 +1,6 @@
 if SERVER then AddCSLuaFile() end
 SWEP.PrintName = "Claymore"
-SWEP.Category = "Weapons - Explosive"
+SWEP.Category = "W-City: Взрывчатка"
 SWEP.Instructions = "The claymore is an extremely effective thing that can blow an opponent's legs to splinters. There is little chance that the victim will survive the blast."
 SWEP.Spawnable = true
 SWEP.AdminOnly = false

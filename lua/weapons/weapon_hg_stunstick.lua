@@ -1,8 +1,8 @@
 if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_melee"
-SWEP.PrintName = "Stunstick"
+SWEP.PrintName = "Электрошокер-дубинка"
 SWEP.Instructions = "Metrocop issued electrified melee weapon used for stopping riots and misbehavings. Pick up dat can.\n\nLMB to attack.\nRMB to block."
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 

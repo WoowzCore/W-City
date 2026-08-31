@@ -496,11 +496,14 @@ local function dropWeapon()
 	RunConsoleCommand("drop")
 end
 
+local function SuicideCommand() RunConsoleCommand("suicide") end
+
 hook.Add("radialOptions", "77", function()
 	local organism = lply.organism or {}
 	if not organism.otrub and IsValid(lply:GetActiveWeapon()) and lply:GetActiveWeapon():GetClass() ~= "weapon_hands_sh" then
-		local tbl = {dropWeapon, "Выбросить"}
-		hg.radialOptions[#hg.radialOptions + 1] = tbl
+        hg.radialOptions[#hg.radialOptions + 1] = {dropWeapon, "Выбросить"}
+
+        hg.radialOptions[#hg.radialOptions + 1] = {SuicideCommand, "Самоубиться"}
 	end
 end)
 
@@ -564,8 +567,24 @@ hook.Add("radialOptions", "7", function()
 				end
 				CreateRadialMenu(commands)
 			end
-		end, "Эмоции\nПКМ - Список"}
+		end, "Эмоции..."}
         hg.radialOptions[#hg.radialOptions + 1] = tbl
+    end
+end)
+
+hook.Add("radialOptions", "RADIALOPTIONS_Ragdoll", function()
+    local ply = LocalPlayer()
+    local organism = ply.organism or {}
+    
+    if ply:Alive() and not organism.otrub then
+        hg.radialOptions[#hg.radialOptions + 1] = {
+            function()
+                RunConsoleCommand("fake")
+
+                return 0
+            end,
+            "Рагдолл"
+        }
     end
 end)
 

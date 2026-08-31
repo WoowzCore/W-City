@@ -3,7 +3,7 @@ if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_tpik1_base"
 SWEP.PrintName = "Tablet"
 SWEP.Instructions = ""
-SWEP.Category = "Weapons - Other"
+SWEP.Category = "W-City: Другое"
 SWEP.Instructions = "Just a tablet"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
@@ -103,17 +103,17 @@ local BlackList = {
 }
 
 local CategoresAllowed = {
-    ["Weapons - Pistols"] = true,
-    ["Weapons - Machineguns"] = true,
-    ["Weapons - Assault Rifles"] = true,
-    --["Weapons - Grenade Launchers"] = true,
-    --["Weapons - Other"] = true,
-    ["Weapons - Melee"] = true,
-    ["Weapons - Shotguns"] = true,
-    ["Weapons - Sniper Rifles"] = true,
-    ["Weapons - Explosive"] = true,
+    ["W-City: Пистолеты"] = true,
+    ["W-City: Пулемёты"] = true,
+    ["W-City: Штурмовые винтовки"] = true,
+    --["W-City: Гранатамёты"] = true,
+    --["W-City: Другое"] = true,
+    ["W-City: Ближний бой"] = true,
+    ["W-City: Дробовики"] = true,
+    ["W-City: Снайперские винтовки"] = true,
+    ["W-City: Взрывчатка"] = true,
     ["Medicine"] = true,
-    ["ZCity Other"] = true,
+    ["W-City: Другое"] = true,
     ["ZCity Ammo"] = true,
     ["ZCity Armor"] = true,
     ["ZCity Attachments Grips"] = true,

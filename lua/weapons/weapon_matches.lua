@@ -15,7 +15,7 @@ end
 
 SWEP.Author = "John Walker"
 SWEP.Instructions = "This is a box made of cardboard with matches inside. It has a coarse striking surface on one edge for lighting the matches contained inside.\n\nHold LMB to ignite a match."
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Другое"
 
 SWEP.Spawnable = true
 SWEP.AdminSpawnable = true

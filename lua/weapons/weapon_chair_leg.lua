@@ -2,9 +2,9 @@ if SERVER then
     AddCSLuaFile()
 end
 SWEP.Base = "weapon_melee"
-SWEP.PrintName = "Chair leg"
+SWEP.PrintName = "Ножка стула"
 SWEP.Instructions = "Someone's savagely ripped out chair leg, quite suitable as a cold weapon. Better than nothing i guess.\n\nLMB to attack.\nRMB to block."
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.WorldModel = "models/weapons/tfa_nmrih/w_me_hatchet.mdl"

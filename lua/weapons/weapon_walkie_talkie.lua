@@ -5,7 +5,7 @@ end
 SWEP.Base = "weapon_base"
 SWEP.PrintName = "Walkie-talkie"
 SWEP.Instructions = "Use the walkie-talkie to communicate with other people in the 4km radius. Must be on the same frequency."
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Другое"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 

@@ -1,7 +1,7 @@
 if SERVER then AddCSLuaFile() end
 ENT.Base = "projectile_nonexplosive_base"
 ENT.Author = "Mannytko"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.PrintName = "Arrow Projectile"
 ENT.Spawnable = false
 ENT.AdminOnly = true

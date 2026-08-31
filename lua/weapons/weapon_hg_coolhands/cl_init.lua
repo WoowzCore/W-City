@@ -1,5 +1,5 @@
 include("shared.lua")
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.PrintName = "Cool Hands"
 SWEP.AdminOnly = true
 SWEP.Spawnable = true --// Use this hands if you like it more.. - Mannytko

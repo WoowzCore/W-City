@@ -315,7 +315,7 @@ if CLIENT then
 						hg.CreateRadialMenu(tbl)
 					end
 				end,
-				[2] = organism.pain > 60 and (organism.pain <= 100 and "Кричать" or "Стонать") or "Фразы\nПКМ - Список"
+				[2] = organism.pain > 60 and (organism.pain <= 100 and "Кричать" or "Стонать") or "Фразы..."
 			}
 		end
 	end)

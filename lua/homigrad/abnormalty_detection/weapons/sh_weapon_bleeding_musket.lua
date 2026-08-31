@@ -40,7 +40,7 @@ or
 80 DISSOLVE
 [HE]
 ]]
-SWEP.Category = "Weapons - Sniper Rifles"
+SWEP.Category = "W-City: Снайперские винтовки"
 SWEP.Slot = 2
 SWEP.SlotPos = 10
 SWEP.ViewModel = ""

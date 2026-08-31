@@ -7,7 +7,7 @@ AddCSLuaFile()
 ENT.Type = "point"
 ENT.Base = "base_gmodentity"
 ENT.PrintName = "Ladder"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.Spawnable = false
 ENT.AdminOnly = true
 ENT.AutomaticFrameAdvance = true -- Must be set on client

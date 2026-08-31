@@ -4,7 +4,7 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "Zoraki Stalker M906"
 SWEP.Author = "Zoraki"
 SWEP.Instructions = "Generic subcompact non-lethal gas pistol. Chambered in 9mm P.A.K"
-SWEP.Category = "Weapons - Pistols"
+SWEP.Category = "W-City: Пистолеты"
 SWEP.ViewModel = ""
 SWEP.WorldModel = "models/zcity/weapons/zoraki/zoraki.mdl"
 

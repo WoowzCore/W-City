@@ -1,10 +1,9 @@
 SWEP.Base = "homigrad_base"
 SWEP.Spawnable = true
-SWEP.AdminOnly = true
 SWEP.PrintName = "RPG-7"
 SWEP.Author = "Degtyarev plant"
 SWEP.Instructions = "The RPG-7 is a portable unguided shoulder-launched anti-tank rocket launcher."
-SWEP.Category = "Weapons - Grenade Launchers"
+SWEP.Category = "W-City: Гранатамёты"
 SWEP.Slot = 2
 SWEP.SlotPos = 10
 SWEP.ViewModel = ""

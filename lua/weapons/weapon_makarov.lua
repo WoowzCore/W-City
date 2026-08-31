@@ -4,7 +4,7 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "Makarov Pistol"
 SWEP.Author = "Izhevsk Mechanical Plant"
 SWEP.Instructions = "An semi-automatic Russian pistol chambered in 9x18mm"
-SWEP.Category = "Weapons - Pistols"
+SWEP.Category = "W-City: Пистолеты"
 SWEP.ViewModel = ""
 
 SWEP.WorldModel = "models/weapons/w_pist_p228.mdl"

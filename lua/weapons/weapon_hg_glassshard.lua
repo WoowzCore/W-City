@@ -1,8 +1,8 @@
 if SERVER then AddCSLuaFile() end
 SWEP.Base = "weapon_melee"
-SWEP.PrintName = "Glass Shard"
+SWEP.PrintName = "Осколок стекла"
 SWEP.Instructions = "A piece of a broken glass.\n\nLMB to attack.\nRMB to block."
-SWEP.Category = "Weapons - Melee"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
 SWEP.HoldType = "knife"

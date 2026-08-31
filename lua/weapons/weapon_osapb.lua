@@ -4,7 +4,7 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "PB-4 Osa"
 SWEP.Author = "Research Institute of Applied Chemistry"
 SWEP.Instructions = "Lightweight, compact, break-action non-lethal handgun. It is designed for self-defense and close-range applications, commonly used by civilians and law enforcement. The pistol has a four-shot capacity and is compatible with various ammunition types. Chambered in 18x45mm"
-SWEP.Category = "Weapons - Pistols"
+SWEP.Category = "W-City: Пистолеты"
 SWEP.ViewModel = ""
 
 SWEP.WorldModel = "models/weapons/w_pist_p228.mdl"

@@ -25,7 +25,7 @@ SWEP.WorldModel = "models/weapons/c_models/c_grappling_hook/c_grappling_hook.mdl
 
 SWEP.AutoSwitchTo = true
 SWEP.AutoSwitchFrom = false
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Другое"
 SWEP.Spawnable = true
 SWEP.Primary.ClipSize = -1
 SWEP.Primary.DefaultClip = -1

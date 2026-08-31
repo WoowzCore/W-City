@@ -1,7 +1,7 @@
 if SERVER then AddCSLuaFile() end
 SWEP.PrintName = "Folding box"
 SWEP.Instructions = "A handy folding box in which you can hide from enemies"
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Другое"
 SWEP.Spawnable = true
 SWEP.Slot = 1
 if CLIENT then

@@ -165,7 +165,7 @@ if CLIENT then
 		local wep = lply:GetActiveWeapon()
 		local organism = lply.organism or {}
 		
-		if !lply:Alive() or !organism or organism.otrub or !organism.canmove then return end
+		if not lply:Alive() or not organism or organism.otrub or not organism.canmove then return end
 		
 		local attmenu = {
 			[1] = function()
@@ -173,10 +173,10 @@ if CLIENT then
 
 				return 0
 			end,
-			[2] = "Attachments Menu"
+			[2] = "Обвесы..."
 		}
 
-        if !IsValid(wep) or !ishgweapon(wep) then
+        if not IsValid(wep) or not ishgweapon(wep) then
 			if #hg.GetAttachmentsInv() > 0 then
 				hg.radialOptions[#hg.radialOptions + 1] = attmenu
 			end
@@ -194,7 +194,7 @@ if CLIENT then
 
                         for i, str in pairs(hg.postures) do -- DO. NOT. CHANGE. TO. IPAIRS. kthxbye
 							if istable(str) then
-								if str.isPistolOnly and !wep:IsPistolHoldType() then continue end
+								if str.isPistolOnly and not wep:IsPistolHoldType() then continue end
 							end
                             tbl2[#tbl2 + 1] = {
                                 [1] = function()
@@ -232,14 +232,14 @@ if CLIENT then
             
             local drum1 = {}
             for i = 1, #drum do
-                drum1[i] = "Slot №"..tostring(i)
+                drum1[i] = "Слот #"..tostring(i)
             end
         
             local tbl4 = {
                 function(mouseClick, val)
                     RunConsoleCommand("hg_insertbullet", val)
                 end,
-                "Load one bullet",
+                "Загрузить патрон",
                 true,
                 drum1
             }
@@ -252,7 +252,7 @@ if CLIENT then
                 [1] = function()
                     RunConsoleCommand("hg_inspect")
                 end,
-                [2] = "Inspect" 
+                [2] = "Осмотреть"
             }
         end
 
@@ -261,7 +261,7 @@ if CLIENT then
                 [1] = function()
                     RunConsoleCommand("hg_unload_ammo", 0)
                 end,
-                [2] = "Unload" 
+                [2] = "Выгрузить" 
             }
         elseif (wep:Clip1() == 0 or wep.AllwaysChangeAmmo) and wep.AmmoTypes and not wep.reload then
             local ammotypes = {}
@@ -274,7 +274,7 @@ if CLIENT then
                 function(mouseClick, chosen)
                     RunConsoleCommand("hg_change_ammotype", chosen) 
                 end,
-                "Change Ammo Type",
+                "Сменить тип патронов",
                 true,
                 ammotypes
             }
@@ -286,7 +286,7 @@ if CLIENT then
                 [1] = function()
                     RunConsoleCommand("hmcd_togglelaser")
                 end,
-                [2] = "Toggle Laser" 
+                [2] = "Переключить лазер" 
             }
 		end
 
@@ -296,7 +296,7 @@ if CLIENT then
 
                 return -1
             end,
-            [2] = "Weapon Menu"
+            [2] = "Оружие..."
         }
     end)
 end

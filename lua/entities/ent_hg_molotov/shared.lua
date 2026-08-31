@@ -1,6 +1,6 @@
 ENT.Type = "anim"
 ENT.Author = "Mannytko"
-ENT.Category = "ZCity Other"
+ENT.Category = "W-City: Другое"
 ENT.PrintName = "Molotov Cocktail"
 ENT.Spawnable = true
 ENT.AdminOnly = true

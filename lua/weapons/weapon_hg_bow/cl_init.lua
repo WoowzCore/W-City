@@ -1,5 +1,5 @@
 include("shared.lua")
-SWEP.Category = "Weapons - Other"
+SWEP.Category = "W-City: Другое"
 SWEP.PrintName = "\"Deer Hunter\" Bow"
 SWEP.Instructions = "This is a modern aluminum-fiberglass compound bow with a draw force of 290 newtons, used (with broadhead arrows) to take medium-sized north-american game.\n\nRMB to aim.\nLMB while aiming to fire.\nLMB when not aiming to strike."
 SWEP.WorldModelReal = "models/z_city/nmrih/weapons/bow/v_bow_deerhunter.mdl"

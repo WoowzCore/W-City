@@ -4,7 +4,7 @@ local function RagdollOwner(ent)
 	return hg.RagdollOwner(ent)
 end
 
-SWEP.Category = "ZCity Other"
+SWEP.Category = "W-City: Ближний бой"
 SWEP.Instructions = "LMB - raise fists\nRELOAD - lower fists\n\nIn the raised state:\nLMB - strike\nRMB - block\n\nIn the lowered state: RMB - raise the object, RMB+R - check the pulse (when used on someone's head or hand)\n\nWhen holding the object: RELOAD - fix the object in air, E - spin the object in the air."
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
