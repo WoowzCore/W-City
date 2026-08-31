@@ -368,11 +368,11 @@ function PANEL:PostInit()
         lookX = lookX / sizeX - 0.5
         lookY = lookY / sizeY - 0.5
         Entity.Angles = Entity.Angles or Angle(0,0,0)
-        Entity.Angles = LerpAngle(FrameTime() * 5,Entity.Angles,Angle(lookY * 2,(self.Rotate and -179 or 0) -lookX * 75,0))
+        Entity.Angles = LerpAngle(FrameTime() * 5, Entity.Angles,Angle(lookY * 2, (self.Rotate and -179 or 0) + lookX * 75,0))
         local tbl = main.AppearanceTable
         tMdl = APmodule.PlayerModels[1][tbl.AModel] or APmodule.PlayerModels[2][tbl.AModel]
 
-        Entity:SetNWVector("PlayerColor",Vector(tbl.AColor.r / 255, tbl.AColor.g / 255, tbl.AColor.b / 255))
+        Entity:SetNWVector("PlayerColor", Vector(tbl.AColor.r / 255, tbl.AColor.g / 255, tbl.AColor.b / 255))
         Entity:SetAngles(Entity.Angles)
         Entity:SetSequence(Entity:LookupSequence("idle_suitcase"))
         Entity:SetSubMaterial()
@@ -382,7 +382,6 @@ function PANEL:PostInit()
             self:SetModel(tMdl.mdl)
             tbl.AFacemap = "Default"
         end
-        --print(tMdl.mdl)
 
         local mats = Entity:GetMaterials()
         for k, v in SortedPairs(tMdl.submatSlots) do
@@ -533,7 +532,7 @@ function PANEL:PostInit()
 
     local savePresetBtn = vgui.Create("DButton", presetsPanel)
     savePresetBtn:Dock(LEFT)
-    savePresetBtn:SetSize(ScreenScale(30), ScreenScale(16))
+    savePresetBtn:SetSize(ScreenScale(40), ScreenScale(16))
     savePresetBtn:SetFont("ZCity_Tiny")
     savePresetBtn:SetText("Сохранить")
     savePresetBtn:SetTextColor(colors.mainText)
@@ -563,7 +562,7 @@ function PANEL:PostInit()
 
     local loadPresetBtn = vgui.Create("DButton", presetsPanel)
     loadPresetBtn:Dock(LEFT)
-    loadPresetBtn:SetSize(ScreenScale(30), ScreenScale(20))
+    loadPresetBtn:SetSize(ScreenScale(40), ScreenScale(20))
     loadPresetBtn:SetFont("ZCity_Tiny")
     loadPresetBtn:SetText("Загрузить")
     loadPresetBtn:SetTextColor(colors.mainText)
@@ -823,7 +822,7 @@ function PANEL:PostInit()
         end
 
         function faceSelectorMenu:OnFocusChanged(gained)
-            if !gained then self:Close() end
+            if not gained then self:Close() end
         end
     end
 
@@ -853,8 +852,8 @@ function PANEL:PostInit()
         table.insert(accessoryMenus, bodySelectorMenu)
         
         for k, v in SortedPairs(hg.Accessories) do
-            if v.placement != "torso" and v.placement != "spine" then continue end
-            if not lply:PS_HasItem(k) and v.bPointShop and !hg.Appearance.GetAccessToAll(lply) then continue end
+            if v.placement ~= "torso" and v.placement ~= "spine" then continue end
+            if not lply:PS_HasItem(k) and v.bPointShop and not hg.Appearance.GetAccessToAll(lply) then continue end
             
             bodySelectorMenu:AddAccessoryIcon(v.model, k, v,
                 function(accessorKey)
@@ -888,7 +887,7 @@ function PANEL:PostInit()
         end
 
         function bodySelectorMenu:OnFocusChanged(gained)
-            if !gained then self:Close() end
+            if not gained then self:Close() end
         end
     end
 

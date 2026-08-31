@@ -4,7 +4,7 @@ local SelectColor = Color(0,192,0)
 
 local Selects = {
     {Title = "Отключиться", Func = function(luaMenu) RunConsoleCommand("disconnect") end},
-    {Title = "Дефолтное меню", Func = function(luaMenu) gui.ActivateGameUI() luaMenu:Close() end},
+    {Title = "Дефолтное меню", Func = function(luaMenu) luaMenu:CloseFast() gui.ActivateGameUI() end},
     {Title = "Traitor Role",
     GamemodeOnly = true,
     CreatedFunc = function(self, parent, luaMenu)
@@ -170,8 +170,7 @@ local gradient_l = surface.GetTextureID("vgui/gradient-l")
 local BackgroundGradientColor = Color(0,102,0,35)
 function PANEL:Paint(w,h)
     draw.RoundedBox(0, 0, 0, w, h, self.ColorBG)
-    hg.DrawBlur(self, 5)
-    surface.SetDrawColor(self.ColorBG)
+    hg.DrawBlur(self, 3)
     surface.SetTexture(gradient_l)
     surface.DrawTexturedRect(0, 0, w, h)
     surface.SetDrawColor(BackgroundGradientColor)
@@ -190,10 +189,10 @@ function PANEL:AddSelect(pParent, Title, tbl)
     Button:SetMouseInputEnabled(true)
     Button:SetFont("ZCity_Small")
     
-    Button:SetTall(ScreenScale( 15 ))
+    Button:SetTall(ScreenScale(15))
     
     Button:Dock(BOTTOM)
-    Button:DockMargin(ScreenScale(15), ScreenScale(1.5), 0, 0)
+    Button:DockMargin(ScreenScale(15), ScreenScale(3), 0, 0)
     
     Button:SetContentAlignment(4)
     
@@ -201,7 +200,7 @@ function PANEL:AddSelect(pParent, Title, tbl)
     Button.HoveredFunc = tbl.HoveredFunc
     local LUAMenu = self 
     if tbl.CreatedFunc then tbl.CreatedFunc(Button, self, LUAMenu) end
-    Button.RColor = Color(225,225,225)
+    Button.RColor = Color(225, 225, 225)
     
     function Button:DoClick()
         if curent_panel == TitleLower then
@@ -239,6 +238,7 @@ function PANEL:AddSelect(pParent, Title, tbl)
 		end
     end
 
+    local RandSymbols = {"@", "#", "$", "%", "&"}
     function Button:Think()
         local IsHovered = self:IsHovered()
         
@@ -250,37 +250,49 @@ function PANEL:AddSelect(pParent, Title, tbl)
         end
 
         local IsCurrent = (curent_panel == TitleLower)
-        local TargetText = (self:IsHovered()) and utf8.upper(Title) or Title
 
-        if (self.LastV ~= v) or (self:GetText() ~= TargetText) or IsCurrent then
-            self.LastV = v
-            
-            local BaseText = (IsCurrent and Title ~= "Traitor Role") and "[ " .. utf8.upper(Title) .. " ]" or Title
-            
-            local Chars = {}
-            for _, Code in utf8.codes(BaseText) do
-                table.insert(Chars, utf8.char(Code))
-            end
-            
-            local L = #Chars
-            local Threshold = math.ceil(L * v)
-            local ntxt = ""
-            
-            for i = 1, L do
-                local C = Chars[i]
-                if i <= Threshold then
-                    ntxt = ntxt .. utf8.upper(C)
-                else
-                    ntxt = ntxt .. C
-                end
-            end
-            
-			if self:GetText() ~= ntxt then
-				surface.PlaySound("shitty/tap-resonant.wav")
-                self:SetText(ntxt)
-			end
+        local BaseText = (IsCurrent and Title ~= "Traitor Role") and ">> " .. utf8.upper(Title) or Title
+        if IsHovered then
+            BaseText = BaseText .. " <<"
         end
+        
+        local Chars = {}
+        for _, Code in utf8.codes(BaseText) do
+            table.insert(Chars, utf8.char(Code))
+        end
+
+        local L = #Chars
+        
+        local Chance = IsHovered and 0.9 or 0.999
+        
+        local ntxt = ""
+        for i = 1, L do
+            local C = Chars[i]
+
+            if math.random() > Chance then
+                C = RandSymbols[math.random(1, #RandSymbols)]
+            end
+
+            if IsHovered then
+                ntxt = ntxt .. utf8.upper(C)
+            else
+                ntxt = ntxt .. C
+            end
+        end
+            
+        if self:GetText() ~= ntxt then
+            surface.PlaySound("shitty/tap-resonant.wav")
+            self:SetText(ntxt)
+        end
+        
+        self.LastV = v
     end
+end
+
+function PANEL:CloseFast()
+    self:Remove()
+    self:SetKeyboardInputEnabled(false)
+    self:SetMouseInputEnabled(false)
 end
 
 function PANEL:Close()
@@ -293,7 +305,7 @@ vgui.Register( "ZMainMenu", PANEL, "ZFrame")
 
 hook.Add("OnPauseMenuShow","OpenMainMenu",function()
     local run = hook.Run("OnShowZCityPause")
-    if run != nil then
+    if run ~= nil then
         return run
     end
 

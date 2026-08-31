@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8c18ec4c-58b6-469c-b00b-0b969550f49d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/cl_hud.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/cl_hud.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/new_appearance/misc/sh_names.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/new_appearance/misc/sh_names.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_phrases.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_phrases.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_snakestuff.lua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/initpost/cl_derma_skin.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/initpost/cl_derma_skin.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/new_appearance/derma/cl_appearance_editor.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/new_appearance/derma/cl_appearance_editor.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,8 @@
       <updated>1787997750029</updated>
       <workItem from="1787997752142" duration="1484000" />
       <workItem from="1787999308564" duration="15352000" />
-      <workItem from="1788202570299" duration="3864000" />
+      <workItem from="1788202570299" duration="5221000" />
+      <workItem from="1788212446963" duration="496000" />
     </task>
     <servers />
   </component>
