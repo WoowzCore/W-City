@@ -56,7 +56,6 @@ end
 
 MODE.LootTable = {
 	[1] = {1, {
-		{4,"ent_ammo_9x19mmparabellum"},
 		{3,"ent_ammo_4.6x30mm"},
 		{3,"weapon_bigconsumable"},
 		{3,"weapon_painkillers"},
@@ -72,7 +71,6 @@ MODE.LootTable = {
 	
 	[2] = {1, {
 		{9,"ent_ammo_pulse"},
-		{9,"ent_ammo_9x19mmparabellum"},
 		{9,"ent_ammo_4.6x30mm"},
 		{9,"ent_ammo_12/70gauge"},
 		{9,"ent_ammo_12/70slug"},

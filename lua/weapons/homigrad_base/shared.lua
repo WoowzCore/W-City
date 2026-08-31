@@ -34,15 +34,8 @@ SWEP.AmmoTypes2 = {
 		[4] = {"12/70 RIP"},
 		[5] = {"12/70 Blank"}
 	},
-	["9x19 mm Parabellum"] = {
-		[1] = {"9x19 mm Parabellum"},
-		[2] = {"9x19 mm Green Tracer"},
-		[3] = {"9x19 mm QuakeMaker"},
-		[4] = {"9x19 mm PBP gzh"}
-	}, 
-	["9x18 mm"] = {
-		[1] = {"9x18 mm"},
-		[2] = {"9x18 mm PBM"}
+	["9mm"] = {
+		[1] = {"9mm"},
 	}, 
 	[".366 TKM"] = {
 		[1] = {".366 TKM"},

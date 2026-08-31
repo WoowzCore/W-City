@@ -289,7 +289,7 @@ DEFENSE_COMMANDER_ITEMS = {
     ["Ammunition"] = {
         {name = "5.56mm Ammo", entity = "ent_ammo_5.56x45mm", price = 3, desc = "Standard rifle ammunition", icon = "vgui/hud/hmcd_round_556"},
         {name = "7.62mm Ammo", entity = "ent_ammo_7.62x39mm", price = 5, desc = "Powerful rifle ammunition", icon = "vgui/hud/hmcd_round_792"},
-        {name = "9mm Ammo", entity = "ent_ammo_9x19mmparabellum", price = 2, desc = "Standard pistol ammunition", icon = "vgui/hud/hmcd_round_9"},
+        {name = "9mm Ammo", entity = "ent_ammo_9mm", price = 2, desc = "Standard pistol ammunition", icon = "vgui/hud/hmcd_round_9"},
         {name = "12 Gauge Shells", entity = "ent_ammo_12/70gauge", price = 3, desc = "Shotgun ammunition", icon = "vgui/hud/hmcd_round_12"}
     },
     ["Explosives"] = {

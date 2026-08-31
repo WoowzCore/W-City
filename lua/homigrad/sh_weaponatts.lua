@@ -1358,7 +1358,7 @@ hg.attachments.magwell = {
 		{},
 		offsetPos = Vector(0, 0, 0),
 		capacity = 50,
-		ammotype = "9x19 mm Parabellum",
+		ammotype = "9mm",
 	},
 }
 hg.attachments.agsmag = {

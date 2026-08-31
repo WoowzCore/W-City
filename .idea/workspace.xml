@@ -6,8 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="8c18ec4c-58b6-469c-b00b-0b969550f49d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/homigrad/new_appearance/derma/cl_appearance_editor.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/new_appearance/derma/cl_appearance_editor.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/initpost/menu-n-derma/derma/cl_menu_panel.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/coop/sv_coop.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/coop/sv_coop.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/defense/sv_defense_config.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/defense/sv_defense_config.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/tdm/sh_tdm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/gamemodes/zcity/gamemode/modes/tdm/sh_tdm.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/entities/ammo_base/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/entities/ammo_base/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_ammostuff.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_ammostuff.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_utility.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_utility.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sh_weaponatts.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sh_weaponatts.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/homigrad/sv_util.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/homigrad/z_box_systems/sv_lootspawn.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/homigrad_base/shared.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_ab10.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_ab10.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_colt9mm.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_colt9mm.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_cz75.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_cz75.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_glock17.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_glock17.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_hk_usp.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_hk_usp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_m9beretta.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_m9beretta.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mac11.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mac11.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_makarov.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_makarov.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_mp5.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_mp5.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_pl15.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_pl15.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_pm9.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_pm9.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_px4beretta.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_px4beretta.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tec9.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tec9.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_tmp.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_tmp.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/weapons/weapon_uzi.lua" beforeDir="false" afterPath="$PROJECT_DIR$/lua/weapons/weapon_uzi.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +78,7 @@
       <workItem from="1787997752142" duration="1484000" />
       <workItem from="1787999308564" duration="15352000" />
       <workItem from="1788202570299" duration="5221000" />
-      <workItem from="1788212446963" duration="496000" />
+      <workItem from="1788212446963" duration="1808000" />
     </task>
     <servers />
   </component>

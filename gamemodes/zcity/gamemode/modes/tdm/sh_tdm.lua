@@ -146,10 +146,7 @@ AddItemToBUY( "7.62x51mm M993 (20)", "Ammo", "ent_ammo_7.62x51mmm993", 300, "Amm
 
 AddItemToBUY( ".338 Lapua Magnum (20)", "Ammo", "ent_ammo_.338lapuamagnum", 350, "Ammo", {}, 20)
 
-AddItemToBUY( "9x19mm (30)", "Ammo", "ent_ammo_9x19mmparabellum", 75, "Ammo", {}, 30)
 AddItemToBUY( "9x19mm Green Tracer (30)", "Ammo", "ent_ammo_9x19mmgreentracer", 100, "Ammo", {}, 30)
-AddItemToBUY( "9x19mm QuakeMaker (30)", "Ammo", "ent_ammo_9x19mmqm", 150, "Ammo", {}, 30)
-AddItemToBUY( "9x17mm (30)", "Ammo", "ent_ammo_9x17mm", 75, "Ammo", {}, 30)
 AddItemToBUY( "7.65x17mm (30)", "Ammo", "ent_ammo_7.65x17mm", 75, "Ammo", {}, 30)
 
 AddItemToBUY( "5.56x45mm (30)", "Ammo", "ent_ammo_5.56x45mm", 100, "Ammo", {}, 30)

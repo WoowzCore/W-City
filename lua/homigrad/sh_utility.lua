@@ -1372,10 +1372,10 @@ local IsValid = IsValid
 		["npc_combinegunship"] = {multi = 5, snd = "npc/strider/strider_minigun.wav", force = 3, AmmoType = "14.5x114mm BZTM", PenetrationMul = 10},
 		["npc_helicopter"] = {multi = 4, force = 2, AmmoType = "14.5x114mm BZTM", PenetrationMul = 10},
 		["lunasflightschool_ah6"] = {multi = 20, AmmoType = "14.5x114mm BZTM"},
-		["npc_turret_floor"] = {multi = 1.25, AmmoType = "9x19 mm Parabellum"},
+		["npc_turret_floor"] = {multi = 1.25, AmmoType = "9mm"},
 		["npc_sniper"] = {multi = 3, AmmoType = "14.5x114mm BZTM", PenetrationMul = 4},
 		["npc_hunter"] = {multi = 4, AmmoType = "12/70 RIP", PenetrationMul = 1}, --;; не работает( потому что прожектайлами стреляет
-		["npc_turret_ceiling"] = {multi = 1.25, AmmoType = "9x19 mm QuakeMaker"},
+		["npc_turret_ceiling"] = {multi = 1.25, AmmoType = "9mm"},
 	}
 
 	hook.Add("EntityFireBullets", "NPC_Boolets", function(ent, bullet)

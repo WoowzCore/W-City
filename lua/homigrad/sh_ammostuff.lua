@@ -1143,7 +1143,7 @@ hg.ammotypes = {
 			ShellColor = Color(255,185,0)
 		}
 	},
-	["20/70gauge"] = { //потом другие добавлю
+	["20/70gauge"] = {
 		name = "20/70 gauge",
 		allowed = true,
 		--dmgtype = DMG_BUCKSHOT,
@@ -1254,8 +1254,8 @@ hg.ammotypes = {
 			ShellColor = Color(195,143,0),
 		}
 	},
-	["9x18mm"] = {
-		name = "9x18 mm",
+	["9mm"] = { -- 9x18 mm
+		name = "9mm",
 		allowed = true,
 		dmgtype = DMG_BULLET,
 		tracer = TRACER_LINE,
@@ -1284,171 +1284,6 @@ hg.ammotypes = {
 			Speed = 315,
 			Diameter = 9,
 			Mass = 6.1,
-			Icon = matPistolAmmo
-		}
-	},
-	["9x18mmpbm"] = {
-		name = "9x18 mm PBM",
-		allowed = true,
-		dmgtype = DMG_BULLET,
-		tracer = TRACER_LINE,
-		plydmg = 0,
-		npcdmg = 0,
-		force = 90,
-		maxcarry = 80,
-		minsplash = 1,
-		maxsplash = 1,
-		TracerSetings = {
-			TracerBody = Material("particle/fire"),
-			TracerTail = Material("effects/laser_tracer"),
-			TracerHeadSize = 1,
-			TracerLength = 45,
-			TracerWidth = 1,
-			TracerColor = Color(255, 237, 155),
-			TracerTPoint1 = 0.25,
-			TracerTPoint2 = 1,
-			TracerSpeed = 15000
-		},
-		BulletSettings = {
-			Damage = 23,
-			Force = 24,
-			Penetration = 8.1,
-			Shell = "9x18",
-			Speed = 485,
-			Diameter = 9,
-			Mass = 3.7,
-			Icon = matPistolAmmo
-		}
-	},
-	["9x17mm"] = {
-		name = "9x17 mm",
-		allowed = true,
-		dmgtype = DMG_BULLET,
-		tracer = TRACER_LINE,
-		plydmg = 0,
-		npcdmg = 0,
-		force = 90,
-		maxcarry = 80,
-		minsplash = 1,
-		maxsplash = 1,
-		TracerSetings = {
-			TracerBody = Material("particle/fire"),
-			TracerTail = Material("effects/laser_tracer"),
-			TracerHeadSize = 1,
-			TracerLength = 45,
-			TracerWidth = 1,
-			TracerColor = Color(255, 237, 155),
-			TracerTPoint1 = 0.25,
-			TracerTPoint2 = 1,
-			TracerSpeed = 15000
-		},
-		BulletSettings = {
-			Damage = 24,
-			Force = 24,
-			Penetration = 3.1,
-			Shell = "9x18",
-			Speed = 290,
-			Diameter = 9,
-			Mass = 4.8,
-			Icon = matPistolAmmo
-		}
-	},
-	["9x19mmparabellum"] = {
-		name = "9x19 mm Parabellum",
-		allowed = true,
-		dmgtype = DMG_BULLET,
-		tracer = TRACER_LINE,
-		plydmg = 0,
-		npcdmg = 0,
-		force = 100,
-		maxcarry = 80,
-		minsplash = 1,
-		maxsplash = 1,
-		TracerSetings = {
-			TracerBody = Material("particle/fire"),
-			TracerTail = Material("effects/laser_tracer"),
-			TracerHeadSize = 1,
-			TracerLength = 45,
-			TracerWidth = 1,
-			TracerColor = Color(255, 237, 155),
-			TracerTPoint1 = 0.25,
-			TracerTPoint2 = 1,
-			TracerSpeed = 15000
-		},
-		BulletSettings = {
-			Damage = 25,
-			Force = 25,
-			Penetration = 3.8,
-			Shell = "9x19",
-			Speed = 365,
-			Diameter = 9,
-			Mass = 7.5,
-			Icon = matPistolAmmo
-		}
-	},
-	["9x19mmpbp"] = {
-		name = "9x19 mm PBP gzh",
-		allowed = true,
-		dmgtype = DMG_BULLET,
-		tracer = TRACER_LINE,
-		plydmg = 0,
-		npcdmg = 0,
-		force = 100,
-		maxcarry = 80,
-		minsplash = 1,
-		maxsplash = 1,
-		TracerSetings = {
-			TracerBody = Material("particle/fire"),
-			TracerTail = Material("effects/laser_tracer"),
-			TracerHeadSize = 1,
-			TracerLength = 45,
-			TracerWidth = 1,
-			TracerColor = Color(255, 237, 155),
-			TracerTPoint1 = 0.25,
-			TracerTPoint2 = 1,
-			TracerSpeed = 15000
-		},
-		BulletSettings = {
-			Damage = 22,
-			Force = 22,
-			Penetration = 11.8,
-			Shell = "9x19",
-			Speed = 535,
-			Diameter = 9,
-			Mass = 4.1,
-			Icon = matPistolAmmo
-		}
-	},
-	["9x19mmqm"] = {
-		name = "9x19 mm QuakeMaker",
-		allowed = true,
-		dmgtype = DMG_BULLET,
-		tracer = TRACER_LINE,
-		plydmg = 0,
-		npcdmg = 0,
-		force = 100,
-		maxcarry = 80,
-		minsplash = 1,
-		maxsplash = 1,
-		TracerSetings = {
-			TracerBody = Material("particle/fire"),
-			TracerTail = Material("effects/laser_tracer"),
-			TracerHeadSize = 1,
-			TracerLength = 45,
-			TracerWidth = 1,
-			TracerColor = Color(255, 237, 155),
-			TracerTPoint1 = 0.25,
-			TracerTPoint2 = 1,
-			TracerSpeed = 15000
-		},
-		BulletSettings = {
-			Damage = 48,
-			Force = 27,
-			Penetration = 3.6,
-			Shell = "9x19",
-			Speed = 340,
-			Diameter = 9,
-			Mass = 6.5,
 			Icon = matPistolAmmo
 		}
 	},
@@ -3048,40 +2883,14 @@ local ammoents = {
 		Count = 12,
 		Color = Color(154,154,154)
 	},
-	["9x18mm"] = {
+	["9mm"] = {
 		Icon = "vgui/hud/bullet.png",
 		Model = "models/zcity/ammo/ammo_9x18_pmm.mdl",
 		Scale = 1
-	},
-	["9x18mmpbm"] = {
-		Icon = "vgui/hud/bullet.png",
-		Model = "models/zcity/ammo/ammo_9x18_pmm.mdl",
-		Scale = 1
-	},
-	["9x17mm"] = {
-		Icon = "vgui/hud/bullet.png",
-		Model = "models/zcity/ammo/ammo_9x18_pmm.mdl",
-		Scale = 1
-	},
-	["9x19mmparabellum"] = {
-		Icon = "vgui/hud/m882.png",
-		Material = "models/hmcd_ammobox_9",
-		Scale = 0.8,
-	},
-	["9x19mmpbp"] = {
-		Icon = "vgui/hud/pbpgzh.png",
-		Material = "models/hmcd_ammobox_9",
-		Scale = 0.8,
 	},
 	["9x19mmgreentracer"] = {
 		Icon = "vgui/hud/tracer.png",
 		Color = Color(0, 255, 0),
-		Scale = 0.8
-	},
-	["9x19mmqm"] = {
-		Icon = "vgui/hud/quake.png",
-		Material = "models/hmcd_ammobox_9",
-		Color = Color(0, 26, 255),
 		Scale = 0.8
 	},
 	[".45rubber"] = {
@@ -3309,7 +3118,7 @@ local function addAmmoTypes()
 	for name, tbl in pairs(ammotypes) do
 		game.AddAmmoType(tbl)
 		
-		if(!tbl.noentity)then
+		if(not tbl.noentity)then
 			if CLIENT then language.Add(tbl.name .. "_ammo", tbl.name) end
 			local ammoent = {}
 			ammoent.Base = "ammo_base"

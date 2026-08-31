@@ -1023,7 +1023,7 @@ end )
 
 local replace_ammo = {
 	[1] = "Pulse",
-	[3] = "9x19 mm Parabellum",
+	[3] = "9mm",
 	[4] = "4.6x30 mm",
 	[5] = ".357 Magnum",
 	[6] = "Armature",
@@ -1153,9 +1153,9 @@ local TrackedEntsHalfLife = {
 	["weapon_rpg"]={"weapon_hg_rpg"},
 	["item_ammo_357"]={"ent_ammo_.357magnum"},
 	["item_ammo_357_large"]={"ent_ammo_.357magnum"},
-	["item_ammo_pistol"]={"ent_ammo_9x19mmparabellum"},
-	["item_box_srounds"]={"ent_ammo_9x19mmparabellum"},
-	["item_ammo_pistol_large"]={"ent_ammo_9x19mmparabellum"},
+	["item_ammo_pistol"]={"ent_ammo_9mm"},
+	["item_box_srounds"]={"ent_ammo_9mm"},
+	["item_ammo_pistol_large"]={"ent_ammo_9mm"},
 	["item_ammo_ar2"]={"ent_ammo_pulse"},
 	["item_ammo_ar2_large"]={"ent_ammo_pulse"},
 	["item_ammo_ar2_altfire"]={"ent_ammo_pulse"},--TODO: add altfire!!!!
